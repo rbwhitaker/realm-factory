@@ -1,0 +1,378 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{BC643B37-174F-4E07-8724-5C9E814E77BA}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Starbound.RealmFactory</RootNamespace>
+    <AssemblyName>RealmFactory</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+    <IsWebBootstrapper>true</IsWebBootstrapper>
+    <PublishUrl>C:\Users\RB Whitaker\Desktop\eclipse-php\workspace\Starbound Software Website\files\software\realm-factory\downloads\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Web</InstallFrom>
+    <UpdateEnabled>true</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <InstallUrl>http://starboundsoftware.com/software/realm-factory/downloads/</InstallUrl>
+    <UpdateUrl>http://starboundsoftware.com/software/realm-factory/downloads/</UpdateUrl>
+    <SupportUrl>http://starboundsoftware.com/software/realm-factory/</SupportUrl>
+    <ErrorReportUrl>http://starboundsoftware.com/software-realm-factory/</ErrorReportUrl>
+    <ProductName>Realm Factory</ProductName>
+    <PublisherName>Starbound Software</PublisherName>
+    <SuiteName>Realm Factory</SuiteName>
+    <CreateWebPageOnPublish>true</CreateWebPageOnPublish>
+    <WebPage>publish.htm</WebPage>
+    <OpenBrowserOnPublish>false</OpenBrowserOnPublish>
+    <ApplicationRevision>61</ApplicationRevision>
+    <ApplicationVersion>1.0.9.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <CreateDesktopShortcut>true</CreateDesktopShortcut>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>RealmFactory.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>4C720EFE311579E04F1C9E73D403122C1D06610A</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>RealmFactory_TemporaryKey.pfx</ManifestKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>true</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>true</SignManifests>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BugReport.cs" />
+    <Compile Include="Constants.cs" />
+    <Compile Include="DataModel\GameObject.cs" />
+    <Compile Include="DataModel\GameObjectType.cs" />
+    <Compile Include="DataModel\ImageObject2DType.cs" />
+    <Compile Include="DataModel\Properties\ToggleProperty.cs" />
+    <Compile Include="DataModel\Properties\TogglePropertyTemplate.cs" />
+    <Compile Include="DataModel\Properties\PropertyTemplateCollection.cs" />
+    <Compile Include="DataModel\Properties\ObjectProperty.cs" />
+    <Compile Include="DataModel\Properties\ObjectPropertyTemplate.cs" />
+    <Compile Include="DataModel\Properties\PropertyCollection.cs" />
+    <Compile Include="DataModel\Properties\StringProperty.cs" />
+    <Compile Include="DataModel\Properties\StringPropertyTemplate.cs" />
+    <Compile Include="DataModel\SmartList.cs" />
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HeaderPanel.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="HeaderPanel.Designer.cs">
+      <DependentUpon>HeaderPanel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="IO\RealmFactoryNativeFileWriter1_0.cs" />
+    <Compile Include="IO\RealmFactoryNativeFileReader1_0.cs" />
+    <Compile Include="IO\RealmFactoryNativeFileReader.cs" />
+    <Compile Include="IO\RealmFactoryNativeFileWriter.cs" />
+    <Compile Include="SubmitFeedbackDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SubmitFeedbackDialog.Designer.cs">
+      <DependentUpon>SubmitFeedbackDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SubmitFeatureRequestDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SubmitFeatureRequestDialog.Designer.cs">
+      <DependentUpon>SubmitFeatureRequestDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FeatureRequestReport.cs" />
+    <Compile Include="FeedbackReport.cs" />
+    <Compile Include="DataModel\ImageObject2D.cs" />
+    <Compile Include="DataModel\Level.cs" />
+    <Compile Include="DataModel\Project.cs" />
+    <Compile Include="DataModel\Settings.cs" />
+    <Compile Include="DataModel\Tool.cs" />
+    <Compile Include="EmailManager.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SubmitBugDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SubmitBugDialog.Designer.cs">
+      <DependentUpon>SubmitBugDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UndoRedo\ProgramState.cs" />
+    <Compile Include="UndoRedo\UndoRedoSystem.cs" />
+    <Compile Include="UpdateChecker.cs" />
+    <Compile Include="UserInterface\AboutDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UserInterface\AboutDialog.Designer.cs">
+      <DependentUpon>AboutDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserInterface\EulaDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UserInterface\EulaDialog.Designer.cs">
+      <DependentUpon>EulaDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserInterface\ObjectPaletteInterface\ObjectPalette.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserInterface\ObjectPaletteInterface\ObjectPalette.Designer.cs">
+      <DependentUpon>ObjectPalette.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserInterface\ObjectPaletteInterface\ObjectPaletteItem.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserInterface\ObjectPaletteInterface\ObjectPaletteItem.Designer.cs">
+      <DependentUpon>ObjectPaletteItem.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserInterface\ObjectPaletteInterface\ObjectPaletteLayoutEngine.cs" />
+    <Compile Include="UserInterface\ObjectPaletteInterface\ObjectPaletteLayoutPanel.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="UserInterface\PropertyTemplateWizard\BasicType.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserInterface\PropertyTemplateWizard\BasicType.Designer.cs">
+      <DependentUpon>BasicType.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserInterface\PropertyTemplateWizard\TimeAllowedRange.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserInterface\PropertyTemplateWizard\TimeAllowedRange.Designer.cs">
+      <DependentUpon>TimeAllowedRange.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserInterface\PropertyTemplateWizard\PropertyBasics.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserInterface\PropertyTemplateWizard\PropertyBasics.Designer.cs">
+      <DependentUpon>PropertyBasics.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserInterface\PropertyTemplateWizard\PropertyTemplateWizardHeader.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserInterface\PropertyTemplateWizard\PropertyTemplateWizardHeader.Designer.cs">
+      <DependentUpon>PropertyTemplateWizardHeader.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserInterface\SplashScreen.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UserInterface\SplashScreen.designer.cs">
+      <DependentUpon>SplashScreen.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserInterface\SuperAwesomeCursor.cs" />
+    <Compile Include="UserInterface\TileSettings.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UserInterface\TileSettings.Designer.cs">
+      <DependentUpon>TileSettings.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserInterface\ProjectSettings.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UserInterface\ProjectSettings.Designer.cs">
+      <DependentUpon>ProjectSettings.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserInterface\LevelSettings.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UserInterface\LevelSettings.Designer.cs">
+      <DependentUpon>LevelSettings.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserInterface\NewOrOpenDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UserInterface\NewOrOpenDialog.Designer.cs">
+      <DependentUpon>NewOrOpenDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserInterface\Wizard\Wizard.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UserInterface\Wizard\Wizard.Designer.cs">
+      <DependentUpon>Wizard.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WebServicesCommunicator.cs" />
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HeaderPanel.resx">
+      <DependentUpon>HeaderPanel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SubmitFeedbackDialog.resx">
+      <DependentUpon>SubmitFeedbackDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SubmitFeatureRequestDialog.resx">
+      <DependentUpon>SubmitFeatureRequestDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="SubmitBugDialog.resx">
+      <DependentUpon>SubmitBugDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserInterface\AboutDialog.resx">
+      <DependentUpon>AboutDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserInterface\EulaDialog.resx">
+      <DependentUpon>EulaDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserInterface\ObjectPaletteInterface\ObjectPalette.resx">
+      <DependentUpon>ObjectPalette.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserInterface\ObjectPaletteInterface\ObjectPaletteItem.resx">
+      <DependentUpon>ObjectPaletteItem.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserInterface\PropertyTemplateWizard\BasicType.resx">
+      <DependentUpon>BasicType.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserInterface\PropertyTemplateWizard\TimeAllowedRange.resx">
+      <DependentUpon>TimeAllowedRange.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserInterface\PropertyTemplateWizard\PropertyBasics.resx">
+      <DependentUpon>PropertyBasics.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserInterface\PropertyTemplateWizard\PropertyTemplateWizardHeader.resx">
+      <DependentUpon>PropertyTemplateWizardHeader.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserInterface\SplashScreen.resx">
+      <DependentUpon>SplashScreen.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserInterface\TileSettings.resx">
+      <DependentUpon>TileSettings.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserInterface\ProjectSettings.resx">
+      <DependentUpon>ProjectSettings.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserInterface\LevelSettings.resx">
+      <DependentUpon>LevelSettings.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserInterface\NewOrOpenDialog.resx">
+      <DependentUpon>NewOrOpenDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserInterface\Wizard\Wizard.resx">
+      <DependentUpon>Wizard.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="app.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <None Include="RealmFactory_TemporaryKey.pfx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="RealmFactory.ico" />
+    <None Include="Resources\edit_add.png" />
+    <None Include="Resources\starbound-logo-desktop-dark.png" />
+    <None Include="Resources\EULA-1.0.rtf" />
+    <None Include="Resources\paint-can.png" />
+    <None Include="Resources\eraser.png" />
+    <None Include="Resources\pencil.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.0,Profile=Client">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4 Client Profile %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\Common\Common.WinForms\Common.WinForms.csproj">
+      <Project>{660C0F7D-C13A-468B-B675-3DC6AA315850}</Project>
+      <Name>Common.WinForms</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Starbound.Common\Common.csproj">
+      <Project>{8EAC93C9-C594-4C2B-8795-6DBCDC281E7C}</Project>
+      <Name>Common</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="UserInterface\PropertyTemplatePanels\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PreBuildEvent>if exist "$(TargetPath).locked" del "$(TargetPath).locked"
+if exist "$(TargetPath)" if not exist "$(TargetPath).locked" move "$(TargetPath)" "$(TargetPath).locked"</PreBuildEvent>
+  </PropertyGroup>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

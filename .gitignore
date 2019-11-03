@@ -1,0 +1,8 @@
+.hgignore
+*.suo
+.hg/
+.vs/
+**/.svn/**
+**/bin/**
+**/obj/**
+**/*.csproj.user

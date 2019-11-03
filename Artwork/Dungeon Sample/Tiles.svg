@@ -1,0 +1,3448 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="744.09448819"
+   height="1052.3622047"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.48.0 r9654"
+   sodipodi:docname="Tiles.svg">
+  <defs
+     id="defs4">
+    <linearGradient
+       id="linearGradient8868">
+      <stop
+         style="stop-color:#5d5a52;stop-opacity:1;"
+         offset="0"
+         id="stop8870" />
+      <stop
+         style="stop-color:#0f0e0d;stop-opacity:1;"
+         offset="1"
+         id="stop8872" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient8756">
+      <stop
+         style="stop-color:#4e4b45;stop-opacity:1;"
+         offset="0"
+         id="stop8758" />
+      <stop
+         style="stop-color:#4e4b45;stop-opacity:0;"
+         offset="1"
+         id="stop8760" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient5439">
+      <stop
+         style="stop-color:#000000;stop-opacity:1;"
+         offset="0"
+         id="stop5441" />
+      <stop
+         style="stop-color:#000000;stop-opacity:0;"
+         offset="1"
+         id="stop5443" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient4001">
+      <stop
+         style="stop-color:#534b3d;stop-opacity:1;"
+         offset="0"
+         id="stop4003" />
+      <stop
+         style="stop-color:#534b3d;stop-opacity:0;"
+         offset="1"
+         id="stop4005" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient3993">
+      <stop
+         style="stop-color:#a0937d;stop-opacity:1;"
+         offset="0"
+         id="stop3995" />
+      <stop
+         style="stop-color:#a0937d;stop-opacity:0;"
+         offset="1"
+         id="stop3997" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient3985">
+      <stop
+         style="stop-color:#534b3d;stop-opacity:1;"
+         offset="0"
+         id="stop3987" />
+      <stop
+         style="stop-color:#534b3d;stop-opacity:0;"
+         offset="1"
+         id="stop3989" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient3977">
+      <stop
+         style="stop-color:#a0937d;stop-opacity:1;"
+         offset="0"
+         id="stop3979" />
+      <stop
+         style="stop-color:#a0937d;stop-opacity:0;"
+         offset="1"
+         id="stop3981" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3977"
+       id="linearGradient3983"
+       x1="90"
+       y1="391.36218"
+       x2="89"
+       y2="391.36218"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3985"
+       id="linearGradient3991"
+       x1="70"
+       y1="392.36218"
+       x2="71"
+       y2="392.36218"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3993"
+       id="linearGradient3999"
+       x1="76"
+       y1="382.36218"
+       x2="76"
+       y2="383.36218"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4001"
+       id="linearGradient4007"
+       x1="76"
+       y1="402.36218"
+       x2="76"
+       y2="401.36218"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3977-4"
+       id="linearGradient4023-1"
+       gradientUnits="userSpaceOnUse"
+       x1="90"
+       y1="391.36218"
+       x2="89"
+       y2="391.36218" />
+    <linearGradient
+       id="linearGradient3977-4">
+      <stop
+         style="stop-color:#a0937d;stop-opacity:1;"
+         offset="0"
+         id="stop3979-2" />
+      <stop
+         style="stop-color:#a0937d;stop-opacity:0;"
+         offset="1"
+         id="stop3981-2" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3977-6"
+       id="linearGradient4023-5"
+       gradientUnits="userSpaceOnUse"
+       x1="90"
+       y1="391.36218"
+       x2="89"
+       y2="391.36218" />
+    <linearGradient
+       id="linearGradient3977-6">
+      <stop
+         style="stop-color:#a0937d;stop-opacity:1;"
+         offset="0"
+         id="stop3979-1" />
+      <stop
+         style="stop-color:#a0937d;stop-opacity:0;"
+         offset="1"
+         id="stop3981-5" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3977-65"
+       id="linearGradient4023-58"
+       gradientUnits="userSpaceOnUse"
+       x1="90"
+       y1="391.36218"
+       x2="89"
+       y2="391.36218" />
+    <linearGradient
+       id="linearGradient3977-65">
+      <stop
+         style="stop-color:#a0937d;stop-opacity:1;"
+         offset="0"
+         id="stop3979-7" />
+      <stop
+         style="stop-color:#a0937d;stop-opacity:0;"
+         offset="1"
+         id="stop3981-1" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3977-47"
+       id="linearGradient4023-9"
+       gradientUnits="userSpaceOnUse"
+       x1="90"
+       y1="391.36218"
+       x2="89"
+       y2="391.36218" />
+    <linearGradient
+       id="linearGradient3977-47">
+      <stop
+         style="stop-color:#a0937d;stop-opacity:1;"
+         offset="0"
+         id="stop3979-6" />
+      <stop
+         style="stop-color:#a0937d;stop-opacity:0;"
+         offset="1"
+         id="stop3981-50" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient3977-47-0">
+      <stop
+         style="stop-color:#a0937d;stop-opacity:1;"
+         offset="0"
+         id="stop3979-6-4" />
+      <stop
+         style="stop-color:#a0937d;stop-opacity:0;"
+         offset="1"
+         id="stop3981-50-9" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient3977-65-9">
+      <stop
+         style="stop-color:#a0937d;stop-opacity:1;"
+         offset="0"
+         id="stop3979-7-7" />
+      <stop
+         style="stop-color:#a0937d;stop-opacity:0;"
+         offset="1"
+         id="stop3981-1-7" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient3977-6-6">
+      <stop
+         style="stop-color:#a0937d;stop-opacity:1;"
+         offset="0"
+         id="stop3979-1-3" />
+      <stop
+         style="stop-color:#a0937d;stop-opacity:0;"
+         offset="1"
+         id="stop3981-5-6" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient3977-4-1">
+      <stop
+         style="stop-color:#a0937d;stop-opacity:1;"
+         offset="0"
+         id="stop3979-2-8" />
+      <stop
+         style="stop-color:#a0937d;stop-opacity:0;"
+         offset="1"
+         id="stop3981-2-2" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3977-5"
+       id="linearGradient4023-54"
+       gradientUnits="userSpaceOnUse"
+       x1="90"
+       y1="391.36218"
+       x2="89"
+       y2="391.36218" />
+    <linearGradient
+       id="linearGradient3977-5">
+      <stop
+         style="stop-color:#a0937d;stop-opacity:1;"
+         offset="0"
+         id="stop3979-0" />
+      <stop
+         style="stop-color:#a0937d;stop-opacity:0;"
+         offset="1"
+         id="stop3981-9" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient3977-47-06">
+      <stop
+         style="stop-color:#a0937d;stop-opacity:1;"
+         offset="0"
+         id="stop3979-6-3" />
+      <stop
+         style="stop-color:#a0937d;stop-opacity:0;"
+         offset="1"
+         id="stop3981-50-0" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient3977-65-6">
+      <stop
+         style="stop-color:#a0937d;stop-opacity:1;"
+         offset="0"
+         id="stop3979-7-5" />
+      <stop
+         style="stop-color:#a0937d;stop-opacity:0;"
+         offset="1"
+         id="stop3981-1-75" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient3977-6-5">
+      <stop
+         style="stop-color:#a0937d;stop-opacity:1;"
+         offset="0"
+         id="stop3979-1-7" />
+      <stop
+         style="stop-color:#a0937d;stop-opacity:0;"
+         offset="1"
+         id="stop3981-5-3" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient3977-4-3">
+      <stop
+         style="stop-color:#a0937d;stop-opacity:1;"
+         offset="0"
+         id="stop3979-2-1" />
+      <stop
+         style="stop-color:#a0937d;stop-opacity:0;"
+         offset="1"
+         id="stop3981-2-3" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3977-41"
+       id="linearGradient4023-6"
+       gradientUnits="userSpaceOnUse"
+       x1="90"
+       y1="391.36218"
+       x2="89"
+       y2="391.36218" />
+    <linearGradient
+       id="linearGradient3977-41">
+      <stop
+         style="stop-color:#a0937d;stop-opacity:1;"
+         offset="0"
+         id="stop3979-03" />
+      <stop
+         style="stop-color:#a0937d;stop-opacity:0;"
+         offset="1"
+         id="stop3981-29" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient3977-47-3">
+      <stop
+         style="stop-color:#a0937d;stop-opacity:1;"
+         offset="0"
+         id="stop3979-6-0" />
+      <stop
+         style="stop-color:#a0937d;stop-opacity:0;"
+         offset="1"
+         id="stop3981-50-2" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient3977-65-7">
+      <stop
+         style="stop-color:#a0937d;stop-opacity:1;"
+         offset="0"
+         id="stop3979-7-6" />
+      <stop
+         style="stop-color:#a0937d;stop-opacity:0;"
+         offset="1"
+         id="stop3981-1-0" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient3977-6-3">
+      <stop
+         style="stop-color:#a0937d;stop-opacity:1;"
+         offset="0"
+         id="stop3979-1-2" />
+      <stop
+         style="stop-color:#a0937d;stop-opacity:0;"
+         offset="1"
+         id="stop3981-5-5" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient3977-4-5">
+      <stop
+         style="stop-color:#a0937d;stop-opacity:1;"
+         offset="0"
+         id="stop3979-2-2" />
+      <stop
+         style="stop-color:#a0937d;stop-opacity:0;"
+         offset="1"
+         id="stop3981-2-5" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3977-0"
+       id="linearGradient4023-69"
+       gradientUnits="userSpaceOnUse"
+       x1="90"
+       y1="391.36218"
+       x2="89"
+       y2="391.36218" />
+    <linearGradient
+       id="linearGradient3977-0">
+      <stop
+         style="stop-color:#a0937d;stop-opacity:1;"
+         offset="0"
+         id="stop3979-09" />
+      <stop
+         style="stop-color:#a0937d;stop-opacity:0;"
+         offset="1"
+         id="stop3981-25" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient3977-47-2">
+      <stop
+         style="stop-color:#a0937d;stop-opacity:1;"
+         offset="0"
+         id="stop3979-6-2" />
+      <stop
+         style="stop-color:#a0937d;stop-opacity:0;"
+         offset="1"
+         id="stop3981-50-6" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient3977-65-3">
+      <stop
+         style="stop-color:#a0937d;stop-opacity:1;"
+         offset="0"
+         id="stop3979-7-55" />
+      <stop
+         style="stop-color:#a0937d;stop-opacity:0;"
+         offset="1"
+         id="stop3981-1-1" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient3977-6-9">
+      <stop
+         style="stop-color:#a0937d;stop-opacity:1;"
+         offset="0"
+         id="stop3979-1-1" />
+      <stop
+         style="stop-color:#a0937d;stop-opacity:0;"
+         offset="1"
+         id="stop3981-5-7" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient3977-4-35">
+      <stop
+         style="stop-color:#a0937d;stop-opacity:1;"
+         offset="0"
+         id="stop3979-2-0" />
+      <stop
+         style="stop-color:#a0937d;stop-opacity:0;"
+         offset="1"
+         id="stop3981-2-9" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3977-7"
+       id="linearGradient4023-0"
+       gradientUnits="userSpaceOnUse"
+       x1="90"
+       y1="391.36218"
+       x2="89"
+       y2="391.36218" />
+    <linearGradient
+       id="linearGradient3977-7">
+      <stop
+         style="stop-color:#a0937d;stop-opacity:1;"
+         offset="0"
+         id="stop3979-3" />
+      <stop
+         style="stop-color:#a0937d;stop-opacity:0;"
+         offset="1"
+         id="stop3981-257" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient5439"
+       id="linearGradient5445"
+       x1="73.4375"
+       y1="342.17468"
+       x2="73.4375"
+       y2="345.86694"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1.0056533,0,0,1,-0.64714196,0.25)" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient5439-1"
+       id="linearGradient5445-5"
+       x1="73.4375"
+       y1="342.17468"
+       x2="73.4375"
+       y2="345.86694"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1.0056533,0,0,1,-0.64714196,0.25)" />
+    <linearGradient
+       id="linearGradient5439-1">
+      <stop
+         style="stop-color:#000000;stop-opacity:1;"
+         offset="0"
+         id="stop5441-9" />
+      <stop
+         style="stop-color:#000000;stop-opacity:0;"
+         offset="1"
+         id="stop5443-1" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient3977-3">
+      <stop
+         style="stop-color:#a0937d;stop-opacity:1;"
+         offset="0"
+         id="stop3979-61" />
+      <stop
+         style="stop-color:#a0937d;stop-opacity:0;"
+         offset="1"
+         id="stop3981-56" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient3977-4-6">
+      <stop
+         style="stop-color:#a0937d;stop-opacity:1;"
+         offset="0"
+         id="stop3979-2-9" />
+      <stop
+         style="stop-color:#a0937d;stop-opacity:0;"
+         offset="1"
+         id="stop3981-2-54" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient3977-6-0">
+      <stop
+         style="stop-color:#a0937d;stop-opacity:1;"
+         offset="0"
+         id="stop3979-1-0" />
+      <stop
+         style="stop-color:#a0937d;stop-opacity:0;"
+         offset="1"
+         id="stop3981-5-37" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient3977-65-1">
+      <stop
+         style="stop-color:#a0937d;stop-opacity:1;"
+         offset="0"
+         id="stop3979-7-1" />
+      <stop
+         style="stop-color:#a0937d;stop-opacity:0;"
+         offset="1"
+         id="stop3981-1-2" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient3977-47-27">
+      <stop
+         style="stop-color:#a0937d;stop-opacity:1;"
+         offset="0"
+         id="stop3979-6-33" />
+      <stop
+         style="stop-color:#a0937d;stop-opacity:0;"
+         offset="1"
+         id="stop3981-50-29" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient3977-5-7">
+      <stop
+         style="stop-color:#a0937d;stop-opacity:1;"
+         offset="0"
+         id="stop3979-0-4" />
+      <stop
+         style="stop-color:#a0937d;stop-opacity:0;"
+         offset="1"
+         id="stop3981-9-0" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient3977-4-1-5">
+      <stop
+         style="stop-color:#a0937d;stop-opacity:1;"
+         offset="0"
+         id="stop3979-2-8-3" />
+      <stop
+         style="stop-color:#a0937d;stop-opacity:0;"
+         offset="1"
+         id="stop3981-2-2-6" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient3977-6-6-4">
+      <stop
+         style="stop-color:#a0937d;stop-opacity:1;"
+         offset="0"
+         id="stop3979-1-3-5" />
+      <stop
+         style="stop-color:#a0937d;stop-opacity:0;"
+         offset="1"
+         id="stop3981-5-6-1" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient3977-65-9-4">
+      <stop
+         style="stop-color:#a0937d;stop-opacity:1;"
+         offset="0"
+         id="stop3979-7-7-0" />
+      <stop
+         style="stop-color:#a0937d;stop-opacity:0;"
+         offset="1"
+         id="stop3981-1-7-1" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient3977-47-0-5">
+      <stop
+         style="stop-color:#a0937d;stop-opacity:1;"
+         offset="0"
+         id="stop3979-6-4-2" />
+      <stop
+         style="stop-color:#a0937d;stop-opacity:0;"
+         offset="1"
+         id="stop3981-50-9-3" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient3977-41-3">
+      <stop
+         style="stop-color:#a0937d;stop-opacity:1;"
+         offset="0"
+         id="stop3979-03-9" />
+      <stop
+         style="stop-color:#a0937d;stop-opacity:0;"
+         offset="1"
+         id="stop3981-29-3" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient3977-4-3-4">
+      <stop
+         style="stop-color:#a0937d;stop-opacity:1;"
+         offset="0"
+         id="stop3979-2-1-2" />
+      <stop
+         style="stop-color:#a0937d;stop-opacity:0;"
+         offset="1"
+         id="stop3981-2-3-0" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient3977-6-5-0">
+      <stop
+         style="stop-color:#a0937d;stop-opacity:1;"
+         offset="0"
+         id="stop3979-1-7-7" />
+      <stop
+         style="stop-color:#a0937d;stop-opacity:0;"
+         offset="1"
+         id="stop3981-5-3-9" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient3977-65-6-5">
+      <stop
+         style="stop-color:#a0937d;stop-opacity:1;"
+         offset="0"
+         id="stop3979-7-5-8" />
+      <stop
+         style="stop-color:#a0937d;stop-opacity:0;"
+         offset="1"
+         id="stop3981-1-75-0" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient3977-47-06-6">
+      <stop
+         style="stop-color:#a0937d;stop-opacity:1;"
+         offset="0"
+         id="stop3979-6-3-4" />
+      <stop
+         style="stop-color:#a0937d;stop-opacity:0;"
+         offset="1"
+         id="stop3981-50-0-4" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient3977-0-5">
+      <stop
+         style="stop-color:#a0937d;stop-opacity:1;"
+         offset="0"
+         id="stop3979-09-3" />
+      <stop
+         style="stop-color:#a0937d;stop-opacity:0;"
+         offset="1"
+         id="stop3981-25-9" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient3977-4-5-9">
+      <stop
+         style="stop-color:#a0937d;stop-opacity:1;"
+         offset="0"
+         id="stop3979-2-2-3" />
+      <stop
+         style="stop-color:#a0937d;stop-opacity:0;"
+         offset="1"
+         id="stop3981-2-5-3" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient3977-6-3-0">
+      <stop
+         style="stop-color:#a0937d;stop-opacity:1;"
+         offset="0"
+         id="stop3979-1-2-1" />
+      <stop
+         style="stop-color:#a0937d;stop-opacity:0;"
+         offset="1"
+         id="stop3981-5-5-9" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient3977-65-7-1">
+      <stop
+         style="stop-color:#a0937d;stop-opacity:1;"
+         offset="0"
+         id="stop3979-7-6-5" />
+      <stop
+         style="stop-color:#a0937d;stop-opacity:0;"
+         offset="1"
+         id="stop3981-1-0-2" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient3977-47-3-0">
+      <stop
+         style="stop-color:#a0937d;stop-opacity:1;"
+         offset="0"
+         id="stop3979-6-0-7" />
+      <stop
+         style="stop-color:#a0937d;stop-opacity:0;"
+         offset="1"
+         id="stop3981-50-2-7" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient3977-7-1">
+      <stop
+         style="stop-color:#a0937d;stop-opacity:1;"
+         offset="0"
+         id="stop3979-3-3" />
+      <stop
+         style="stop-color:#a0937d;stop-opacity:0;"
+         offset="1"
+         id="stop3981-257-5" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient3977-4-35-8">
+      <stop
+         style="stop-color:#a0937d;stop-opacity:1;"
+         offset="0"
+         id="stop3979-2-0-5" />
+      <stop
+         style="stop-color:#a0937d;stop-opacity:0;"
+         offset="1"
+         id="stop3981-2-9-2" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient3977-6-9-1">
+      <stop
+         style="stop-color:#a0937d;stop-opacity:1;"
+         offset="0"
+         id="stop3979-1-1-4" />
+      <stop
+         style="stop-color:#a0937d;stop-opacity:0;"
+         offset="1"
+         id="stop3981-5-7-5" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient3977-65-3-3">
+      <stop
+         style="stop-color:#a0937d;stop-opacity:1;"
+         offset="0"
+         id="stop3979-7-55-5" />
+      <stop
+         style="stop-color:#a0937d;stop-opacity:0;"
+         offset="1"
+         id="stop3981-1-1-9" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient3977-47-2-2">
+      <stop
+         style="stop-color:#a0937d;stop-opacity:1;"
+         offset="0"
+         id="stop3979-6-2-8" />
+      <stop
+         style="stop-color:#a0937d;stop-opacity:0;"
+         offset="1"
+         id="stop3981-50-6-9" />
+    </linearGradient>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath7953-1">
+      <rect
+         style="color:#000000;fill:#8b836f;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:16.5;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+         id="rect7955-0"
+         width="60"
+         height="60"
+         x="0"
+         y="332.36218" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath7953-5">
+      <rect
+         style="color:#000000;fill:#8b836f;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:16.5;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+         id="rect7955-8"
+         width="60"
+         height="60"
+         x="0"
+         y="332.36218" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath7953-5-3">
+      <rect
+         style="color:#000000;fill:#8b836f;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:16.5;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+         id="rect7955-8-2"
+         width="60"
+         height="60"
+         x="0"
+         y="332.36218" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath7953-5-3-8">
+      <rect
+         style="color:#000000;fill:#8b836f;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:16.5;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+         id="rect7955-8-2-9"
+         width="60"
+         height="60"
+         x="0"
+         y="332.36218" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath8121">
+      <rect
+         y="332.36218"
+         x="0"
+         height="60"
+         width="60"
+         id="rect8123"
+         style="color:#000000;fill:#8b836f;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:16.5;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+    </clipPath>
+    <filter
+       inkscape:collect="always"
+       id="filter8133"
+       x="-0.15130435"
+       width="1.3026087"
+       y="-0.15130435"
+       height="1.3026087">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="4.4130435"
+         id="feGaussianBlur8135" />
+    </filter>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath8121-5">
+      <rect
+         y="332.36218"
+         x="0"
+         height="60"
+         width="60"
+         id="rect8123-5"
+         style="color:#000000;fill:#8b836f;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:16.5;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+    </clipPath>
+    <filter
+       color-interpolation-filters="sRGB"
+       inkscape:collect="always"
+       id="filter8133-7"
+       x="-0.15130435"
+       width="1.3026087"
+       y="-0.15130435"
+       height="1.3026087">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="4.4130435"
+         id="feGaussianBlur8135-2" />
+    </filter>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath8121-5-2">
+      <rect
+         y="332.36218"
+         x="0"
+         height="60"
+         width="60"
+         id="rect8123-5-0"
+         style="color:#000000;fill:#8b836f;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:16.5;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+    </clipPath>
+    <filter
+       color-interpolation-filters="sRGB"
+       inkscape:collect="always"
+       id="filter8133-7-5"
+       x="-0.15130435"
+       width="1.3026087"
+       y="-0.15130435"
+       height="1.3026087">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="4.4130435"
+         id="feGaussianBlur8135-2-0" />
+    </filter>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath8121-5-3">
+      <rect
+         y="332.36218"
+         x="0"
+         height="60"
+         width="60"
+         id="rect8123-5-2"
+         style="color:#000000;fill:#8b836f;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:16.5;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+    </clipPath>
+    <filter
+       color-interpolation-filters="sRGB"
+       inkscape:collect="always"
+       id="filter8133-7-6"
+       x="-0.15130435"
+       width="1.3026087"
+       y="-0.15130435"
+       height="1.3026087">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="4.4130435"
+         id="feGaussianBlur8135-2-6" />
+    </filter>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath8121-5-3-0">
+      <rect
+         y="332.36218"
+         x="0"
+         height="60"
+         width="60"
+         id="rect8123-5-2-8"
+         style="color:#000000;fill:#8b836f;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:16.5;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath8121-5-3-7">
+      <rect
+         y="332.36218"
+         x="0"
+         height="60"
+         width="60"
+         id="rect8123-5-2-5"
+         style="color:#000000;fill:#8b836f;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:16.5;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+    </clipPath>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient8756"
+       id="linearGradient8762"
+       x1="190"
+       y1="417.36218"
+       x2="190"
+       y2="402.36218"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient8756-0"
+       id="linearGradient8762-7"
+       x1="190"
+       y1="417.36218"
+       x2="190"
+       y2="402.36218"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient8756-0">
+      <stop
+         style="stop-color:#4e4b45;stop-opacity:1;"
+         offset="0"
+         id="stop8758-3" />
+      <stop
+         style="stop-color:#4e4b45;stop-opacity:0;"
+         offset="1"
+         id="stop8760-1" />
+    </linearGradient>
+    <linearGradient
+       gradientTransform="matrix(0,-1,1,0,-242.36218,622.36218)"
+       y2="402.36218"
+       x2="190"
+       y1="417.36218"
+       x1="190"
+       gradientUnits="userSpaceOnUse"
+       id="linearGradient8779"
+       xlink:href="#linearGradient8756-0"
+       inkscape:collect="always" />
+    <linearGradient
+       gradientTransform="matrix(0,-1,1,0,-242.36218,622.36218)"
+       y2="402.36218"
+       x2="190"
+       y1="417.36218"
+       x1="190"
+       gradientUnits="userSpaceOnUse"
+       id="linearGradient8779-4"
+       xlink:href="#linearGradient8756-0-2"
+       inkscape:collect="always" />
+    <linearGradient
+       id="linearGradient8756-0-2">
+      <stop
+         style="stop-color:#4e4b45;stop-opacity:0;"
+         offset="0"
+         id="stop8758-3-3" />
+      <stop
+         style="stop-color:#4e4b45;stop-opacity:1;"
+         offset="1"
+         id="stop8760-1-3" />
+    </linearGradient>
+    <linearGradient
+       y2="402.36218"
+       x2="190"
+       y1="417.36218"
+       x1="190"
+       gradientTransform="matrix(-1,0,0,-1,380,864.72436)"
+       gradientUnits="userSpaceOnUse"
+       id="linearGradient8813-7"
+       xlink:href="#linearGradient8756-0-2-2"
+       inkscape:collect="always" />
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient8756-0-2-2">
+      <stop
+         style="stop-color:#4e4b45;stop-opacity:1;"
+         offset="0"
+         id="stop8758-3-3-5" />
+      <stop
+         style="stop-color:#4e4b45;stop-opacity:0;"
+         offset="1"
+         id="stop8760-1-3-9" />
+    </linearGradient>
+    <linearGradient
+       y2="402.36218"
+       x2="190"
+       y1="417.36218"
+       x1="190"
+       gradientTransform="matrix(0,1,-1,0,622.36218,242.36218)"
+       gradientUnits="userSpaceOnUse"
+       id="linearGradient8847"
+       xlink:href="#linearGradient8756-0-2-2"
+       inkscape:collect="always" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient8868"
+       id="radialGradient8874"
+       cx="190"
+       cy="432.36218"
+       fx="190"
+       fy="432.36218"
+       r="15"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(3.3333333,2.2222222e-7,-2.0000001e-7,3.0000002,-443.33324,-864.72448)" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient8756-0-2"
+       id="radialGradient8876"
+       cx="190"
+       cy="477.86218"
+       fx="190"
+       fy="477.86218"
+       r="30"
+       gradientTransform="matrix(1,0,0,0.45,0,245.57419)"
+       gradientUnits="userSpaceOnUse" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient8756-0-2-26"
+       id="radialGradient8876-0"
+       cx="190"
+       cy="477.86218"
+       fx="190"
+       fy="477.86218"
+       r="30"
+       gradientTransform="matrix(1,0,0,0.45,0,245.57419)"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       id="linearGradient8756-0-2-26">
+      <stop
+         style="stop-color:#4e4b45;stop-opacity:0;"
+         offset="0"
+         id="stop8758-3-3-1" />
+      <stop
+         style="stop-color:#4e4b45;stop-opacity:1;"
+         offset="1"
+         id="stop8760-1-3-8" />
+    </linearGradient>
+    <radialGradient
+       r="30"
+       fy="477.86218"
+       fx="190"
+       cy="477.86218"
+       cx="190"
+       gradientTransform="matrix(0,-1,0.45,0,3.21201,622.36218)"
+       gradientUnits="userSpaceOnUse"
+       id="radialGradient8910"
+       xlink:href="#linearGradient8756-0-2-26"
+       inkscape:collect="always" />
+    <radialGradient
+       r="30"
+       fy="477.86218"
+       fx="190"
+       cy="477.86218"
+       cx="190"
+       gradientTransform="matrix(0,-1,0.45,0,3.21201,622.36218)"
+       gradientUnits="userSpaceOnUse"
+       id="radialGradient8910-4"
+       xlink:href="#linearGradient8756-0-2-26-1"
+       inkscape:collect="always" />
+    <linearGradient
+       id="linearGradient8756-0-2-26-1">
+      <stop
+         style="stop-color:#4e4b45;stop-opacity:0;"
+         offset="0"
+         id="stop8758-3-3-1-2" />
+      <stop
+         style="stop-color:#4e4b45;stop-opacity:1;"
+         offset="1"
+         id="stop8760-1-3-8-7" />
+    </linearGradient>
+    <radialGradient
+       r="30"
+       fy="477.86218"
+       fx="190"
+       cy="477.86218"
+       cx="190"
+       gradientTransform="matrix(-1,0,0,-0.45,380,619.15017)"
+       gradientUnits="userSpaceOnUse"
+       id="radialGradient8944"
+       xlink:href="#linearGradient8756-0-2-26-1"
+       inkscape:collect="always" />
+    <radialGradient
+       r="30"
+       fy="477.86218"
+       fx="190"
+       cy="477.86218"
+       cx="190"
+       gradientTransform="matrix(0,-1,0.45,0,3.21201,622.36218)"
+       gradientUnits="userSpaceOnUse"
+       id="radialGradient8910-41"
+       xlink:href="#linearGradient8756-0-2-26-6"
+       inkscape:collect="always" />
+    <linearGradient
+       id="linearGradient8756-0-2-26-6">
+      <stop
+         style="stop-color:#4e4b45;stop-opacity:0;"
+         offset="0"
+         id="stop8758-3-3-1-9" />
+      <stop
+         style="stop-color:#4e4b45;stop-opacity:1;"
+         offset="1"
+         id="stop8760-1-3-8-6" />
+    </linearGradient>
+    <radialGradient
+       r="30"
+       fy="477.86218"
+       fx="190"
+       cy="477.86218"
+       cx="190"
+       gradientTransform="matrix(0,1,-0.45,0,376.78799,242.36218)"
+       gradientUnits="userSpaceOnUse"
+       id="radialGradient8944-4"
+       xlink:href="#linearGradient8756-0-2-26-6"
+       inkscape:collect="always" />
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath4686">
+      <rect
+         transform="scale(-1,1)"
+         y="197.34937"
+         x="-195"
+         height="60"
+         width="60"
+         id="rect4688"
+         style="color:#000000;fill:#8b836f;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:16.5;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+    </clipPath>
+    <filter
+       inkscape:collect="always"
+       id="filter4690"
+       x="-0.090011538"
+       width="1.1800231"
+       y="-0.35981551"
+       height="1.719631">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="3.0003846"
+         id="feGaussianBlur4692" />
+    </filter>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath4686-1">
+      <rect
+         transform="scale(-1,1)"
+         y="197.34937"
+         x="-195"
+         height="60"
+         width="60"
+         id="rect4688-8"
+         style="color:#000000;fill:#8b836f;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:16.5;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+    </clipPath>
+    <filter
+       color-interpolation-filters="sRGB"
+       inkscape:collect="always"
+       id="filter4690-3"
+       x="-0.090011537"
+       width="1.1800231"
+       y="-0.35981551"
+       height="1.719631">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="3.0003846"
+         id="feGaussianBlur4692-1" />
+    </filter>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath4925">
+      <rect
+         style="color:#000000;fill:#8b836f;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:16.5;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+         id="rect4927"
+         width="60"
+         height="60"
+         x="197.36218"
+         y="205"
+         transform="matrix(0,1,1,0,0,0)" />
+    </clipPath>
+    <filter
+       inkscape:collect="always"
+       id="filter4929"
+       x="-0.36004608"
+       width="1.7200922"
+       y="-0.08999712"
+       height="1.1799942">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="3.000384"
+         id="feGaussianBlur4931" />
+    </filter>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath4925-5">
+      <rect
+         style="color:#000000;fill:#8b836f;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:16.5;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+         id="rect4927-0"
+         width="60"
+         height="60"
+         x="197.36218"
+         y="205"
+         transform="matrix(0,1,1,0,0,0)" />
+    </clipPath>
+    <filter
+       color-interpolation-filters="sRGB"
+       inkscape:collect="always"
+       id="filter4929-3"
+       x="-0.36004609"
+       width="1.7200922"
+       y="-0.08999712"
+       height="1.1799942">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="3.000384"
+         id="feGaussianBlur4931-5" />
+    </filter>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath4686-4">
+      <rect
+         transform="scale(-1,1)"
+         y="197.34937"
+         x="-195"
+         height="60"
+         width="60"
+         id="rect4688-1"
+         style="color:#000000;fill:#8b836f;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:16.5;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+    </clipPath>
+    <filter
+       color-interpolation-filters="sRGB"
+       inkscape:collect="always"
+       id="filter4690-0"
+       x="-0.090011537"
+       width="1.1800231"
+       y="-0.35981551"
+       height="1.719631">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="3.0003846"
+         id="feGaussianBlur4692-19" />
+    </filter>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath5060">
+      <rect
+         style="color:#000000;fill:#8b836f;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:16.5;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+         id="rect5062"
+         width="60"
+         height="60"
+         x="-195"
+         y="267.36218"
+         transform="scale(-1,1)" />
+    </clipPath>
+    <filter
+       inkscape:collect="always"
+       id="filter5064"
+       x="-0.09"
+       width="1.18"
+       y="-0.36"
+       height="1.72">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="3"
+         id="feGaussianBlur5066" />
+    </filter>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath5060-2">
+      <rect
+         style="color:#000000;fill:#8b836f;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:16.5;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+         id="rect5062-8"
+         width="60"
+         height="60"
+         x="-195"
+         y="267.36218"
+         transform="scale(-1,1)" />
+    </clipPath>
+    <filter
+       color-interpolation-filters="sRGB"
+       inkscape:collect="always"
+       id="filter5064-5"
+       x="-0.090000004"
+       width="1.1799999"
+       y="-0.36000001"
+       height="1.72">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="3"
+         id="feGaussianBlur5066-9" />
+    </filter>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath5159">
+      <rect
+         transform="matrix(0,1,1,0,0,0)"
+         y="205"
+         x="267.36218"
+         height="60"
+         width="60"
+         id="rect5161"
+         style="color:#000000;fill:#8b836f;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:16.5;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+    </clipPath>
+    <filter
+       inkscape:collect="always"
+       id="filter5163"
+       x="-0.36"
+       width="1.72"
+       y="-0.09"
+       height="1.18">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="3"
+         id="feGaussianBlur5165" />
+    </filter>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath5159-1">
+      <rect
+         transform="matrix(0,1,1,0,0,0)"
+         y="205"
+         x="267.36218"
+         height="60"
+         width="60"
+         id="rect5161-0"
+         style="color:#000000;fill:#8b836f;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:16.5;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+    </clipPath>
+    <filter
+       color-interpolation-filters="sRGB"
+       inkscape:collect="always"
+       id="filter5163-9"
+       x="-0.36000001"
+       width="1.72"
+       y="-0.090000004"
+       height="1.1799999">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="3"
+         id="feGaussianBlur5165-8" />
+    </filter>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath5265">
+      <rect
+         style="color:#000000;fill:#8b836f;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:16.5;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+         id="rect5267"
+         width="60"
+         height="60"
+         x="-195"
+         y="337.34937"
+         transform="scale(-1,1)" />
+    </clipPath>
+    <filter
+       inkscape:collect="always"
+       id="filter5273"
+       x="-0.144"
+       width="1.288"
+       y="-0.144"
+       height="1.288">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="4.2"
+         id="feGaussianBlur5275" />
+    </filter>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath5265-5">
+      <rect
+         style="color:#000000;fill:#8b836f;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:16.5;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+         id="rect5267-4"
+         width="60"
+         height="60"
+         x="-195"
+         y="337.34937"
+         transform="scale(-1,1)" />
+    </clipPath>
+    <filter
+       color-interpolation-filters="sRGB"
+       inkscape:collect="always"
+       id="filter5273-6"
+       x="-0.14399999"
+       width="1.288"
+       y="-0.14399999"
+       height="1.288">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="4.2"
+         id="feGaussianBlur5275-7" />
+    </filter>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath5265-5-3">
+      <rect
+         style="color:#000000;fill:#8b836f;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:16.5;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+         id="rect5267-4-0"
+         width="60"
+         height="60"
+         x="-195"
+         y="337.34937"
+         transform="scale(-1,1)" />
+    </clipPath>
+    <filter
+       color-interpolation-filters="sRGB"
+       inkscape:collect="always"
+       id="filter5273-6-7"
+       x="-0.14399999"
+       width="1.288"
+       y="-0.14399999"
+       height="1.288">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="4.2"
+         id="feGaussianBlur5275-7-5" />
+    </filter>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath5265-5-3-5">
+      <rect
+         style="color:#000000;fill:#8b836f;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:16.5;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+         id="rect5267-4-0-6"
+         width="60"
+         height="60"
+         x="-195"
+         y="337.34937"
+         transform="scale(-1,1)" />
+    </clipPath>
+    <filter
+       color-interpolation-filters="sRGB"
+       inkscape:collect="always"
+       id="filter5273-6-7-8"
+       x="-0.14399999"
+       width="1.288"
+       y="-0.14399999"
+       height="1.288">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="4.2"
+         id="feGaussianBlur5275-7-5-4" />
+    </filter>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath5265-0">
+      <rect
+         style="color:#000000;fill:#8b836f;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:16.5;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+         id="rect5267-9"
+         width="60"
+         height="60"
+         x="-195"
+         y="337.34937"
+         transform="scale(-1,1)" />
+    </clipPath>
+    <filter
+       color-interpolation-filters="sRGB"
+       inkscape:collect="always"
+       id="filter5273-0"
+       x="-0.14399999"
+       width="1.288"
+       y="-0.14399999"
+       height="1.288">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="4.2"
+         id="feGaussianBlur5275-8" />
+    </filter>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath5265-0-1">
+      <rect
+         style="color:#000000;fill:#8b836f;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:16.5;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+         id="rect5267-9-8"
+         width="60"
+         height="60"
+         x="-195"
+         y="337.34937"
+         transform="scale(-1,1)" />
+    </clipPath>
+    <filter
+       color-interpolation-filters="sRGB"
+       inkscape:collect="always"
+       id="filter5273-0-3"
+       x="-0.14399999"
+       width="1.288"
+       y="-0.14399999"
+       height="1.288">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="4.2"
+         id="feGaussianBlur5275-8-1" />
+    </filter>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath5265-0-0">
+      <rect
+         style="color:#000000;fill:#8b836f;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:16.5;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+         id="rect5267-9-9"
+         width="60"
+         height="60"
+         x="-195"
+         y="337.34937"
+         transform="scale(-1,1)" />
+    </clipPath>
+    <filter
+       color-interpolation-filters="sRGB"
+       inkscape:collect="always"
+       id="filter5273-0-0"
+       x="-0.14399999"
+       width="1.288"
+       y="-0.14399999"
+       height="1.288">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="4.2"
+         id="feGaussianBlur5275-8-5" />
+    </filter>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath5265-0-6">
+      <rect
+         style="color:#000000;fill:#8b836f;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:16.5;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+         id="rect5267-9-83"
+         width="60"
+         height="60"
+         x="-195"
+         y="337.34937"
+         transform="scale(-1,1)" />
+    </clipPath>
+    <filter
+       color-interpolation-filters="sRGB"
+       inkscape:collect="always"
+       id="filter5273-0-4"
+       x="-0.14399999"
+       width="1.288"
+       y="-0.14399999"
+       height="1.288">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="4.2"
+         id="feGaussianBlur5275-8-8" />
+    </filter>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath5626">
+      <rect
+         style="color:#000000;fill:#8b836f;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:16.5;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+         id="rect5628"
+         width="60"
+         height="60"
+         x="-195"
+         y="477.34937"
+         transform="scale(-1,1)" />
+    </clipPath>
+    <filter
+       inkscape:collect="always"
+       id="filter5634"
+       x="-0.14399995"
+       width="1.2879999"
+       y="-0.14400005"
+       height="1.2880001">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="4.7999985"
+         id="feGaussianBlur5636" />
+    </filter>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath5626-1">
+      <rect
+         style="color:#000000;fill:#8b836f;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:16.5;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+         id="rect5628-1"
+         width="60"
+         height="60"
+         x="-195"
+         y="477.34937"
+         transform="scale(-1,1)" />
+    </clipPath>
+    <filter
+       color-interpolation-filters="sRGB"
+       inkscape:collect="always"
+       id="filter5634-8"
+       x="-0.14399995"
+       width="1.2879999"
+       y="-0.14400005"
+       height="1.2880001">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="4.7999985"
+         id="feGaussianBlur5636-6" />
+    </filter>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath5626-7">
+      <rect
+         style="color:#000000;fill:#8b836f;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:16.5;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+         id="rect5628-4"
+         width="60"
+         height="60"
+         x="-195"
+         y="477.34937"
+         transform="scale(-1,1)" />
+    </clipPath>
+    <filter
+       color-interpolation-filters="sRGB"
+       inkscape:collect="always"
+       id="filter5634-4"
+       x="-0.14399995"
+       width="1.2879999"
+       y="-0.14400005"
+       height="1.2880001">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="4.7999985"
+         id="feGaussianBlur5636-0" />
+    </filter>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath5626-2">
+      <rect
+         style="color:#000000;fill:#8b836f;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:16.5;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+         id="rect5628-5"
+         width="60"
+         height="60"
+         x="-195"
+         y="477.34937"
+         transform="scale(-1,1)" />
+    </clipPath>
+    <filter
+       color-interpolation-filters="sRGB"
+       inkscape:collect="always"
+       id="filter5634-6"
+       x="-0.14399995"
+       width="1.2879999"
+       y="-0.14400005"
+       height="1.2880001">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="4.7999985"
+         id="feGaussianBlur5636-2" />
+    </filter>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath5800">
+      <rect
+         style="color:#000000;fill:#8b836f;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:16.5;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+         id="rect5802"
+         width="60"
+         height="60"
+         x="-195"
+         y="547.36218"
+         transform="scale(-1,1)" />
+    </clipPath>
+    <filter
+       inkscape:collect="always"
+       id="filter5804"
+       x="-0.144"
+       width="1.288"
+       y="-0.144"
+       height="1.288">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="4.8"
+         id="feGaussianBlur5806" />
+    </filter>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath5800-6">
+      <rect
+         style="color:#000000;fill:#8b836f;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:16.5;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+         id="rect5802-9"
+         width="60"
+         height="60"
+         x="-195"
+         y="547.36218"
+         transform="scale(-1,1)" />
+    </clipPath>
+    <filter
+       color-interpolation-filters="sRGB"
+       inkscape:collect="always"
+       id="filter5804-6"
+       x="-0.14399999"
+       width="1.288"
+       y="-0.14399999"
+       height="1.288">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="4.8"
+         id="feGaussianBlur5806-0" />
+    </filter>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath5800-6-6">
+      <rect
+         style="color:#000000;fill:#8b836f;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:16.5;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+         id="rect5802-9-6"
+         width="60"
+         height="60"
+         x="-195"
+         y="547.36218"
+         transform="scale(-1,1)" />
+    </clipPath>
+    <filter
+       color-interpolation-filters="sRGB"
+       inkscape:collect="always"
+       id="filter5804-6-6"
+       x="-0.14399999"
+       width="1.288"
+       y="-0.14399999"
+       height="1.288">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="4.8"
+         id="feGaussianBlur5806-0-1" />
+    </filter>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath5800-6-6-3">
+      <rect
+         style="color:#000000;fill:#8b836f;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:16.5;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+         id="rect5802-9-6-9"
+         width="60"
+         height="60"
+         x="-195"
+         y="547.36218"
+         transform="scale(-1,1)" />
+    </clipPath>
+    <filter
+       color-interpolation-filters="sRGB"
+       inkscape:collect="always"
+       id="filter5804-6-6-0"
+       x="-0.14399999"
+       width="1.288"
+       y="-0.14399999"
+       height="1.288">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="4.8"
+         id="feGaussianBlur5806-0-1-3" />
+    </filter>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath5980">
+      <rect
+         style="color:#000000;fill:#8b836f;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:16.5;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+         id="rect5982"
+         width="60"
+         height="60"
+         x="-195"
+         y="617.36218"
+         transform="scale(-1,1)" />
+    </clipPath>
+    <filter
+       inkscape:collect="always"
+       id="filter5984"
+       x="-0.144"
+       width="1.288"
+       y="-0.144"
+       height="1.288">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="4.8"
+         id="feGaussianBlur5986" />
+    </filter>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath5980-4">
+      <rect
+         style="color:#000000;fill:#8b836f;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:16.5;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+         id="rect5982-7"
+         width="60"
+         height="60"
+         x="-195"
+         y="617.36218"
+         transform="scale(-1,1)" />
+    </clipPath>
+    <filter
+       color-interpolation-filters="sRGB"
+       inkscape:collect="always"
+       id="filter5984-2"
+       x="-0.14399999"
+       width="1.288"
+       y="-0.14399999"
+       height="1.288">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="4.8"
+         id="feGaussianBlur5986-9" />
+    </filter>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath6076">
+      <rect
+         style="color:#000000;fill:#8b836f;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:16.5;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+         id="rect6078"
+         width="60"
+         height="60"
+         x="-195"
+         y="687.34937"
+         transform="scale(-1,1)" />
+    </clipPath>
+    <filter
+       inkscape:collect="always"
+       id="filter6084"
+       x="-0.14399995"
+       width="1.2879999"
+       y="-0.14400005"
+       height="1.2880001">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="4.7999985"
+         id="feGaussianBlur6086" />
+    </filter>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath6076-1">
+      <rect
+         style="color:#000000;fill:#8b836f;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:16.5;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+         id="rect6078-9"
+         width="60"
+         height="60"
+         x="-195"
+         y="687.34937"
+         transform="scale(-1,1)" />
+    </clipPath>
+    <filter
+       color-interpolation-filters="sRGB"
+       inkscape:collect="always"
+       id="filter6084-0"
+       x="-0.14399995"
+       width="1.2879999"
+       y="-0.14400005"
+       height="1.2880001">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="4.7999985"
+         id="feGaussianBlur6086-5" />
+    </filter>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath6076-1-3">
+      <rect
+         style="color:#000000;fill:#8b836f;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:16.5;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+         id="rect6078-9-6"
+         width="60"
+         height="60"
+         x="-195"
+         y="687.34937"
+         transform="scale(-1,1)" />
+    </clipPath>
+    <filter
+       color-interpolation-filters="sRGB"
+       inkscape:collect="always"
+       id="filter6084-0-2"
+       x="-0.14399995"
+       width="1.2879999"
+       y="-0.14400005"
+       height="1.2880001">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="4.7999985"
+         id="feGaussianBlur6086-5-9" />
+    </filter>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath6076-1-7">
+      <rect
+         style="color:#000000;fill:#8b836f;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:16.5;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+         id="rect6078-9-1"
+         width="60"
+         height="60"
+         x="-195"
+         y="687.34937"
+         transform="scale(-1,1)" />
+    </clipPath>
+    <filter
+       color-interpolation-filters="sRGB"
+       inkscape:collect="always"
+       id="filter6084-0-0"
+       x="-0.14399995"
+       width="1.2879999"
+       y="-0.14400005"
+       height="1.2880001">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="4.7999985"
+         id="feGaussianBlur6086-5-5" />
+    </filter>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath6315">
+      <rect
+         style="color:#000000;fill:#8b836f;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:16.5;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+         id="rect6317"
+         width="60"
+         height="60"
+         x="-195"
+         y="757.34937"
+         transform="scale(-1,1)" />
+    </clipPath>
+    <filter
+       inkscape:collect="always"
+       id="filter6335"
+       x="-0.14402803"
+       width="1.2880561"
+       y="-0.14397198"
+       height="1.287944">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="4.8009345"
+         id="feGaussianBlur6337" />
+    </filter>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath6425">
+      <rect
+         style="color:#000000;fill:#8b836f;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:16.5;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+         id="rect6427"
+         width="60"
+         height="60"
+         x="827.34937"
+         y="-195"
+         transform="matrix(0,1,-1,0,0,0)" />
+    </clipPath>
+    <filter
+       inkscape:collect="always"
+       id="filter6433"
+       x="-0.144"
+       width="1.288"
+       y="-0.144"
+       height="1.288">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="4.2"
+         id="feGaussianBlur6435" />
+    </filter>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath6425-8">
+      <rect
+         style="color:#000000;fill:#8b836f;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:16.5;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+         id="rect6427-8"
+         width="60"
+         height="60"
+         x="827.34937"
+         y="-195"
+         transform="matrix(0,1,-1,0,0,0)" />
+    </clipPath>
+    <filter
+       color-interpolation-filters="sRGB"
+       inkscape:collect="always"
+       id="filter6433-3"
+       x="-0.14399999"
+       width="1.288"
+       y="-0.14399999"
+       height="1.288">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="4.2"
+         id="feGaussianBlur6435-6" />
+    </filter>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath6425-3">
+      <rect
+         style="color:#000000;fill:#8b836f;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:16.5;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+         id="rect6427-7"
+         width="60"
+         height="60"
+         x="827.34937"
+         y="-195"
+         transform="matrix(0,1,-1,0,0,0)" />
+    </clipPath>
+    <filter
+       color-interpolation-filters="sRGB"
+       inkscape:collect="always"
+       id="filter6433-4"
+       x="-0.14399999"
+       width="1.288"
+       y="-0.14399999"
+       height="1.288">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="4.2"
+         id="feGaussianBlur6435-8" />
+    </filter>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath6425-7">
+      <rect
+         style="color:#000000;fill:#8b836f;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:16.5;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+         id="rect6427-0"
+         width="60"
+         height="60"
+         x="827.34937"
+         y="-195"
+         transform="matrix(0,1,-1,0,0,0)" />
+    </clipPath>
+    <filter
+       color-interpolation-filters="sRGB"
+       inkscape:collect="always"
+       id="filter6433-8"
+       x="-0.14399999"
+       width="1.288"
+       y="-0.14399999"
+       height="1.288">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="4.2"
+         id="feGaussianBlur6435-1" />
+    </filter>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1"
+     inkscape:cx="276.48398"
+     inkscape:cy="538.73976"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1280"
+     inkscape:window-height="974"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     showguides="true"
+     inkscape:guide-bbox="true">
+    <inkscape:grid
+       type="xygrid"
+       id="grid2985" />
+  </sodipodi:namedview>
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <g
+       id="g8137"
+       transform="translate(195,-125)"
+       inkscape:export-filename="C:\Users\RB Whitaker\Documents\Visual Studio 2010\Projects\RealmFactory\Artwork\Dungeon Sample\C1.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
+      <rect
+         y="252.34937"
+         x="-60"
+         height="60"
+         width="60"
+         id="rect2987"
+         style="color:#000000;fill:#8b836f;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:16.5;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+      <rect
+         y="252.34937"
+         x="-60"
+         height="10"
+         width="60"
+         id="rect2987-9"
+         style="color:#000000;fill:#8b836f;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:16.5;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+      <path
+         sodipodi:nodetypes="ccccccccc"
+         transform="translate(-60,-80.012817)"
+         clip-path="url(#clipPath8121)"
+         id="rect2987-9-6-2"
+         d="m 0,332.375 0,10 0,60 10,0 0,-60 60,0 0,-10 -60,0 z"
+         style="color:#000000;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:16.5;marker:none;visibility:visible;display:inline;overflow:visible;filter:url(#filter8133);enable-background:accumulate"
+         inkscape:connector-curvature="0" />
+      <path
+         id="rect2987-9-6"
+         d="m -60,252.36218 0,10 0,50 10,0 0,-50 50,0 0,-10 -50,0 -10,0 z"
+         style="color:#000000;fill:#41341b;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:16.5;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+         inkscape:connector-curvature="0" />
+    </g>
+    <g
+       id="g5539"
+       transform="translate(204.98718,-125)"
+       inkscape:export-filename="C:\Users\RB Whitaker\Documents\Visual Studio 2010\Projects\RealmFactory\Artwork\Dungeon Sample\C2.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
+      <rect
+         transform="matrix(0,1,-1,0,0,0)"
+         y="-60.012814"
+         x="252.36218"
+         height="60"
+         width="60"
+         id="rect2987-8-48"
+         style="color:#000000;fill:#8b836f;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:16.5;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+      <rect
+         transform="matrix(0,1,-1,0,0,0)"
+         y="-60.012814"
+         x="252.36218"
+         height="10"
+         width="60"
+         id="rect2987-9-5-1"
+         style="color:#000000;fill:#8b836f;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:16.5;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+      <path
+         sodipodi:nodetypes="ccccccccc"
+         transform="matrix(0,1,-1,0,392.375,252.36218)"
+         clip-path="url(#clipPath8121-5-3)"
+         id="rect2987-9-6-2-5-8"
+         d="m 0,332.375 0,10 0,60 10,0 0,-60 60,0 0,-10 -60,0 z"
+         style="color:#000000;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:16.5;marker:none;visibility:visible;display:inline;overflow:visible;filter:url(#filter8133-7-6);enable-background:accumulate"
+         inkscape:connector-curvature="0" />
+      <path
+         id="rect2987-9-6-7-4"
+         d="m 60,252.36218 -10,0 -50,0 0,10 50,0 0,50 10,0 0,-50 0,-10 z"
+         style="color:#000000;fill:#41341b;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:16.5;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+         inkscape:connector-curvature="0" />
+    </g>
+    <g
+       transform="matrix(0,-1,1,0,22.637817,127.36218)"
+       id="g8137-8"
+       inkscape:export-filename="C:\Users\RB Whitaker\Documents\Visual Studio 2010\Projects\RealmFactory\Artwork\Dungeon Sample\C3.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
+      <rect
+         y="252.34937"
+         x="-60"
+         height="60"
+         width="60"
+         id="rect2987-8"
+         style="color:#000000;fill:#8b836f;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:16.5;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+      <rect
+         y="252.34937"
+         x="-60"
+         height="10"
+         width="60"
+         id="rect2987-9-5"
+         style="color:#000000;fill:#8b836f;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:16.5;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+      <path
+         sodipodi:nodetypes="ccccccccc"
+         transform="translate(-60,-80.012817)"
+         clip-path="url(#clipPath8121-5)"
+         id="rect2987-9-6-2-5"
+         d="m 0,332.375 0,10 0,60 10,0 0,-60 60,0 0,-10 -60,0 z"
+         style="color:#000000;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:16.5;marker:none;visibility:visible;display:inline;overflow:visible;filter:url(#filter8133-7);enable-background:accumulate"
+         inkscape:connector-curvature="0" />
+      <path
+         id="rect2987-9-6-7"
+         d="m -60,252.36218 0,10 0,50 10,0 0,-50 50,0 0,-10 -50,0 -10,0 z"
+         style="color:#000000;fill:#41341b;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:16.5;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+         inkscape:connector-curvature="0" />
+    </g>
+    <rect
+       style="color:#000000;fill:#41341b;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:16.5;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       id="rect2987-5-0-7-2"
+       width="60"
+       height="60"
+       x="757.36218"
+       y="-265"
+       transform="matrix(0,1,-1,0,0,0)"
+       inkscape:export-filename="C:\Users\RB Whitaker\Documents\Visual Studio 2010\Projects\RealmFactory\Artwork\Dungeon Sample\SolidWall.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <g
+       id="g5277"
+       transform="matrix(-1,0,0,-1,329.99999,734.71155)"
+       inkscape:export-filename="C:\Users\RB Whitaker\Documents\Visual Studio 2010\Projects\RealmFactory\Artwork\Dungeon Sample\CornerDoor1.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
+      <rect
+         transform="scale(-1,1)"
+         y="337.34937"
+         x="-195"
+         height="60"
+         width="60"
+         id="rect2987-8-48-7-4"
+         style="color:#000000;fill:#8b836f;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:16.5;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+      <rect
+         transform="scale(-1,1)"
+         y="337.34937"
+         x="-195"
+         height="10"
+         width="60"
+         id="rect2987-9-5-1-0-1"
+         style="color:#000000;fill:#8b836f;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:16.5;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+      <path
+         clip-path="url(#clipPath5265)"
+         sodipodi:nodetypes="cccccccccccccc"
+         inkscape:connector-curvature="0"
+         id="rect2987-9-6-7-4-7-0-9"
+         d="m 135,327.36218 0,20 50,0 0,10 20,0 0,-10 0,-20 -20,0 z m 50,50 0,20 20,0 0,-20 z"
+         style="color:#000000;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:16.5;marker:none;visibility:visible;display:inline;overflow:visible;filter:url(#filter5273);enable-background:accumulate" />
+      <path
+         inkscape:connector-curvature="0"
+         id="rect2987-9-6-7-4-7-0"
+         d="m 135,337.36218 0,10 50,0 0,10 10,0 0,-10 0,-10 -10,0 -50,0 z m 50,40 0,20 10,0 0,-20 -10,0 z"
+         style="color:#000000;fill:#41341b;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:16.5;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+    </g>
+    <g
+       id="g5808"
+       inkscape:export-filename="C:\Users\RB Whitaker\Documents\Visual Studio 2010\Projects\RealmFactory\Artwork\Dungeon Sample\2DoorCorner1.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
+      <rect
+         transform="scale(-1,1)"
+         y="547.36218"
+         x="-195"
+         height="60"
+         width="60"
+         id="rect2987-8-48-7-4-8"
+         style="color:#000000;fill:#8b836f;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:16.5;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+      <rect
+         transform="scale(-1,1)"
+         y="547.36218"
+         x="-195"
+         height="10"
+         width="60"
+         id="rect2987-9-5-1-0-1-8"
+         style="color:#000000;fill:#8b836f;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:16.5;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+      <path
+         clip-path="url(#clipPath5800)"
+         sodipodi:nodetypes="ccccccccccccccccccc"
+         id="rect2987-9-6-7-4-7-0-2-8"
+         d="m 125,537.36218 0,20.01282 30,0 0,-20.01282 z m 50,0 0,20.01282 10,0 0,10 20,0 0,-10 0,-20.01282 -20,0 z m 10,50.01282 0,29.98718 20,0 0,-29.98718 z"
+         style="color:#000000;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:16.50000000000000000;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;filter:url(#filter5804)"
+         inkscape:connector-curvature="0" />
+      <path
+         id="rect2987-9-6-7-4-7-0-2"
+         d="M 135 547.375 L 135 557.375 L 155 557.375 L 155 547.375 L 135 547.375 z M 175 547.375 L 175 557.375 L 185 557.375 L 185 567.375 L 195 567.375 L 195 557.375 L 195 547.375 L 185 547.375 L 175 547.375 z M 185 587.375 L 185 607.375 L 195 607.375 L 195 587.375 L 185 587.375 z "
+         style="color:#000000;fill:#41341b;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:16.5;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+    </g>
+    <rect
+       style="color:#000000;fill:#8b836f;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:16.5;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       id="rect2987-8-48-7-4-8-6"
+       width="60"
+       height="60"
+       x="-195"
+       y="617.36218"
+       transform="scale(-1,1)"
+       inkscape:export-filename="C:\Users\RB Whitaker\Documents\Visual Studio 2010\Projects\RealmFactory\Artwork\Dungeon Sample\Hall2.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="color:#000000;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:16.50000000000000000;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;filter:url(#filter5984)"
+       d="m 125,607.36218 0,80 30,0 0,-80 z m 50,0 0,80 30,0 0,-80 z"
+       id="rect2987-9-6-7-4-7-8-7-6-9-4-9"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cccccccccc"
+       clip-path="url(#clipPath5980)"
+       inkscape:export-filename="C:\Users\RB Whitaker\Documents\Visual Studio 2010\Projects\RealmFactory\Artwork\Dungeon Sample\Hall2.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       inkscape:connector-curvature="0"
+       style="color:#000000;fill:#41341b;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:16.5;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       d="m 135,677.36218 c 0,-24.99999 0,-35.00001 0,-60 l 20,0 c 0,30 0,15 0,60 z"
+       id="rect2987-9-6-7-4-7-8-7-6-9-4"
+       sodipodi:nodetypes="ccccc"
+       inkscape:export-filename="C:\Users\RB Whitaker\Documents\Visual Studio 2010\Projects\RealmFactory\Artwork\Dungeon Sample\Hall2.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       inkscape:connector-curvature="0"
+       style="color:#000000;fill:#41341b;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:16.5;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       d="m 175,677.36218 c 0,-24.99999 0,-35.00001 0,-60 l 20,0 c 0,30 0,15 0,60 z"
+       id="rect2987-9-6-7-4-7-8-7-6-9-4-6"
+       sodipodi:nodetypes="ccccc"
+       inkscape:export-filename="C:\Users\RB Whitaker\Documents\Visual Studio 2010\Projects\RealmFactory\Artwork\Dungeon Sample\Hall2.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <g
+       id="g6106"
+       inkscape:export-filename="C:\Users\RB Whitaker\Documents\Visual Studio 2010\Projects\RealmFactory\Artwork\Dungeon Sample\HallBend1.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
+      <rect
+         transform="scale(-1,1)"
+         y="687.34937"
+         x="-195"
+         height="60"
+         width="60"
+         id="rect2987-8-48-7-4-8-6-8"
+         style="color:#000000;fill:#8b836f;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:16.5;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+      <path
+         clip-path="url(#clipPath6076)"
+         sodipodi:nodetypes="cccccccccccccc"
+         inkscape:connector-curvature="0"
+         id="rect2987-9-6-7-4-7-8-7-6-9-4-8-5"
+         d="m 175,677.36218 0,29.98157 30,0 0,-29.98157 z m -50,0.0312 0,49.98157 0,29.98718 30,0 50,0 0,-29.98718 -50,0 0,-49.98157 z"
+         style="color:#000000;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:16.50000000000000000;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;filter:url(#filter6084)" />
+      <path
+         inkscape:connector-curvature="0"
+         id="rect2987-9-6-7-4-7-8-7-6-9-4-8"
+         d="m 135,687.36218 0,40 0,20 20,0 40,0 0,-20 -40,0 0,-40 -20,0 z"
+         style="color:#000000;fill:#41341b;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:16.5;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+      <path
+         sodipodi:nodetypes="ccccc"
+         id="rect2987-9-6-7-4-7-8-7-6-9-4-6-4"
+         d="m 175,707.34936 c 0,-8.33333 0,-11.66667 0,-20 l 20,0 c 0,10 0,5 0,20 z"
+         style="color:#000000;fill:#41341b;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:16.5;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+         inkscape:connector-curvature="0" />
+    </g>
+    <rect
+       style="color:#000000;fill:#8b836f;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:16.5;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       id="rect2987-8-48-7-4-8-6-8-3"
+       width="60"
+       height="60"
+       x="-195"
+       y="477.34937"
+       transform="scale(-1,1)"
+       inkscape:export-filename="C:\Users\RB Whitaker\Documents\Visual Studio 2010\Projects\RealmFactory\Artwork\Dungeon Sample\T-Hall1.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="color:#000000;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:16.50000000000000000;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;filter:url(#filter5634)"
+       d="m 175,467.36218 0,29.98157 30,0 0,-29.98157 z m -50,0.0312 0,29.98157 30,0 0,-29.98157 z m 0,49.98157 0,29.98718 80,0 0,-29.98718 z"
+       id="rect2987-9-6-7-4-7-8-7-6-9-4-6-4-5-2"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccccccccccccc"
+       clip-path="url(#clipPath5626)" />
+    <path
+       inkscape:connector-curvature="0"
+       style="color:#000000;fill:#41341b;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:16.5;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       d="m 175,497.34936 c 0,-8.33333 0,-11.66667 0,-20 l 20,0 c 0,10 0,5 0,20 z"
+       id="rect2987-9-6-7-4-7-8-7-6-9-4-6-4-5"
+       sodipodi:nodetypes="ccccc" />
+    <path
+       inkscape:connector-curvature="0"
+       style="color:#000000;fill:#41341b;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:16.5;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       d="m 135,497.36218 c 0,-8.33333 0,-11.66667 0,-20 l 20,0 c 0,10 0,5 0,20 z"
+       id="rect2987-9-6-7-4-7-8-7-6-9-4-6-4-5-4"
+       sodipodi:nodetypes="ccccc" />
+    <path
+       inkscape:connector-curvature="0"
+       style="color:#000000;fill:#41341b;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:16.5;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       d="m 135,537.36218 c 0,-8.33333 0,-11.66667 0,-20 l 60,0 c 0,10 0,5 0,20 z"
+       id="rect2987-9-6-7-4-7-8-7-6-9-4-6-4-5-44"
+       sodipodi:nodetypes="ccccc" />
+    <rect
+       style="color:#000000;fill:#8b836f;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:16.5;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       id="rect2987-8-48-7-4-8-6-8-3-3"
+       width="60"
+       height="60"
+       x="-195"
+       y="757.34937"
+       transform="scale(-1,1)"
+       inkscape:export-filename="C:\Users\RB Whitaker\Documents\Visual Studio 2010\Projects\RealmFactory\Artwork\Dungeon Sample\HallIntersection.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="color:#000000;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:16.50000000000000000;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;filter:url(#filter6335)"
+       d="m 175,747.36218 0,29.98157 30,0 0,-29.98157 z m -50,0.0312 0,29.98157 30,0 0,-29.98157 z m 50,49.95032 0,30.01843 30,0 0,-30.01843 z m -50,0.0312 0,30.01843 30,0 0,-30.01843 z"
+       id="rect2987-9-6-7-4-7-8-7-6-9-4-6-4-5-6-7"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cccccccccccccccccccc"
+       clip-path="url(#clipPath6315)"
+       inkscape:export-filename="C:\Users\RB Whitaker\Documents\Visual Studio 2010\Projects\RealmFactory\Artwork\Dungeon Sample\HallIntersection.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       inkscape:connector-curvature="0"
+       style="color:#000000;fill:#41341b;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:16.5;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       d="m 175,777.34936 c 0,-8.33333 0,-11.66667 0,-20 l 20,0 c 0,10 0,5 0,20 z"
+       id="rect2987-9-6-7-4-7-8-7-6-9-4-6-4-5-6"
+       sodipodi:nodetypes="ccccc"
+       inkscape:export-filename="C:\Users\RB Whitaker\Documents\Visual Studio 2010\Projects\RealmFactory\Artwork\Dungeon Sample\HallIntersection.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       inkscape:connector-curvature="0"
+       style="color:#000000;fill:#41341b;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:16.5;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       d="m 135,777.36218 c 0,-8.33333 0,-11.66667 0,-20 l 20,0 c 0,10 0,5 0,20 z"
+       id="rect2987-9-6-7-4-7-8-7-6-9-4-6-4-5-4-4"
+       sodipodi:nodetypes="ccccc"
+       inkscape:export-filename="C:\Users\RB Whitaker\Documents\Visual Studio 2010\Projects\RealmFactory\Artwork\Dungeon Sample\HallIntersection.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       inkscape:connector-curvature="0"
+       style="color:#000000;fill:#41341b;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:16.5;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       d="m 175,817.34936 c 0,-8.33333 0,-11.66667 0,-20 l 20,0 c 0,10 0,5 0,20 z"
+       id="rect2987-9-6-7-4-7-8-7-6-9-4-6-4-5-6-8"
+       sodipodi:nodetypes="ccccc"
+       inkscape:export-filename="C:\Users\RB Whitaker\Documents\Visual Studio 2010\Projects\RealmFactory\Artwork\Dungeon Sample\HallIntersection.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       inkscape:connector-curvature="0"
+       style="color:#000000;fill:#41341b;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:16.5;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       d="m 135,817.36218 c 0,-8.33333 0,-11.66667 0,-20 l 20,0 c 0,10 0,5 0,20 z"
+       id="rect2987-9-6-7-4-7-8-7-6-9-4-6-4-5-4-4-0"
+       sodipodi:nodetypes="ccccc"
+       inkscape:export-filename="C:\Users\RB Whitaker\Documents\Visual Studio 2010\Projects\RealmFactory\Artwork\Dungeon Sample\HallIntersection.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <g
+       id="g6471"
+       inkscape:export-filename="C:\Users\RB Whitaker\Documents\Visual Studio 2010\Projects\RealmFactory\Artwork\Dungeon Sample\Round1.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
+      <rect
+         transform="matrix(0,1,-1,0,0,0)"
+         y="-195"
+         x="827.34937"
+         height="60"
+         width="60"
+         id="rect2987-8-48-9"
+         style="color:#000000;fill:#8b836f;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:16.5;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+      <path
+         clip-path="url(#clipPath6425)"
+         sodipodi:nodetypes="cccccccccccc"
+         inkscape:connector-curvature="0"
+         id="rect2987-9-5-1-04-3"
+         d="m 135,827.36218 -10,0 0,10 10,0 c 27.61424,0 50,22.38576 50,50 l 0,10 10,0 0,-10 0,-50 0,-10 -10,0 z"
+         style="color:#000000;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:16.50000000000000000;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;filter:url(#filter6433)" />
+      <path
+         inkscape:connector-curvature="0"
+         id="rect2987-9-5-1-04"
+         d="m 135,827.36218 0,5 0,5 c 27.61424,0 50,22.38576 50,50 l 5,0 5,0 0,-50 0,-10 -10,0 -50,0 z"
+         style="color:#000000;fill:#41341b;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:16.5;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+    </g>
+    <g
+       id="g5068"
+       inkscape:export-filename="C:\Users\RB Whitaker\Documents\Visual Studio 2010\Projects\RealmFactory\Artwork\Dungeon Sample\Wall1.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
+      <rect
+         transform="scale(-1,1)"
+         y="267.36218"
+         x="-195"
+         height="60"
+         width="60"
+         id="rect2987-8-48-7-4-2"
+         style="color:#000000;fill:#8b836f;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:16.5;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+      <path
+         clip-path="url(#clipPath5060)"
+         sodipodi:nodetypes="ccccc"
+         inkscape:connector-curvature="0"
+         id="rect3652-3"
+         d="m 125,257.36218 80,0 0,20 -80,0 z"
+         style="color:#000000;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;filter:url(#filter5064)" />
+      <rect
+         y="267.36218"
+         x="135"
+         height="10"
+         width="60"
+         id="rect3652"
+         style="color:#000000;fill:#41341b;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+    </g>
+    <g
+       id="g4790"
+       inkscape:export-filename="C:\Users\RB Whitaker\Documents\Visual Studio 2010\Projects\RealmFactory\Artwork\Dungeon Sample\WD1.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
+      <rect
+         transform="scale(-1,1)"
+         y="197.34937"
+         x="-195"
+         height="60"
+         width="60"
+         id="rect2987-8-48-7-4-2-7"
+         style="color:#000000;fill:#8b836f;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:16.5;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+      <path
+         sodipodi:nodetypes="cccccccccc"
+         clip-path="url(#clipPath4686)"
+         id="rect3652-6-0"
+         d="m 125,187.36218 0,20.01282 30,0 0,-20.01282 z m 50,0 0,20.01282 30,0 0,-20.01282 z"
+         style="color:#000000;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;filter:url(#filter4690);enable-background:accumulate"
+         inkscape:connector-curvature="0" />
+      <rect
+         y="197.36218"
+         x="135"
+         height="10"
+         width="20"
+         id="rect3652-6"
+         style="color:#000000;fill:#41341b;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+      <rect
+         y="197.36218"
+         x="175"
+         height="10"
+         width="20"
+         id="rect3652-6-8"
+         style="color:#000000;fill:#41341b;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+    </g>
+    <g
+       id="g4933"
+       inkscape:export-filename="C:\Users\RB Whitaker\Documents\Visual Studio 2010\Projects\RealmFactory\Artwork\Dungeon Sample\WD2.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
+      <rect
+         transform="matrix(0,1,1,0,0,0)"
+         y="205"
+         x="197.36218"
+         height="60"
+         width="60"
+         id="rect2987-8-48-7-4-2-7-1"
+         style="color:#000000;fill:#8b836f;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:16.5;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+      <path
+         clip-path="url(#clipPath4925)"
+         sodipodi:nodetypes="cccccccccc"
+         inkscape:connector-curvature="0"
+         id="rect3652-6-8-9-3"
+         d="m 195,187.34937 0,30.01281 20,0.0128 0,-30.01282 z m 0,50.01281 0,29.98719 20,0.0128 0,-29.98718 z"
+         style="color:#000000;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;filter:url(#filter4929)" />
+      <rect
+         transform="matrix(0,-1,1,0,0,0)"
+         y="205"
+         x="-217.36218"
+         height="10"
+         width="20"
+         id="rect3652-6-8-9"
+         style="color:#000000;fill:#41341b;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+      <rect
+         transform="matrix(0,-1,1,0,0,0)"
+         y="205"
+         x="-257.36218"
+         height="10"
+         width="20"
+         id="rect3652-6-1"
+         style="color:#000000;fill:#41341b;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+    </g>
+    <g
+       transform="matrix(-1,0,0,-1,345,439.72437)"
+       id="g8137-8-9"
+       inkscape:export-filename="C:\Users\RB Whitaker\Documents\Visual Studio 2010\Projects\RealmFactory\Artwork\Dungeon Sample\C4.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
+      <rect
+         y="252.34937"
+         x="-60"
+         height="60"
+         width="60"
+         id="rect2987-8-4"
+         style="color:#000000;fill:#8b836f;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:16.5;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+      <rect
+         y="252.34937"
+         x="-60"
+         height="10"
+         width="60"
+         id="rect2987-9-5-6"
+         style="color:#000000;fill:#8b836f;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:16.5;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+      <path
+         sodipodi:nodetypes="ccccccccc"
+         transform="translate(-60,-80.012817)"
+         clip-path="url(#clipPath8121-5-2)"
+         id="rect2987-9-6-2-5-2"
+         d="m 0,332.375 0,10 0,60 10,0 0,-60 60,0 0,-10 -60,0 z"
+         style="color:#000000;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:16.5;marker:none;visibility:visible;display:inline;overflow:visible;filter:url(#filter8133-7-5);enable-background:accumulate"
+         inkscape:connector-curvature="0" />
+      <path
+         id="rect2987-9-6-7-8"
+         d="m -60,252.36218 0,10 0,50 10,0 0,-50 50,0 0,-10 -50,0 -10,0 z"
+         style="color:#000000;fill:#41341b;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:16.5;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+         inkscape:connector-curvature="0" />
+    </g>
+    <g
+       transform="matrix(-1,0,0,-1,610,454.72437)"
+       id="g4933-6"
+       inkscape:export-filename="C:\Users\RB Whitaker\Documents\Visual Studio 2010\Projects\RealmFactory\Artwork\Dungeon Sample\WD4.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
+      <rect
+         transform="matrix(0,1,1,0,0,0)"
+         y="205"
+         x="197.36218"
+         height="60"
+         width="60"
+         id="rect2987-8-48-7-4-2-7-1-3"
+         style="color:#000000;fill:#8b836f;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:16.5;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+      <path
+         clip-path="url(#clipPath4925-5)"
+         sodipodi:nodetypes="cccccccccc"
+         inkscape:connector-curvature="0"
+         id="rect3652-6-8-9-3-4"
+         d="m 195,187.34937 0,30.01281 20,0.0128 0,-30.01282 z m 0,50.01281 0,29.98719 20,0.0128 0,-29.98718 z"
+         style="color:#000000;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;filter:url(#filter4929-3);enable-background:accumulate" />
+      <rect
+         transform="matrix(0,-1,1,0,0,0)"
+         y="205"
+         x="-217.36218"
+         height="10"
+         width="20"
+         id="rect3652-6-8-9-7"
+         style="color:#000000;fill:#41341b;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+      <rect
+         transform="matrix(0,-1,1,0,0,0)"
+         y="205"
+         x="-257.36218"
+         height="10"
+         width="20"
+         id="rect3652-6-1-5"
+         style="color:#000000;fill:#41341b;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+    </g>
+    <g
+       transform="matrix(-1,0,0,-1,470,454.71155)"
+       id="g4790-6"
+       inkscape:export-filename="C:\Users\RB Whitaker\Documents\Visual Studio 2010\Projects\RealmFactory\Artwork\Dungeon Sample\WD3.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
+      <rect
+         transform="scale(-1,1)"
+         y="197.34937"
+         x="-195"
+         height="60"
+         width="60"
+         id="rect2987-8-48-7-4-2-7-8"
+         style="color:#000000;fill:#8b836f;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:16.5;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+      <path
+         sodipodi:nodetypes="cccccccccc"
+         clip-path="url(#clipPath4686-4)"
+         id="rect3652-6-0-8"
+         d="m 125,187.36218 0,20.01282 30,0 0,-20.01282 z m 50,0 0,20.01282 30,0 0,-20.01282 z"
+         style="color:#000000;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;filter:url(#filter4690-0);enable-background:accumulate"
+         inkscape:connector-curvature="0" />
+      <rect
+         y="197.36218"
+         x="135"
+         height="10"
+         width="20"
+         id="rect3652-6-15"
+         style="color:#000000;fill:#41341b;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+      <rect
+         y="197.36218"
+         x="175"
+         height="10"
+         width="20"
+         id="rect3652-6-8-3"
+         style="color:#000000;fill:#41341b;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+    </g>
+    <g
+       transform="matrix(-1,0,0,-1,470,594.72437)"
+       id="g5068-3"
+       inkscape:export-filename="C:\Users\RB Whitaker\Documents\Visual Studio 2010\Projects\RealmFactory\Artwork\Dungeon Sample\Wall3.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
+      <rect
+         transform="scale(-1,1)"
+         y="267.36218"
+         x="-195"
+         height="60"
+         width="60"
+         id="rect2987-8-48-7-4-2-9"
+         style="color:#000000;fill:#8b836f;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:16.5;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+      <path
+         clip-path="url(#clipPath5060-2)"
+         sodipodi:nodetypes="ccccc"
+         inkscape:connector-curvature="0"
+         id="rect3652-3-9"
+         d="m 125,257.36218 80,0 0,20 -80,0 z"
+         style="color:#000000;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;filter:url(#filter5064-5);enable-background:accumulate" />
+      <rect
+         y="267.36218"
+         x="135"
+         height="10"
+         width="60"
+         id="rect3652-9"
+         style="color:#000000;fill:#41341b;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+    </g>
+    <g
+       id="g5167"
+       inkscape:export-filename="C:\Users\RB Whitaker\Documents\Visual Studio 2010\Projects\RealmFactory\Artwork\Dungeon Sample\Wall2.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
+      <rect
+         transform="scale(-1,1)"
+         y="267.36218"
+         x="-265"
+         height="60"
+         width="60"
+         id="rect2987-8-48-7-4-2-3"
+         style="color:#000000;fill:#8b836f;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:16.5;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+      <path
+         clip-path="url(#clipPath5159)"
+         sodipodi:nodetypes="ccccc"
+         inkscape:connector-curvature="0"
+         id="rect3652-3-0"
+         d="m 195,337.36218 0,-80 20,0 0,80 z"
+         style="color:#000000;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;filter:url(#filter5163)" />
+      <rect
+         transform="matrix(0,-1,1,0,0,0)"
+         y="205"
+         x="-327.36218"
+         height="10"
+         width="60"
+         id="rect3652-1"
+         style="color:#000000;fill:#41341b;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+    </g>
+    <g
+       transform="matrix(-1,0,0,-1,610,594.72436)"
+       id="g5167-5"
+       inkscape:export-filename="C:\Users\RB Whitaker\Documents\Visual Studio 2010\Projects\RealmFactory\Artwork\Dungeon Sample\Wall4.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
+      <rect
+         transform="scale(-1,1)"
+         y="267.36218"
+         x="-265"
+         height="60"
+         width="60"
+         id="rect2987-8-48-7-4-2-3-5"
+         style="color:#000000;fill:#8b836f;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:16.5;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+      <path
+         clip-path="url(#clipPath5159-1)"
+         sodipodi:nodetypes="ccccc"
+         inkscape:connector-curvature="0"
+         id="rect3652-3-0-3"
+         d="m 195,337.36218 0,-80 20,0 0,80 z"
+         style="color:#000000;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;filter:url(#filter5163-9);enable-background:accumulate" />
+      <rect
+         transform="matrix(0,-1,1,0,0,0)"
+         y="205"
+         x="-327.36218"
+         height="10"
+         width="60"
+         id="rect3652-1-2"
+         style="color:#000000;fill:#41341b;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+    </g>
+    <g
+       transform="matrix(0,-1,1,0,-132.36218,532.36218)"
+       id="g5277-6"
+       inkscape:export-filename="C:\Users\RB Whitaker\Documents\Visual Studio 2010\Projects\RealmFactory\Artwork\Dungeon Sample\CornerDoor2.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
+      <rect
+         transform="scale(-1,1)"
+         y="337.34937"
+         x="-195"
+         height="60"
+         width="60"
+         id="rect2987-8-48-7-4-6"
+         style="color:#000000;fill:#8b836f;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:16.5;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+      <rect
+         transform="scale(-1,1)"
+         y="337.34937"
+         x="-195"
+         height="10"
+         width="60"
+         id="rect2987-9-5-1-0-1-0"
+         style="color:#000000;fill:#8b836f;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:16.5;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+      <path
+         clip-path="url(#clipPath5265-5)"
+         sodipodi:nodetypes="cccccccccccccc"
+         inkscape:connector-curvature="0"
+         id="rect2987-9-6-7-4-7-0-9-1"
+         d="m 135,327.36218 0,20 50,0 0,10 20,0 0,-10 0,-20 -20,0 z m 50,50 0,20 20,0 0,-20 z"
+         style="color:#000000;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:16.5;marker:none;visibility:visible;display:inline;overflow:visible;filter:url(#filter5273-6);enable-background:accumulate" />
+      <path
+         inkscape:connector-curvature="0"
+         id="rect2987-9-6-7-4-7-0-7"
+         d="m 135,337.36218 0,10 50,0 0,10 10,0 0,-10 0,-10 -10,0 -50,0 z m 50,40 0,20 10,0 0,-20 -10,0 z"
+         style="color:#000000;fill:#41341b;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:16.5;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+    </g>
+    <g
+       transform="matrix(-1,0,0,-1,470,734.72436)"
+       id="g5277-6-9"
+       inkscape:export-filename="C:\Users\RB Whitaker\Documents\Visual Studio 2010\Projects\RealmFactory\Artwork\Dungeon Sample\CornerDoor3.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
+      <path
+         transform="scale(-1,1)"
+         style="color:#000000;fill:#8b836f;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:16.5;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+         d="m -195,337.34937 60,0 0,60 -60,0 z"
+         id="rect2987-8-48-7-4-6-0" />
+      <path
+         transform="scale(-1,1)"
+         style="color:#000000;fill:#8b836f;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:16.5;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+         d="m -195,337.34937 60,0 0,10 -60,0 z"
+         id="rect2987-9-5-1-0-1-0-1" />
+      <path
+         clip-path="url(#clipPath5265-5-3)"
+         sodipodi:nodetypes="cccccccccccccc"
+         inkscape:connector-curvature="0"
+         id="rect2987-9-6-7-4-7-0-9-1-6"
+         d="m 135,327.36218 0,20 50,0 0,10 20,0 0,-10 0,-20 -20,0 z m 50,50 0,20 20,0 0,-20 z"
+         style="color:#000000;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:16.5;marker:none;visibility:visible;display:inline;overflow:visible;filter:url(#filter5273-6-7);enable-background:accumulate" />
+      <path
+         inkscape:connector-curvature="0"
+         id="rect2987-9-6-7-4-7-0-7-3"
+         d="m 135,337.36218 0,10 50,0 0,10 10,0 0,-10 0,-10 -10,0 -50,0 z m 50,40 0,20 10,0 0,-20 -10,0 z"
+         style="color:#000000;fill:#41341b;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:16.5;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+    </g>
+    <g
+       transform="matrix(0,1,-1,0,742.36218,202.36218)"
+       id="g5277-6-9-5"
+       inkscape:export-filename="C:\Users\RB Whitaker\Documents\Visual Studio 2010\Projects\RealmFactory\Artwork\Dungeon Sample\CornerDoor4.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
+      <rect
+         transform="scale(-1,1)"
+         y="337.34937"
+         x="-195"
+         height="60"
+         width="60"
+         id="rect2987-8-48-7-4-6-0-8"
+         style="color:#000000;fill:#8b836f;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:16.5;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+      <rect
+         transform="scale(-1,1)"
+         y="337.34937"
+         x="-195"
+         height="10"
+         width="60"
+         id="rect2987-9-5-1-0-1-0-1-4"
+         style="color:#000000;fill:#8b836f;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:16.5;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+      <path
+         clip-path="url(#clipPath5265-5-3-5)"
+         sodipodi:nodetypes="cccccccccccccc"
+         inkscape:connector-curvature="0"
+         id="rect2987-9-6-7-4-7-0-9-1-6-4"
+         d="m 135,327.36218 0,20 50,0 0,10 20,0 0,-10 0,-20 -20,0 z m 50,50 0,20 20,0 0,-20 z"
+         style="color:#000000;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:16.5;marker:none;visibility:visible;display:inline;overflow:visible;filter:url(#filter5273-6-7-8);enable-background:accumulate" />
+      <path
+         inkscape:connector-curvature="0"
+         id="rect2987-9-6-7-4-7-0-7-3-1"
+         d="m 135,337.36218 0,10 50,0 0,10 10,0 0,-10 0,-10 -10,0 -50,0 z m 50,40 0,20 10,0 0,-20 -10,0 z"
+         style="color:#000000;fill:#41341b;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:16.5;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+    </g>
+    <g
+       id="g5277-2"
+       transform="matrix(0,-1,-1,0,532.36218,602.36218)"
+       inkscape:export-filename="C:\Users\RB Whitaker\Documents\Visual Studio 2010\Projects\RealmFactory\Artwork\Dungeon Sample\CornerDoor5.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
+      <rect
+         transform="scale(-1,1)"
+         y="337.34937"
+         x="-195"
+         height="60"
+         width="60"
+         id="rect2987-8-48-7-4-65"
+         style="color:#000000;fill:#8b836f;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:16.5;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+      <rect
+         transform="scale(-1,1)"
+         y="337.34937"
+         x="-195"
+         height="10"
+         width="60"
+         id="rect2987-9-5-1-0-1-2"
+         style="color:#000000;fill:#8b836f;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:16.5;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+      <path
+         clip-path="url(#clipPath5265-0)"
+         sodipodi:nodetypes="cccccccccccccc"
+         inkscape:connector-curvature="0"
+         id="rect2987-9-6-7-4-7-0-9-5"
+         d="m 135,327.36218 0,20 50,0 0,10 20,0 0,-10 0,-20 -20,0 z m 50,50 0,20 20,0 0,-20 z"
+         style="color:#000000;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:16.5;marker:none;visibility:visible;display:inline;overflow:visible;filter:url(#filter5273-0);enable-background:accumulate" />
+      <path
+         inkscape:connector-curvature="0"
+         id="rect2987-9-6-7-4-7-0-6"
+         d="m 135,337.36218 0,10 50,0 0,10 10,0 0,-10 0,-10 -10,0 -50,0 z m 50,40 0,20 10,0 0,-20 -10,0 z"
+         style="color:#000000;fill:#41341b;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:16.5;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+    </g>
+    <g
+       id="g5277-2-0"
+       transform="matrix(-1,0,0,1,400.00641,70.006407)"
+       inkscape:export-filename="C:\Users\RB Whitaker\Documents\Visual Studio 2010\Projects\RealmFactory\Artwork\Dungeon Sample\CornerDoor6.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
+      <rect
+         transform="scale(-1,1)"
+         y="337.34937"
+         x="-195"
+         height="60"
+         width="60"
+         id="rect2987-8-48-7-4-65-4"
+         style="color:#000000;fill:#8b836f;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:16.5;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+      <rect
+         transform="scale(-1,1)"
+         y="337.34937"
+         x="-195"
+         height="10"
+         width="60"
+         id="rect2987-9-5-1-0-1-2-0"
+         style="color:#000000;fill:#8b836f;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:16.5;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+      <path
+         clip-path="url(#clipPath5265-0-1)"
+         sodipodi:nodetypes="cccccccccccccc"
+         inkscape:connector-curvature="0"
+         id="rect2987-9-6-7-4-7-0-9-5-9"
+         d="m 135,327.36218 0,20 50,0 0,10 20,0 0,-10 0,-20 -20,0 z m 50,50 0,20 20,0 0,-20 z"
+         style="color:#000000;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:16.5;marker:none;visibility:visible;display:inline;overflow:visible;filter:url(#filter5273-0-3);enable-background:accumulate" />
+      <path
+         inkscape:connector-curvature="0"
+         id="rect2987-9-6-7-4-7-0-6-5"
+         d="m 135,337.36218 0,10 50,0 0,10 10,0 0,-10 0,-10 -10,0 -50,0 z m 50,40 0,20 10,0 0,-20 -10,0 z"
+         style="color:#000000;fill:#41341b;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:16.5;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+    </g>
+    <g
+       id="g5277-2-8"
+       transform="matrix(0,1,1,0,-62.349363,272.36218)"
+       inkscape:export-filename="C:\Users\RB Whitaker\Documents\Visual Studio 2010\Projects\RealmFactory\Artwork\Dungeon Sample\CornerDoor7.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
+      <rect
+         transform="scale(-1,1)"
+         y="337.34937"
+         x="-195"
+         height="60"
+         width="60"
+         id="rect2987-8-48-7-4-65-9"
+         style="color:#000000;fill:#8b836f;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:16.5;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+      <rect
+         transform="scale(-1,1)"
+         y="337.34937"
+         x="-195"
+         height="10"
+         width="60"
+         id="rect2987-9-5-1-0-1-2-3"
+         style="color:#000000;fill:#8b836f;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:16.5;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+      <path
+         clip-path="url(#clipPath5265-0-0)"
+         sodipodi:nodetypes="cccccccccccccc"
+         inkscape:connector-curvature="0"
+         id="rect2987-9-6-7-4-7-0-9-5-1"
+         d="m 135,327.36218 0,20 50,0 0,10 20,0 0,-10 0,-20 -20,0 z m 50,50 0,20 20,0 0,-20 z"
+         style="color:#000000;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:16.5;marker:none;visibility:visible;display:inline;overflow:visible;filter:url(#filter5273-0-0);enable-background:accumulate" />
+      <path
+         inkscape:connector-curvature="0"
+         id="rect2987-9-6-7-4-7-0-6-2"
+         d="m 135,337.36218 0,10 50,0 0,10 10,0 0,-10 0,-10 -10,0 -50,0 z m 50,40 0,20 10,0 0,-20 -10,0 z"
+         style="color:#000000;fill:#41341b;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:16.5;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+    </g>
+    <g
+       id="g5277-2-89"
+       transform="matrix(1,0,0,-1,210.00641,804.71795)"
+       inkscape:export-filename="C:\Users\RB Whitaker\Documents\Visual Studio 2010\Projects\RealmFactory\Artwork\Dungeon Sample\CornerDoor8.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
+      <rect
+         transform="scale(-1,1)"
+         y="337.34937"
+         x="-195"
+         height="60"
+         width="60"
+         id="rect2987-8-48-7-4-65-1"
+         style="color:#000000;fill:#8b836f;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:16.5;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+      <rect
+         transform="scale(-1,1)"
+         y="337.34937"
+         x="-195"
+         height="10"
+         width="60"
+         id="rect2987-9-5-1-0-1-2-8"
+         style="color:#000000;fill:#8b836f;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:16.5;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+      <path
+         clip-path="url(#clipPath5265-0-6)"
+         sodipodi:nodetypes="cccccccccccccc"
+         inkscape:connector-curvature="0"
+         id="rect2987-9-6-7-4-7-0-9-5-6"
+         d="m 135,327.36218 0,20 50,0 0,10 20,0 0,-10 0,-20 -20,0 z m 50,50 0,20 20,0 0,-20 z"
+         style="color:#000000;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:16.5;marker:none;visibility:visible;display:inline;overflow:visible;filter:url(#filter5273-0-4);enable-background:accumulate" />
+      <path
+         inkscape:connector-curvature="0"
+         id="rect2987-9-6-7-4-7-0-6-22"
+         d="m 135,337.36218 0,10 50,0 0,10 10,0 0,-10 0,-10 -10,0 -50,0 z m 50,40 0,20 10,0 0,-20 -10,0 z"
+         style="color:#000000;fill:#41341b;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:16.5;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+    </g>
+    <rect
+       style="color:#000000;fill:#8b836f;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:16.5;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       id="rect2987-8-48-7-4-8-3"
+       width="60"
+       height="60"
+       x="-335"
+       y="757.36218"
+       transform="scale(-1,1)"
+       inkscape:export-filename="C:\Users\RB Whitaker\Documents\Visual Studio 2010\Projects\RealmFactory\Artwork\Dungeon Sample\OpenRoom.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <g
+       id="g5680"
+       transform="matrix(0,-1,1,0,-287.34936,722.36218)"
+       inkscape:export-filename="C:\Users\RB Whitaker\Documents\Visual Studio 2010\Projects\RealmFactory\Artwork\Dungeon Sample\T-Hall2.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
+      <rect
+         transform="scale(-1,1)"
+         y="492.34937"
+         x="-245"
+         height="60"
+         width="60"
+         id="rect2987-8-48-7-4-8-6-8-3-0"
+         style="color:#000000;fill:#8b836f;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:16.5;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+      <path
+         clip-path="url(#clipPath5626-1)"
+         sodipodi:nodetypes="ccccccccccccccc"
+         inkscape:connector-curvature="0"
+         id="rect2987-9-6-7-4-7-8-7-6-9-4-6-4-5-2-3"
+         d="m 175,467.36218 0,29.98157 30,0 0,-29.98157 z m -50,0.0312 0,29.98157 30,0 0,-29.98157 z m 0,49.98157 0,29.98718 80,0 0,-29.98718 z"
+         style="color:#000000;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:16.5;marker:none;visibility:visible;display:inline;overflow:visible;filter:url(#filter5634-8);enable-background:accumulate"
+         transform="translate(50,15.000003)" />
+      <path
+         sodipodi:nodetypes="ccccc"
+         id="rect2987-9-6-7-4-7-8-7-6-9-4-6-4-5-23"
+         d="m 225,512.34936 c 0,-8.33333 0,-11.66667 0,-20 l 20,0 c 0,10 0,5 0,20 z"
+         style="color:#000000;fill:#41341b;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:16.5;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+         inkscape:connector-curvature="0" />
+      <path
+         sodipodi:nodetypes="ccccc"
+         id="rect2987-9-6-7-4-7-8-7-6-9-4-6-4-5-4-2"
+         d="m 185,512.36218 c 0,-8.33333 0,-11.66667 0,-20 l 20,0 c 0,10 0,5 0,20 z"
+         style="color:#000000;fill:#41341b;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:16.5;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+         inkscape:connector-curvature="0" />
+      <path
+         sodipodi:nodetypes="ccccc"
+         id="rect2987-9-6-7-4-7-8-7-6-9-4-6-4-5-44-6"
+         d="m 185,552.36218 c 0,-8.33333 0,-11.66667 0,-20 l 60,0 c 0,10 0,5 0,20 z"
+         style="color:#000000;fill:#41341b;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:16.5;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+         inkscape:connector-curvature="0" />
+    </g>
+    <g
+       id="g5710"
+       transform="matrix(-1,0,0,-1,610,1014.7115)"
+       inkscape:export-filename="C:\Users\RB Whitaker\Documents\Visual Studio 2010\Projects\RealmFactory\Artwork\Dungeon Sample\T-Hall3.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
+      <rect
+         transform="scale(-1,1)"
+         y="477.34937"
+         x="-335"
+         height="60"
+         width="60"
+         id="rect2987-8-48-7-4-8-6-8-3-2"
+         style="color:#000000;fill:#8b836f;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:16.5;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+      <path
+         clip-path="url(#clipPath5626-7)"
+         sodipodi:nodetypes="ccccccccccccccc"
+         inkscape:connector-curvature="0"
+         id="rect2987-9-6-7-4-7-8-7-6-9-4-6-4-5-2-6"
+         d="m 175,467.36218 0,29.98157 30,0 0,-29.98157 z m -50,0.0312 0,29.98157 30,0 0,-29.98157 z m 0,49.98157 0,29.98718 80,0 0,-29.98718 z"
+         style="color:#000000;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:16.5;marker:none;visibility:visible;display:inline;overflow:visible;filter:url(#filter5634-4);enable-background:accumulate"
+         transform="translate(140,2.6171874e-6)" />
+      <path
+         sodipodi:nodetypes="ccccc"
+         id="rect2987-9-6-7-4-7-8-7-6-9-4-6-4-5-5"
+         d="m 315,497.34936 c 0,-8.33333 0,-11.66667 0,-20 l 20,0 c 0,10 0,5 0,20 z"
+         style="color:#000000;fill:#41341b;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:16.5;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+         inkscape:connector-curvature="0" />
+      <path
+         sodipodi:nodetypes="ccccc"
+         id="rect2987-9-6-7-4-7-8-7-6-9-4-6-4-5-4-9"
+         d="m 275,497.36218 c 0,-8.33333 0,-11.66667 0,-20 l 20,0 c 0,10 0,5 0,20 z"
+         style="color:#000000;fill:#41341b;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:16.5;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+         inkscape:connector-curvature="0" />
+      <path
+         sodipodi:nodetypes="ccccc"
+         id="rect2987-9-6-7-4-7-8-7-6-9-4-6-4-5-44-0"
+         d="m 275,537.36218 c 0,-8.33333 0,-11.66667 0,-20 l 60,0 c 0,10 0,5 0,20 z"
+         style="color:#000000;fill:#41341b;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:16.5;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+         inkscape:connector-curvature="0" />
+    </g>
+    <g
+       id="g5740"
+       transform="matrix(0,1,-1,0,867.36218,152.36218)"
+       inkscape:export-filename="C:\Users\RB Whitaker\Documents\Visual Studio 2010\Projects\RealmFactory\Artwork\Dungeon Sample\T-Hall4.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
+      <rect
+         transform="scale(-1,1)"
+         y="462.34937"
+         x="-385"
+         height="60"
+         width="60"
+         id="rect2987-8-48-7-4-8-6-8-3-6"
+         style="color:#000000;fill:#8b836f;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:16.5;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+      <path
+         clip-path="url(#clipPath5626-2)"
+         sodipodi:nodetypes="ccccccccccccccc"
+         inkscape:connector-curvature="0"
+         id="rect2987-9-6-7-4-7-8-7-6-9-4-6-4-5-2-2"
+         d="m 175,467.36218 0,29.98157 30,0 0,-29.98157 z m -50,0.0312 0,29.98157 30,0 0,-29.98157 z m 0,49.98157 0,29.98718 80,0 0,-29.98718 z"
+         style="color:#000000;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:16.5;marker:none;visibility:visible;display:inline;overflow:visible;filter:url(#filter5634-6);enable-background:accumulate"
+         transform="translate(190,-14.999997)" />
+      <path
+         sodipodi:nodetypes="ccccc"
+         id="rect2987-9-6-7-4-7-8-7-6-9-4-6-4-5-235"
+         d="m 365,482.34936 c 0,-8.33333 0,-11.66667 0,-20 l 20,0 c 0,10 0,5 0,20 z"
+         style="color:#000000;fill:#41341b;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:16.5;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+         inkscape:connector-curvature="0" />
+      <path
+         sodipodi:nodetypes="ccccc"
+         id="rect2987-9-6-7-4-7-8-7-6-9-4-6-4-5-4-8"
+         d="m 325,482.36218 c 0,-8.33333 0,-11.66667 0,-20 l 20,0 c 0,10 0,5 0,20 z"
+         style="color:#000000;fill:#41341b;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:16.5;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+         inkscape:connector-curvature="0" />
+      <path
+         sodipodi:nodetypes="ccccc"
+         id="rect2987-9-6-7-4-7-8-7-6-9-4-6-4-5-44-1"
+         d="m 325,522.36218 c 0,-8.33333 0,-11.66667 0,-20 l 60,0 c 0,10 0,5 0,20 z"
+         style="color:#000000;fill:#41341b;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:16.5;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+         inkscape:connector-curvature="0" />
+    </g>
+    <g
+       transform="matrix(0,-1,1,0,-342.36859,742.35577)"
+       id="g5808-1"
+       inkscape:export-filename="C:\Users\RB Whitaker\Documents\Visual Studio 2010\Projects\RealmFactory\Artwork\Dungeon Sample\2DoorCorner2.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
+      <rect
+         transform="scale(-1,1)"
+         y="547.36218"
+         x="-195"
+         height="60"
+         width="60"
+         id="rect2987-8-48-7-4-8-9"
+         style="color:#000000;fill:#8b836f;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:16.5;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+      <rect
+         transform="scale(-1,1)"
+         y="547.36218"
+         x="-195"
+         height="10"
+         width="60"
+         id="rect2987-9-5-1-0-1-8-4"
+         style="color:#000000;fill:#8b836f;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:16.5;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+      <path
+         clip-path="url(#clipPath5800-6)"
+         sodipodi:nodetypes="ccccccccccccccccccc"
+         id="rect2987-9-6-7-4-7-0-2-8-7"
+         d="m 125,537.36218 0,20.01282 30,0 0,-20.01282 z m 50,0 0,20.01282 10,0 0,10 20,0 0,-10 0,-20.01282 -20,0 z m 10,50.01282 0,29.98718 20,0 0,-29.98718 z"
+         style="color:#000000;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:16.5;marker:none;visibility:visible;display:inline;overflow:visible;filter:url(#filter5804-6);enable-background:accumulate"
+         inkscape:connector-curvature="0" />
+      <path
+         inkscape:connector-curvature="0"
+         id="rect2987-9-6-7-4-7-0-2-4"
+         d="m 135,547.375 0,10 20,0 0,-10 -20,0 z m 40,0 0,10 10,0 0,10 10,0 0,-10 0,-10 -10,0 -10,0 z m 10,40 0,20 10,0 0,-20 -10,0 z"
+         style="color:#000000;fill:#41341b;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:16.5;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+    </g>
+    <g
+       transform="matrix(-1,0,0,-1,469.99359,1154.7308)"
+       id="g5808-1-8"
+       inkscape:export-filename="C:\Users\RB Whitaker\Documents\Visual Studio 2010\Projects\RealmFactory\Artwork\Dungeon Sample\2DoorCorner3.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
+      <rect
+         transform="scale(-1,1)"
+         y="547.36218"
+         x="-195"
+         height="60"
+         width="60"
+         id="rect2987-8-48-7-4-8-9-0"
+         style="color:#000000;fill:#8b836f;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:16.5;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+      <rect
+         transform="scale(-1,1)"
+         y="547.36218"
+         x="-195"
+         height="10"
+         width="60"
+         id="rect2987-9-5-1-0-1-8-4-3"
+         style="color:#000000;fill:#8b836f;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:16.5;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+      <path
+         clip-path="url(#clipPath5800-6-6)"
+         sodipodi:nodetypes="ccccccccccccccccccc"
+         id="rect2987-9-6-7-4-7-0-2-8-7-7"
+         d="m 125,537.36218 0,20.01282 30,0 0,-20.01282 z m 50,0 0,20.01282 10,0 0,10 20,0 0,-10 0,-20.01282 -20,0 z m 10,50.01282 0,29.98718 20,0 0,-29.98718 z"
+         style="color:#000000;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:16.5;marker:none;visibility:visible;display:inline;overflow:visible;filter:url(#filter5804-6-6);enable-background:accumulate"
+         inkscape:connector-curvature="0" />
+      <path
+         inkscape:connector-curvature="0"
+         id="rect2987-9-6-7-4-7-0-2-4-6"
+         d="m 135,547.375 0,10 20,0 0,-10 -20,0 z m 40,0 0,10 10,0 0,10 10,0 0,-10 0,-10 -10,0 -10,0 z m 10,40 0,20 10,0 0,-20 -10,0 z"
+         style="color:#000000;fill:#41341b;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:16.5;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+    </g>
+    <g
+       transform="matrix(0,1,-1,0,952.36859,412.36861)"
+       id="g5808-1-8-0"
+       inkscape:export-filename="C:\Users\RB Whitaker\Documents\Visual Studio 2010\Projects\RealmFactory\Artwork\Dungeon Sample\2DoorCorner4.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
+      <rect
+         transform="scale(-1,1)"
+         y="547.36218"
+         x="-195"
+         height="60"
+         width="60"
+         id="rect2987-8-48-7-4-8-9-0-4"
+         style="color:#000000;fill:#8b836f;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:16.5;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+      <rect
+         transform="scale(-1,1)"
+         y="547.36218"
+         x="-195"
+         height="10"
+         width="60"
+         id="rect2987-9-5-1-0-1-8-4-3-3"
+         style="color:#000000;fill:#8b836f;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:16.5;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+      <path
+         clip-path="url(#clipPath5800-6-6-3)"
+         sodipodi:nodetypes="ccccccccccccccccccc"
+         id="rect2987-9-6-7-4-7-0-2-8-7-7-7"
+         d="m 125,537.36218 0,20.01282 30,0 0,-20.01282 z m 50,0 0,20.01282 10,0 0,10 20,0 0,-10 0,-20.01282 -20,0 z m 10,50.01282 0,29.98718 20,0 0,-29.98718 z"
+         style="color:#000000;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:16.5;marker:none;visibility:visible;display:inline;overflow:visible;filter:url(#filter5804-6-6-0);enable-background:accumulate"
+         inkscape:connector-curvature="0" />
+      <path
+         inkscape:connector-curvature="0"
+         id="rect2987-9-6-7-4-7-0-2-4-6-1"
+         d="m 135,547.375 0,10 20,0 0,-10 -20,0 z m 40,0 0,10 10,0 0,10 10,0 0,-10 0,-10 -10,0 -10,0 z m 10,40 0,20 10,0 0,-20 -10,0 z"
+         style="color:#000000;fill:#41341b;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:16.5;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+    </g>
+    <g
+       id="g6027"
+       transform="matrix(0,-1,1,0,-412.36219,867.36218)"
+       inkscape:export-filename="C:\Users\RB Whitaker\Documents\Visual Studio 2010\Projects\RealmFactory\Artwork\Dungeon Sample\Hall1.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
+      <rect
+         transform="scale(-1,1)"
+         y="617.36218"
+         x="-250"
+         height="60"
+         width="60"
+         id="rect2987-8-48-7-4-8-6-2"
+         style="color:#000000;fill:#8b836f;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:16.5;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+      <path
+         clip-path="url(#clipPath5980-4)"
+         sodipodi:nodetypes="cccccccccc"
+         inkscape:connector-curvature="0"
+         id="rect2987-9-6-7-4-7-8-7-6-9-4-9-3"
+         d="m 125,607.36218 0,80 30,0 0,-80 z m 50,0 0,80 30,0 0,-80 z"
+         style="color:#000000;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:16.5;marker:none;visibility:visible;display:inline;overflow:visible;filter:url(#filter5984-2);enable-background:accumulate"
+         transform="translate(55,2.6171874e-6)" />
+      <path
+         sodipodi:nodetypes="ccccc"
+         id="rect2987-9-6-7-4-7-8-7-6-9-4-4"
+         d="m 190,677.36218 c 0,-24.99999 0,-35.00001 0,-60 l 20,0 c 0,30 0,15 0,60 z"
+         style="color:#000000;fill:#41341b;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:16.5;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+         inkscape:connector-curvature="0" />
+      <path
+         sodipodi:nodetypes="ccccc"
+         id="rect2987-9-6-7-4-7-8-7-6-9-4-6-9"
+         d="m 230,677.36218 c 0,-24.99999 0,-35.00001 0,-60 l 20,0 c 0,30 0,15 0,60 z"
+         style="color:#000000;fill:#41341b;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:16.5;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+         inkscape:connector-curvature="0" />
+    </g>
+    <g
+       transform="matrix(0,-1,1,0,-482.35577,882.35577)"
+       id="g6106-4"
+       inkscape:export-filename="C:\Users\RB Whitaker\Documents\Visual Studio 2010\Projects\RealmFactory\Artwork\Dungeon Sample\HallBend2.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
+      <rect
+         transform="scale(-1,1)"
+         y="687.34937"
+         x="-195"
+         height="60"
+         width="60"
+         id="rect2987-8-48-7-4-8-6-8-9"
+         style="color:#000000;fill:#8b836f;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:16.5;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+      <path
+         clip-path="url(#clipPath6076-1)"
+         sodipodi:nodetypes="cccccccccccccc"
+         inkscape:connector-curvature="0"
+         id="rect2987-9-6-7-4-7-8-7-6-9-4-8-5-6"
+         d="m 175,677.36218 0,29.98157 30,0 0,-29.98157 z m -50,0.0312 0,49.98157 0,29.98718 30,0 50,0 0,-29.98718 -50,0 0,-49.98157 z"
+         style="color:#000000;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:16.5;marker:none;visibility:visible;display:inline;overflow:visible;filter:url(#filter6084-0);enable-background:accumulate" />
+      <path
+         inkscape:connector-curvature="0"
+         id="rect2987-9-6-7-4-7-8-7-6-9-4-8-8"
+         d="m 135,687.36218 0,40 0,20 20,0 40,0 0,-20 -40,0 0,-40 -20,0 z"
+         style="color:#000000;fill:#41341b;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:16.5;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+      <path
+         sodipodi:nodetypes="ccccc"
+         id="rect2987-9-6-7-4-7-8-7-6-9-4-6-4-3"
+         d="m 175,707.34936 c 0,-8.33333 0,-11.66667 0,-20 l 20,0 c 0,10 0,5 0,20 z"
+         style="color:#000000;fill:#41341b;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:16.5;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+         inkscape:connector-curvature="0" />
+    </g>
+    <g
+       transform="matrix(-1,0,0,-1,469.99359,1434.718)"
+       id="g6106-4-5"
+       inkscape:export-filename="C:\Users\RB Whitaker\Documents\Visual Studio 2010\Projects\RealmFactory\Artwork\Dungeon Sample\HallBend3.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
+      <rect
+         transform="scale(-1,1)"
+         y="687.34937"
+         x="-195"
+         height="60"
+         width="60"
+         id="rect2987-8-48-7-4-8-6-8-9-9"
+         style="color:#000000;fill:#8b836f;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:16.5;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+      <path
+         clip-path="url(#clipPath6076-1-3)"
+         sodipodi:nodetypes="cccccccccccccc"
+         inkscape:connector-curvature="0"
+         id="rect2987-9-6-7-4-7-8-7-6-9-4-8-5-6-7"
+         d="m 175,677.36218 0,29.98157 30,0 0,-29.98157 z m -50,0.0312 0,49.98157 0,29.98718 30,0 50,0 0,-29.98718 -50,0 0,-49.98157 z"
+         style="color:#000000;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:16.5;marker:none;visibility:visible;display:inline;overflow:visible;filter:url(#filter6084-0-2);enable-background:accumulate" />
+      <path
+         inkscape:connector-curvature="0"
+         id="rect2987-9-6-7-4-7-8-7-6-9-4-8-8-0"
+         d="m 135,687.36218 0,40 0,20 20,0 40,0 0,-20 -40,0 0,-40 -20,0 z"
+         style="color:#000000;fill:#41341b;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:16.5;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+      <path
+         sodipodi:nodetypes="ccccc"
+         id="rect2987-9-6-7-4-7-8-7-6-9-4-6-4-3-0"
+         d="m 175,707.34936 c 0,-8.33333 0,-11.66667 0,-20 l 20,0 c 0,10 0,5 0,20 z"
+         style="color:#000000;fill:#41341b;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:16.5;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+         inkscape:connector-curvature="0" />
+    </g>
+    <g
+       transform="matrix(0,1,-1,0,1092.3678,552.36223)"
+       id="g6106-4-7"
+       inkscape:export-filename="C:\Users\RB Whitaker\Documents\Visual Studio 2010\Projects\RealmFactory\Artwork\Dungeon Sample\HallBend4.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
+      <rect
+         transform="scale(-1,1)"
+         y="687.34937"
+         x="-195"
+         height="60"
+         width="60"
+         id="rect2987-8-48-7-4-8-6-8-9-95"
+         style="color:#000000;fill:#8b836f;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:16.5;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+      <path
+         clip-path="url(#clipPath6076-1-7)"
+         sodipodi:nodetypes="cccccccccccccc"
+         inkscape:connector-curvature="0"
+         id="rect2987-9-6-7-4-7-8-7-6-9-4-8-5-6-9"
+         d="m 175,677.36218 0,29.98157 30,0 0,-29.98157 z m -50,0.0312 0,49.98157 0,29.98718 30,0 50,0 0,-29.98718 -50,0 0,-49.98157 z"
+         style="color:#000000;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:16.5;marker:none;visibility:visible;display:inline;overflow:visible;filter:url(#filter6084-0-0);enable-background:accumulate" />
+      <path
+         inkscape:connector-curvature="0"
+         id="rect2987-9-6-7-4-7-8-7-6-9-4-8-8-3"
+         d="m 135,687.36218 0,40 0,20 20,0 40,0 0,-20 -40,0 0,-40 -20,0 z"
+         style="color:#000000;fill:#41341b;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:16.5;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+      <path
+         sodipodi:nodetypes="ccccc"
+         id="rect2987-9-6-7-4-7-8-7-6-9-4-6-4-3-9"
+         d="m 175,707.34936 c 0,-8.33333 0,-11.66667 0,-20 l 20,0 c 0,10 0,5 0,20 z"
+         style="color:#000000;fill:#41341b;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:16.5;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+         inkscape:connector-curvature="0" />
+    </g>
+    <g
+       transform="matrix(0,1,-1,0,1092.3622,692.36218)"
+       id="g6471-6"
+       inkscape:export-filename="C:\Users\RB Whitaker\Documents\Visual Studio 2010\Projects\RealmFactory\Artwork\Dungeon Sample\Round2.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
+      <rect
+         transform="matrix(0,1,-1,0,0,0)"
+         y="-195"
+         x="827.34937"
+         height="60"
+         width="60"
+         id="rect2987-8-48-9-0"
+         style="color:#000000;fill:#8b836f;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:16.5;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+      <path
+         clip-path="url(#clipPath6425-8)"
+         sodipodi:nodetypes="cccccccccccc"
+         inkscape:connector-curvature="0"
+         id="rect2987-9-5-1-04-3-1"
+         d="m 135,827.36218 -10,0 0,10 10,0 c 27.61424,0 50,22.38576 50,50 l 0,10 10,0 0,-10 0,-50 0,-10 -10,0 z"
+         style="color:#000000;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:16.5;marker:none;visibility:visible;display:inline;overflow:visible;filter:url(#filter6433-3);enable-background:accumulate" />
+      <path
+         inkscape:connector-curvature="0"
+         id="rect2987-9-5-1-04-6"
+         d="m 135,827.36218 0,5 0,5 c 27.61424,0 50,22.38576 50,50 l 5,0 5,0 0,-50 0,-10 -10,0 -50,0 z"
+         style="color:#000000;fill:#41341b;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:16.5;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+    </g>
+    <g
+       transform="matrix(0,-1,1,0,-552.35577,1022.3558)"
+       id="g6471-7"
+       inkscape:export-filename="C:\Users\RB Whitaker\Documents\Visual Studio 2010\Projects\RealmFactory\Artwork\Dungeon Sample\Round3.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
+      <rect
+         transform="matrix(0,1,-1,0,0,0)"
+         y="-195"
+         x="827.34937"
+         height="60"
+         width="60"
+         id="rect2987-8-48-9-2"
+         style="color:#000000;fill:#8b836f;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:16.5;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+      <path
+         clip-path="url(#clipPath6425-3)"
+         sodipodi:nodetypes="cccccccccccc"
+         inkscape:connector-curvature="0"
+         id="rect2987-9-5-1-04-3-9"
+         d="m 135,827.36218 -10,0 0,10 10,0 c 27.61424,0 50,22.38576 50,50 l 0,10 10,0 0,-10 0,-50 0,-10 -10,0 z"
+         style="color:#000000;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:16.5;marker:none;visibility:visible;display:inline;overflow:visible;filter:url(#filter6433-4);enable-background:accumulate" />
+      <path
+         inkscape:connector-curvature="0"
+         id="rect2987-9-5-1-04-5"
+         d="m 135,827.36218 0,5 0,5 c 27.61424,0 50,22.38576 50,50 l 5,0 5,0 0,-50 0,-10 -10,0 -50,0 z"
+         style="color:#000000;fill:#41341b;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:16.5;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+    </g>
+    <g
+       transform="matrix(-1,0,0,-1,540.00003,1714.7116)"
+       id="g6471-2"
+       inkscape:export-filename="C:\Users\RB Whitaker\Documents\Visual Studio 2010\Projects\RealmFactory\Artwork\Dungeon Sample\Round4.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
+      <rect
+         transform="matrix(0,1,-1,0,0,0)"
+         y="-195"
+         x="827.34937"
+         height="60"
+         width="60"
+         id="rect2987-8-48-9-04"
+         style="color:#000000;fill:#8b836f;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:16.5;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+      <path
+         clip-path="url(#clipPath6425-7)"
+         sodipodi:nodetypes="cccccccccccc"
+         inkscape:connector-curvature="0"
+         id="rect2987-9-5-1-04-3-8"
+         d="m 135,827.36218 -10,0 0,10 10,0 c 27.61424,0 50,22.38576 50,50 l 0,10 10,0 0,-10 0,-50 0,-10 -10,0 z"
+         style="color:#000000;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:16.5;marker:none;visibility:visible;display:inline;overflow:visible;filter:url(#filter6433-8);enable-background:accumulate" />
+      <path
+         inkscape:connector-curvature="0"
+         id="rect2987-9-5-1-04-2"
+         d="m 135,827.36218 0,5 0,5 c 27.61424,0 50,22.38576 50,50 l 5,0 5,0 0,-50 0,-10 -10,0 -50,0 z"
+         style="color:#000000;fill:#41341b;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:16.5;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+    </g>
+  </g>
+</svg>

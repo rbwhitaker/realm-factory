@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="744.09448819"
+   height="1052.3622047"
+   id="svg7485"
+   version="1.1"
+   inkscape:version="0.48.0 r9654"
+   sodipodi:docname="New document 74">
+  <defs
+     id="defs7487">
+    <linearGradient
+       id="linearGradient8103">
+      <stop
+         style="stop-color:#ffffff;stop-opacity:0.3063063;"
+         offset="0"
+         id="stop8105" />
+      <stop
+         style="stop-color:#ffffff;stop-opacity:0;"
+         offset="1"
+         id="stop8107" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient7420">
+      <stop
+         style="stop-color:#3ad800;stop-opacity:1;"
+         offset="0"
+         id="stop7422" />
+      <stop
+         style="stop-color:#1b6500;stop-opacity:1;"
+         offset="1"
+         id="stop7424" />
+    </linearGradient>
+    <linearGradient
+       gradientTransform="matrix(1.2525462,0,0,1,-355.40178,263.05979)"
+       inkscape:collect="always"
+       xlink:href="#linearGradient7420-0"
+       id="linearGradient7426-1"
+       x1="552.90002"
+       y1="-726.85059"
+       x2="552.90002"
+       y2="-762.7182"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       id="linearGradient7420-0">
+      <stop
+         style="stop-color:#31b800;stop-opacity:1;"
+         offset="0"
+         id="stop7422-0" />
+      <stop
+         style="stop-color:#1b6500;stop-opacity:1;"
+         offset="1"
+         id="stop7424-1" />
+    </linearGradient>
+    <linearGradient
+       gradientTransform="translate(-216.55152,263.05979)"
+       inkscape:collect="always"
+       xlink:href="#linearGradient7420-0-0"
+       id="linearGradient7426-1-8"
+       x1="552.90002"
+       y1="-726.85059"
+       x2="552.90002"
+       y2="-762.7182"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       id="linearGradient7420-0-0">
+      <stop
+         style="stop-color:#31b800;stop-opacity:1;"
+         offset="0"
+         id="stop7422-0-7" />
+      <stop
+         style="stop-color:#1b6500;stop-opacity:1;"
+         offset="1"
+         id="stop7424-1-3" />
+    </linearGradient>
+    <linearGradient
+       y2="-762.7182"
+       x2="552.90002"
+       y1="-726.85059"
+       x1="552.90002"
+       gradientTransform="translate(-216.55152,263.05979)"
+       gradientUnits="userSpaceOnUse"
+       id="linearGradient8083"
+       xlink:href="#linearGradient7420-0-0"
+       inkscape:collect="always" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient8103"
+       id="linearGradient8109"
+       x1="235.4375"
+       y1="476.8125"
+       x2="431.4375"
+       y2="476.8125"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1.2525462,0,0,1,-84.161007,0)" />
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="2.8284271"
+     inkscape:cx="267.14968"
+     inkscape:cy="468.56922"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1440"
+     inkscape:window-height="850"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata7490">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <rect
+       style="color:#000000;fill:#ececec;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       id="rect8111"
+       width="246.12532"
+       height="39.5"
+       x="210.18735"
+       y="461.86218" />
+    <rect
+       style="color:#000000;fill:#1b7400;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:4;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       id="rect7386"
+       width="245.49905"
+       height="191"
+       x="210.74908"
+       y="495.30237" />
+    <rect
+       style="color:#000000;fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:#14240f;stroke-width:1;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       id="rect7388"
+       width="229.21596"
+       height="178.97675"
+       x="218.26437"
+       y="502.30237" />
+    <rect
+       style="color:#000000;fill:url(#linearGradient7426-1);fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:4;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       id="rect7386-4"
+       width="245.49905"
+       height="36"
+       x="210.74908"
+       y="-500.13623"
+       transform="scale(1,-1)"
+       rx="5"
+       ry="5" />
+    <path
+       style="color:#000000;fill:url(#linearGradient8109);fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       d="m 216.99806,464.125 c -3.46955,0 -6.26273,2.23 -6.26273,5 l 0,20.375 245.49905,0 0,-20.375 c 0,-2.77 -2.79318,-5 -6.26274,-5 l -232.97358,0 z"
+       id="rect8066"
+       inkscape:connector-curvature="0" />
+  </g>
+</svg>

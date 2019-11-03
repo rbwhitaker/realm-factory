@@ -1,0 +1,960 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="744.09448819"
+   height="1052.3622047"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.48.0 r9654"
+   sodipodi:docname="Pacman Sprites.svg">
+  <defs
+     id="defs4" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="5.6568542"
+     inkscape:cx="49.890973"
+     inkscape:cy="807.50387"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="true"
+     inkscape:window-width="1440"
+     inkscape:window-height="850"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1">
+    <inkscape:grid
+       type="xygrid"
+       id="grid3773" />
+  </sodipodi:namedview>
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <g
+       id="g3956"
+       transform="translate(-15,-35)"
+       inkscape:export-filename="C:\Users\RB Whitaker\Documents\Visual Studio 2010\Projects\RealmFactory\Artwork\Pacman Sample\Vertical.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
+      <rect
+         y="262.36218"
+         x="15"
+         height="20"
+         width="20"
+         id="rect2985"
+         style="color:#000000;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:16.5;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+      <path
+         inkscape:connector-curvature="0"
+         id="path3775"
+         d="m 20,262.36218 0,20"
+         style="fill:none;stroke:#0000ff;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+      <path
+         inkscape:connector-curvature="0"
+         id="path3775-7"
+         d="m 30,262.36218 0,20"
+         style="fill:none;stroke:#0000ff;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+    </g>
+    <g
+       id="g3964"
+       transform="translate(-40,-10)"
+       inkscape:export-filename="C:\Users\RB Whitaker\Documents\Visual Studio 2010\Projects\RealmFactory\Artwork\Pacman Sample\Horizontal.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
+      <rect
+         y="262.36218"
+         x="40"
+         height="20"
+         width="20"
+         id="rect2985-1"
+         style="color:#000000;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:16.5;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+      <path
+         inkscape:connector-curvature="0"
+         id="path3775-71"
+         d="m 40,277.36218 20,0"
+         style="fill:none;stroke:#0000ff;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+      <path
+         inkscape:connector-curvature="0"
+         id="path3775-7-9"
+         d="m 40,267.36218 20,0"
+         style="fill:none;stroke:#0000ff;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+    </g>
+    <g
+       id="g3969"
+       transform="translate(-15,-60)"
+       inkscape:export-filename="C:\Users\RB Whitaker\Documents\Visual Studio 2010\Projects\RealmFactory\Artwork\Pacman Sample\South.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
+      <rect
+         y="287.36218"
+         x="40"
+         height="20"
+         width="20"
+         id="rect2985-1-2"
+         style="color:#000000;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:16.5;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+      <path
+         transform="matrix(1,0,0,-1,65,599.72437)"
+         sodipodi:open="true"
+         sodipodi:end="3.1415927"
+         sodipodi:start="0"
+         d="m -10,302.36218 c 0,2.76143 -2.238576,5 -5,5 -2.761424,0 -5,-2.23857 -5,-5 0,0 0,0 0,0"
+         sodipodi:ry="5"
+         sodipodi:rx="5"
+         sodipodi:cy="302.36218"
+         sodipodi:cx="-15"
+         id="path3855"
+         style="color:#000000;fill:none;stroke:#0000ff;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+         sodipodi:type="arc" />
+      <path
+         sodipodi:nodetypes="cc"
+         inkscape:connector-curvature="0"
+         id="path3775-72-8"
+         d="m 45,297.36218 0,10"
+         style="fill:none;stroke:#0000ff;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+      <path
+         sodipodi:nodetypes="cc"
+         inkscape:connector-curvature="0"
+         id="path3775-7-5-8"
+         d="m 55,297.36218 0,10"
+         style="fill:none;stroke:#0000ff;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+    </g>
+    <g
+       id="g3905"
+       transform="matrix(0,-1,1,0,-237.36218,362.36218)"
+       inkscape:export-filename="C:\Users\RB Whitaker\Documents\Visual Studio 2010\Projects\RealmFactory\Artwork\Pacman Sample\East.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
+      <rect
+         y="262.36218"
+         x="65"
+         height="20"
+         width="20"
+         id="rect2985-1-2-4"
+         style="color:#000000;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:16.5;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+      <path
+         transform="matrix(1,0,0,-1,90,574.72437)"
+         sodipodi:open="true"
+         sodipodi:end="3.1415927"
+         sodipodi:start="0"
+         d="m -10,302.36218 c 0,2.76143 -2.238576,5 -5,5 -2.761424,0 -5,-2.23857 -5,-5 0,0 0,0 0,0"
+         sodipodi:ry="5"
+         sodipodi:rx="5"
+         sodipodi:cy="302.36218"
+         sodipodi:cx="-15"
+         id="path3855-1"
+         style="color:#000000;fill:none;stroke:#0000ff;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+         sodipodi:type="arc" />
+      <path
+         sodipodi:nodetypes="cc"
+         inkscape:connector-curvature="0"
+         id="path3775-72-8-7"
+         d="m 70,272.36218 0,10"
+         style="fill:none;stroke:#0000ff;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+      <path
+         sodipodi:nodetypes="cc"
+         inkscape:connector-curvature="0"
+         id="path3775-7-5-8-5"
+         d="m 80,272.36218 0,10"
+         style="fill:none;stroke:#0000ff;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+    </g>
+    <g
+       id="g3905-9"
+       transform="matrix(-1,0,0,-1,110,534.72437)"
+       inkscape:export-filename="C:\Users\RB Whitaker\Documents\Visual Studio 2010\Projects\RealmFactory\Artwork\Pacman Sample\North.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
+      <rect
+         y="262.36218"
+         x="65"
+         height="20"
+         width="20"
+         id="rect2985-1-2-4-3"
+         style="color:#000000;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:16.5;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+      <path
+         transform="matrix(1,0,0,-1,90,574.72437)"
+         sodipodi:open="true"
+         sodipodi:end="3.1415927"
+         sodipodi:start="0"
+         d="m -10,302.36218 c 0,2.76143 -2.238576,5 -5,5 -2.761424,0 -5,-2.23857 -5,-5 0,0 0,0 0,0"
+         sodipodi:ry="5"
+         sodipodi:rx="5"
+         sodipodi:cy="302.36218"
+         sodipodi:cx="-15"
+         id="path3855-1-2"
+         style="color:#000000;fill:none;stroke:#0000ff;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+         sodipodi:type="arc" />
+      <path
+         sodipodi:nodetypes="cc"
+         inkscape:connector-curvature="0"
+         id="path3775-72-8-7-0"
+         d="m 70,272.36218 0,10"
+         style="fill:none;stroke:#0000ff;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+      <path
+         sodipodi:nodetypes="cc"
+         inkscape:connector-curvature="0"
+         id="path3775-7-5-8-5-6"
+         d="m 80,272.36218 0,10"
+         style="fill:none;stroke:#0000ff;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+    </g>
+    <g
+       id="g3905-8"
+       transform="matrix(0,1,-1,0,307.36218,237.36218)"
+       inkscape:export-filename="C:\Users\RB Whitaker\Documents\Visual Studio 2010\Projects\RealmFactory\Artwork\Pacman Sample\West.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
+      <rect
+         y="262.36218"
+         x="65"
+         height="20"
+         width="20"
+         id="rect2985-1-2-4-1"
+         style="color:#000000;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:16.5;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+      <path
+         transform="matrix(1,0,0,-1,90,574.72437)"
+         sodipodi:open="true"
+         sodipodi:end="3.1415927"
+         sodipodi:start="0"
+         d="m -10,302.36218 c 0,2.76143 -2.238576,5 -5,5 -2.761424,0 -5,-2.23857 -5,-5 0,0 0,0 0,0"
+         sodipodi:ry="5"
+         sodipodi:rx="5"
+         sodipodi:cy="302.36218"
+         sodipodi:cx="-15"
+         id="path3855-1-8"
+         style="color:#000000;fill:none;stroke:#0000ff;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+         sodipodi:type="arc" />
+      <path
+         sodipodi:nodetypes="cc"
+         inkscape:connector-curvature="0"
+         id="path3775-72-8-7-7"
+         d="m 70,272.36218 0,10"
+         style="fill:none;stroke:#0000ff;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+      <path
+         sodipodi:nodetypes="cc"
+         inkscape:connector-curvature="0"
+         id="path3775-7-5-8-5-1"
+         d="m 80,272.36218 0,10"
+         style="fill:none;stroke:#0000ff;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+    </g>
+    <g
+       id="g4007"
+       transform="translate(60,-10)"
+       inkscape:export-filename="C:\Users\RB Whitaker\Documents\Visual Studio 2010\Projects\RealmFactory\Artwork\Pacman Sample\T-East.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
+      <rect
+         y="312.36218"
+         x="15"
+         height="20"
+         width="20"
+         id="rect2985-7"
+         style="color:#000000;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:16.5;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+      <path
+         sodipodi:nodetypes="cc"
+         inkscape:connector-curvature="0"
+         id="path3775-0"
+         d="m 20,312.36218 0,5 -5,0"
+         style="fill:none;stroke:#0000ff;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+      <path
+         inkscape:connector-curvature="0"
+         id="path3775-7-1"
+         d="m 30,312.36218 0,20"
+         style="fill:none;stroke:#0000ff;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+      <path
+         inkscape:connector-curvature="0"
+         id="path4005"
+         d="m 15,327.36218 5,0 0,5"
+         style="fill:none;stroke:#0000ff;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+    </g>
+    <g
+       transform="matrix(0,-1,1,0,-237.36218,312.36218)"
+       id="g4007-5"
+       inkscape:export-filename="C:\Users\RB Whitaker\Documents\Visual Studio 2010\Projects\RealmFactory\Artwork\Pacman Sample\T-North.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
+      <rect
+         y="312.36218"
+         x="15"
+         height="20"
+         width="20"
+         id="rect2985-7-0"
+         style="color:#000000;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:16.5;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+      <path
+         sodipodi:nodetypes="cc"
+         inkscape:connector-curvature="0"
+         id="path3775-0-0"
+         d="m 20,312.36218 0,5 -5,0"
+         style="fill:none;stroke:#0000ff;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+      <path
+         inkscape:connector-curvature="0"
+         id="path3775-7-1-0"
+         d="m 30,312.36218 0,20"
+         style="fill:none;stroke:#0000ff;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+      <path
+         inkscape:connector-curvature="0"
+         id="path4005-7"
+         d="m 15,327.36218 5,0 0,5"
+         style="fill:none;stroke:#0000ff;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+    </g>
+    <g
+       transform="matrix(-1,0,0,-1,110,584.72437)"
+       id="g4007-1"
+       inkscape:export-filename="C:\Users\RB Whitaker\Documents\Visual Studio 2010\Projects\RealmFactory\Artwork\Pacman Sample\T-West.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
+      <rect
+         y="312.36218"
+         x="15"
+         height="20"
+         width="20"
+         id="rect2985-7-8"
+         style="color:#000000;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:16.5;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+      <path
+         sodipodi:nodetypes="cc"
+         inkscape:connector-curvature="0"
+         id="path3775-0-6"
+         d="m 20,312.36218 0,5 -5,0"
+         style="fill:none;stroke:#0000ff;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+      <path
+         inkscape:connector-curvature="0"
+         id="path3775-7-1-4"
+         d="m 30,312.36218 0,20"
+         style="fill:none;stroke:#0000ff;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+      <path
+         inkscape:connector-curvature="0"
+         id="path4005-4"
+         d="m 15,327.36218 5,0 0,5"
+         style="fill:none;stroke:#0000ff;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+    </g>
+    <g
+       transform="matrix(0,1,-1,0,407.36218,212.36218)"
+       id="g4007-7"
+       inkscape:export-filename="C:\Users\RB Whitaker\Documents\Visual Studio 2010\Projects\RealmFactory\Artwork\Pacman Sample\T-South.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
+      <rect
+         y="312.36218"
+         x="15"
+         height="20"
+         width="20"
+         id="rect2985-7-1"
+         style="color:#000000;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:16.5;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+      <path
+         sodipodi:nodetypes="cc"
+         inkscape:connector-curvature="0"
+         id="path3775-0-2"
+         d="m 20,312.36218 0,5 -5,0"
+         style="fill:none;stroke:#0000ff;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+      <path
+         inkscape:connector-curvature="0"
+         id="path3775-7-1-3"
+         d="m 30,312.36218 0,20"
+         style="fill:none;stroke:#0000ff;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+      <path
+         inkscape:connector-curvature="0"
+         id="path4005-9"
+         d="m 15,327.36218 5,0 0,5"
+         style="fill:none;stroke:#0000ff;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+    </g>
+    <g
+       id="g4136"
+       transform="translate(-40,-60)"
+       inkscape:export-filename="C:\Users\RB Whitaker\Documents\Visual Studio 2010\Projects\RealmFactory\Artwork\Pacman Sample\North and West.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
+      <rect
+         transform="matrix(0,1,-1,0,0,0)"
+         y="-110"
+         x="287.36218"
+         height="20"
+         width="20"
+         id="rect2985-1-2-4-1-2"
+         style="color:#000000;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:16.5;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+      <path
+         sodipodi:open="true"
+         sodipodi:end="1.5707963"
+         sodipodi:start="0"
+         transform="matrix(0,1,1,0,-202.36218,312.36218)"
+         d="m -10,302.36218 c 0,2.76143 -2.238576,5 -5,5"
+         sodipodi:ry="5"
+         sodipodi:rx="5"
+         sodipodi:cy="302.36218"
+         sodipodi:cx="-15"
+         id="path3855-1-8-2"
+         style="color:#000000;fill:none;stroke:#0000ff;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+         sodipodi:type="arc" />
+      <path
+         sodipodi:nodetypes="cc"
+         inkscape:connector-curvature="0"
+         id="path3775-7-5-8-5-1-6"
+         d="m 100,302.36218 -10,0"
+         style="fill:none;stroke:#0000ff;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+      <path
+         sodipodi:nodetypes="cc"
+         inkscape:connector-curvature="0"
+         id="path3775-7-5-8-5-1-6-5"
+         d="m 105,297.36218 0,-10"
+         style="fill:none;stroke:#0000ff;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+      <path
+         inkscape:connector-curvature="0"
+         id="path4134"
+         d="m 90,292.36218 5,0 0,-5"
+         style="fill:none;stroke:#0000ff;stroke-width:2;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+    </g>
+    <g
+       transform="matrix(0,-1,1,0,-237.36218,362.36218)"
+       id="g4136-8"
+       inkscape:export-filename="C:\Users\RB Whitaker\Documents\Visual Studio 2010\Projects\RealmFactory\Artwork\Pacman Sample\South and West.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
+      <rect
+         transform="matrix(0,1,-1,0,0,0)"
+         y="-110"
+         x="287.36218"
+         height="20"
+         width="20"
+         id="rect2985-1-2-4-1-2-6"
+         style="color:#000000;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:16.5;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+      <path
+         sodipodi:open="true"
+         sodipodi:end="1.5707963"
+         sodipodi:start="0"
+         transform="matrix(0,1,1,0,-202.36218,312.36218)"
+         d="m -10,302.36218 c 0,2.76143 -2.238576,5 -5,5"
+         sodipodi:ry="5"
+         sodipodi:rx="5"
+         sodipodi:cy="302.36218"
+         sodipodi:cx="-15"
+         id="path3855-1-8-2-8"
+         style="color:#000000;fill:none;stroke:#0000ff;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+         sodipodi:type="arc" />
+      <path
+         sodipodi:nodetypes="cc"
+         inkscape:connector-curvature="0"
+         id="path3775-7-5-8-5-1-6-6"
+         d="m 100,302.36218 -10,0"
+         style="fill:none;stroke:#0000ff;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+      <path
+         sodipodi:nodetypes="cc"
+         inkscape:connector-curvature="0"
+         id="path3775-7-5-8-5-1-6-5-8"
+         d="m 105,297.36218 0,-10"
+         style="fill:none;stroke:#0000ff;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+      <path
+         inkscape:connector-curvature="0"
+         id="path4134-5"
+         d="m 90,292.36218 5,0 0,-5"
+         style="fill:none;stroke:#0000ff;stroke-width:2;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+    </g>
+    <g
+       transform="matrix(-1,0,0,-1,160,584.72437)"
+       id="g4136-6"
+       inkscape:export-filename="C:\Users\RB Whitaker\Documents\Visual Studio 2010\Projects\RealmFactory\Artwork\Pacman Sample\South and East.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
+      <rect
+         transform="matrix(0,1,-1,0,0,0)"
+         y="-110"
+         x="287.36218"
+         height="20"
+         width="20"
+         id="rect2985-1-2-4-1-2-0"
+         style="color:#000000;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:16.5;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+      <path
+         sodipodi:open="true"
+         sodipodi:end="1.5707963"
+         sodipodi:start="0"
+         transform="matrix(0,1,1,0,-202.36218,312.36218)"
+         d="m -10,302.36218 c 0,2.76143 -2.238576,5 -5,5"
+         sodipodi:ry="5"
+         sodipodi:rx="5"
+         sodipodi:cy="302.36218"
+         sodipodi:cx="-15"
+         id="path3855-1-8-2-2"
+         style="color:#000000;fill:none;stroke:#0000ff;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+         sodipodi:type="arc" />
+      <path
+         sodipodi:nodetypes="cc"
+         inkscape:connector-curvature="0"
+         id="path3775-7-5-8-5-1-6-8"
+         d="m 100,302.36218 -10,0"
+         style="fill:none;stroke:#0000ff;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+      <path
+         sodipodi:nodetypes="cc"
+         inkscape:connector-curvature="0"
+         id="path3775-7-5-8-5-1-6-5-7"
+         d="m 105,297.36218 0,-10"
+         style="fill:none;stroke:#0000ff;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+      <path
+         inkscape:connector-curvature="0"
+         id="path4134-0"
+         d="m 90,292.36218 5,0 0,-5"
+         style="fill:none;stroke:#0000ff;stroke-width:2;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+    </g>
+    <g
+       transform="matrix(0,1,-1,0,357.36218,212.36218)"
+       id="g4136-62"
+       inkscape:export-filename="C:\Users\RB Whitaker\Documents\Visual Studio 2010\Projects\RealmFactory\Artwork\Pacman Sample\North and East.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
+      <rect
+         transform="matrix(0,1,-1,0,0,0)"
+         y="-110"
+         x="287.36218"
+         height="20"
+         width="20"
+         id="rect2985-1-2-4-1-2-7"
+         style="color:#000000;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:16.5;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+      <path
+         sodipodi:open="true"
+         sodipodi:end="1.5707963"
+         sodipodi:start="0"
+         transform="matrix(0,1,1,0,-202.36218,312.36218)"
+         d="m -10,302.36218 c 0,2.76143 -2.238576,5 -5,5"
+         sodipodi:ry="5"
+         sodipodi:rx="5"
+         sodipodi:cy="302.36218"
+         sodipodi:cx="-15"
+         id="path3855-1-8-2-4"
+         style="color:#000000;fill:none;stroke:#0000ff;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+         sodipodi:type="arc" />
+      <path
+         sodipodi:nodetypes="cc"
+         inkscape:connector-curvature="0"
+         id="path3775-7-5-8-5-1-6-64"
+         d="m 100,302.36218 -10,0"
+         style="fill:none;stroke:#0000ff;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+      <path
+         sodipodi:nodetypes="cc"
+         inkscape:connector-curvature="0"
+         id="path3775-7-5-8-5-1-6-5-3"
+         d="m 105,297.36218 0,-10"
+         style="fill:none;stroke:#0000ff;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+      <path
+         inkscape:connector-curvature="0"
+         id="path4134-1"
+         d="m 90,292.36218 5,0 0,-5"
+         style="fill:none;stroke:#0000ff;stroke-width:2;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+    </g>
+    <rect
+       style="color:#000000;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:16.5;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       id="rect2985-1-2-4-1-2-65"
+       width="20"
+       height="20"
+       x="302.36218"
+       y="5"
+       transform="matrix(0,1,-1,0,0,0)"
+       inkscape:export-filename="C:\Users\RB Whitaker\Documents\Visual Studio 2010\Projects\RealmFactory\Artwork\Pacman Sample\Blank.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <g
+       id="g4510"
+       transform="translate(-165,-10)"
+       inkscape:export-filename="C:\Users\RB Whitaker\Documents\Visual Studio 2010\Projects\RealmFactory\Artwork\Pacman Sample\Small Dot.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
+      <rect
+         transform="matrix(0,1,-1,0,0,0)"
+         y="-160"
+         x="262.36218"
+         height="20"
+         width="20"
+         id="rect2985-1-2-4-1-2-65-1"
+         style="color:#000000;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:16.5;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+      <path
+         transform="matrix(2,0,0,2,-150,-272.36218)"
+         d="m 151,272.36218 c 0,0.55229 -0.44772,1 -1,1 -0.55228,0 -1,-0.44771 -1,-1 0,-0.55228 0.44772,-1 1,-1 0.55228,0 1,0.44772 1,1 z"
+         sodipodi:ry="1"
+         sodipodi:rx="1"
+         sodipodi:cy="272.36218"
+         sodipodi:cx="150"
+         id="path4250"
+         style="color:#000000;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:2;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+         sodipodi:type="arc" />
+    </g>
+    <g
+       id="g4506"
+       transform="translate(-165,-10)"
+       inkscape:export-filename="C:\Users\RB Whitaker\Documents\Visual Studio 2010\Projects\RealmFactory\Artwork\Pacman Sample\Large Dot.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
+      <rect
+         transform="matrix(0,1,-1,0,0,0)"
+         y="-160"
+         x="287.36218"
+         height="20"
+         width="20"
+         id="rect2985-1-2-4-1-2-65-1-6"
+         style="color:#000000;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:16.5;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+      <path
+         transform="matrix(4.999995,0,0,4.999995,-599.99925,-1064.4474)"
+         d="m 151,272.36218 c 0,0.55229 -0.44772,1 -1,1 -0.55228,0 -1,-0.44771 -1,-1 0,-0.55228 0.44772,-1 1,-1 0.55228,0 1,0.44772 1,1 z"
+         sodipodi:ry="1"
+         sodipodi:rx="1"
+         sodipodi:cy="272.36218"
+         sodipodi:cx="150"
+         id="path4250-0"
+         style="color:#000000;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:2;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+         sodipodi:type="arc" />
+    </g>
+    <g
+       id="g4502"
+       transform="translate(-165,-85)"
+       inkscape:export-filename="C:\Users\RB Whitaker\Documents\Visual Studio 2010\Projects\RealmFactory\Artwork\Pacman Sample\Pac-Man.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
+      <rect
+         transform="matrix(0,1,-1,0,0,0)"
+         y="-160"
+         x="312.36218"
+         height="20"
+         width="20"
+         id="rect2985-1-2-4-1-2-65-1-6-8"
+         style="color:#000000;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:16.5;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+      <path
+         sodipodi:end="5.4977871"
+         sodipodi:start="0.78539816"
+         transform="matrix(9.8995393,0,0,9.8995393,-1334.2134,-2373.898)"
+         d="m 150.70711,273.06929 c -0.39053,0.39052 -1.02369,0.39052 -1.41422,0 -0.39052,-0.39052 -0.39052,-1.02369 0,-1.41421 0.39053,-0.39053 1.02369,-0.39053 1.41422,0 L 150,272.36218 z"
+         sodipodi:ry="1"
+         sodipodi:rx="1"
+         sodipodi:cy="272.36218"
+         sodipodi:cx="150"
+         id="path4250-0-7"
+         style="color:#000000;fill:#ffff00;fill-opacity:1;stroke:none;stroke-width:2;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+         sodipodi:type="arc" />
+    </g>
+    <g
+       id="g4470"
+       transform="translate(35.000008,40)"
+       inkscape:export-filename="C:\Users\RB Whitaker\Documents\Visual Studio 2010\Projects\RealmFactory\Artwork\Pacman Sample\Ghost Container Right.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
+      <rect
+         transform="matrix(0,-1,1,0,0,0)"
+         y="64.999992"
+         x="-257.36218"
+         height="20"
+         width="20"
+         id="rect2985-1-2-4-33"
+         style="color:#000000;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:16.5;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+      <path
+         inkscape:connector-curvature="0"
+         id="path4420"
+         d="m 70,247.36218 -5,0"
+         style="fill:none;stroke:#ffffff;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+      <path
+         transform="matrix(0,-1,-1,0,377.36218,232.36218)"
+         sodipodi:open="true"
+         sodipodi:end="3.1415927"
+         sodipodi:start="0"
+         d="m -10,302.36218 c 0,2.76143 -2.238576,5 -5,5 -2.761424,0 -5,-2.23857 -5,-5 0,0 0,0 0,0"
+         sodipodi:ry="5"
+         sodipodi:rx="5"
+         sodipodi:cy="302.36218"
+         sodipodi:cx="-15"
+         id="path3855-1-4"
+         style="color:#000000;fill:none;stroke:#0000ff;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+         sodipodi:type="arc" />
+      <path
+         sodipodi:nodetypes="cc"
+         inkscape:connector-curvature="0"
+         id="path3775-72-8-7-6"
+         d="m 74.99999,252.36218 10,0"
+         style="fill:none;stroke:#0000ff;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+      <path
+         sodipodi:nodetypes="cc"
+         inkscape:connector-curvature="0"
+         id="path3775-7-5-8-5-3"
+         d="m 74.99999,242.36218 10,0"
+         style="fill:none;stroke:#0000ff;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+    </g>
+    <g
+       id="g4448"
+       transform="translate(10.000023,-10)"
+       inkscape:export-filename="C:\Users\RB Whitaker\Documents\Visual Studio 2010\Projects\RealmFactory\Artwork\Pacman Sample\Ghost Container Left.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
+      <rect
+         transform="matrix(0,1,-1,0,0,0)"
+         y="-109.99998"
+         x="237.36218"
+         height="20"
+         width="20"
+         id="rect2985-1-2-4-1-1"
+         style="color:#000000;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:16.5;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+      <path
+         inkscape:connector-curvature="0"
+         id="path4420-2"
+         d="m 110,247.36218 -5,0"
+         style="fill:none;stroke:#ffffff;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+      <path
+         transform="matrix(0,1,1,0,-202.3622,262.36218)"
+         sodipodi:open="true"
+         sodipodi:end="3.1415927"
+         sodipodi:start="0"
+         d="m -10,302.36218 c 0,2.76143 -2.238576,5 -5,5 -2.761424,0 -5,-2.23857 -5,-5 0,0 0,0 0,0"
+         sodipodi:ry="5"
+         sodipodi:rx="5"
+         sodipodi:cy="302.36218"
+         sodipodi:cx="-15"
+         id="path3855-1-8-1"
+         style="color:#000000;fill:none;stroke:#0000ff;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+         sodipodi:type="arc" />
+      <path
+         sodipodi:nodetypes="cc"
+         inkscape:connector-curvature="0"
+         id="path3775-72-8-7-7-8"
+         d="m 99.99999,242.36218 -10,0"
+         style="fill:none;stroke:#0000ff;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+      <path
+         sodipodi:nodetypes="cc"
+         inkscape:connector-curvature="0"
+         id="path3775-7-5-8-5-1-4"
+         d="m 99.99999,252.36218 -10,0"
+         style="fill:none;stroke:#0000ff;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+    </g>
+    <g
+       id="g4498"
+       transform="translate(-15,15)"
+       inkscape:export-filename="C:\Users\RB Whitaker\Documents\Visual Studio 2010\Projects\RealmFactory\Artwork\Pacman Sample\Ghost Container Center.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
+      <rect
+         transform="matrix(0,-1,1,0,0,0)"
+         y="115"
+         x="-257.36218"
+         height="20"
+         width="20"
+         id="rect2985-1-2-4-33-8"
+         style="color:#000000;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:16.5;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+      <path
+         sodipodi:nodetypes="cc"
+         inkscape:connector-curvature="0"
+         id="path4420-5"
+         d="m 135,247.36218 -19.99999,0"
+         style="fill:none;stroke:#ffffff;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+    </g>
+    <g
+       id="g4482"
+       inkscape:export-filename="C:\Users\RB Whitaker\Documents\Visual Studio 2010\Projects\RealmFactory\Artwork\Pacman Sample\NorthWest-Single.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
+      <rect
+         transform="matrix(0,1,-1,0,0,0)"
+         y="-70"
+         x="202.36218"
+         height="20"
+         width="20"
+         id="rect2985-1-2-4-1-2-64"
+         style="color:#000000;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:16.5;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+      <path
+         sodipodi:open="true"
+         sodipodi:end="1.5707963"
+         sodipodi:start="0"
+         transform="matrix(0,1,1,0,-247.36218,222.36218)"
+         d="m -10,302.36218 a 5,5 0 0 1 -5,5"
+         sodipodi:ry="5"
+         sodipodi:rx="5"
+         sodipodi:cy="302.36218"
+         sodipodi:cx="-15"
+         id="path3855-1-8-2-80"
+         style="color:#000000;fill:none;stroke:#0000ff;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+         sodipodi:type="arc" />
+      <path
+         sodipodi:nodetypes="cc"
+         inkscape:connector-curvature="0"
+         id="path3775-7-5-8-5-1-6-3"
+         d="m 55,212.36218 -5,0"
+         style="fill:none;stroke:#0000ff;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+      <path
+         sodipodi:nodetypes="cc"
+         inkscape:connector-curvature="0"
+         id="path3775-7-5-8-5-1-6-5-85"
+         d="m 60,207.36218 0,-5"
+         style="fill:none;stroke:#0000ff;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+    </g>
+    <g
+       transform="matrix(0,-1,1,0,-127.36218,272.36219)"
+       id="g4482-7"
+       inkscape:export-filename="C:\Users\RB Whitaker\Documents\Visual Studio 2010\Projects\RealmFactory\Artwork\Pacman Sample\SouthWest-Single.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
+      <rect
+         transform="matrix(0,1,-1,0,0,0)"
+         y="-70"
+         x="202.36218"
+         height="20"
+         width="20"
+         id="rect2985-1-2-4-1-2-64-0"
+         style="color:#000000;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:16.5;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+      <path
+         sodipodi:open="true"
+         sodipodi:end="1.5707963"
+         sodipodi:start="0"
+         transform="matrix(0,1,1,0,-247.36218,222.36218)"
+         d="m -10,302.36218 c 0,2.76143 -2.238576,5 -5,5"
+         sodipodi:ry="5"
+         sodipodi:rx="5"
+         sodipodi:cy="302.36218"
+         sodipodi:cx="-15"
+         id="path3855-1-8-2-80-9"
+         style="color:#000000;fill:none;stroke:#0000ff;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+         sodipodi:type="arc" />
+      <path
+         sodipodi:nodetypes="cc"
+         inkscape:connector-curvature="0"
+         id="path3775-7-5-8-5-1-6-3-0"
+         d="m 55,212.36218 -5,0"
+         style="fill:none;stroke:#0000ff;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+      <path
+         sodipodi:nodetypes="cc"
+         inkscape:connector-curvature="0"
+         id="path3775-7-5-8-5-1-6-5-85-5"
+         d="m 60,207.36218 0,-5"
+         style="fill:none;stroke:#0000ff;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+    </g>
+    <g
+       transform="matrix(0,1,-1,0,322.36218,152.36218)"
+       id="g4482-8"
+       inkscape:export-filename="C:\Users\RB Whitaker\Documents\Visual Studio 2010\Projects\RealmFactory\Artwork\Pacman Sample\NorthEast-Single.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
+      <rect
+         transform="matrix(0,1,-1,0,0,0)"
+         y="-70"
+         x="202.36218"
+         height="20"
+         width="20"
+         id="rect2985-1-2-4-1-2-64-3"
+         style="color:#000000;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:16.5;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+      <path
+         sodipodi:open="true"
+         sodipodi:end="1.5707963"
+         sodipodi:start="0"
+         transform="matrix(0,1,1,0,-247.36218,222.36218)"
+         d="m -10,302.36218 c 0,2.76143 -2.238576,5 -5,5"
+         sodipodi:ry="5"
+         sodipodi:rx="5"
+         sodipodi:cy="302.36218"
+         sodipodi:cx="-15"
+         id="path3855-1-8-2-80-4"
+         style="color:#000000;fill:none;stroke:#0000ff;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+         sodipodi:type="arc" />
+      <path
+         sodipodi:nodetypes="cc"
+         inkscape:connector-curvature="0"
+         id="path3775-7-5-8-5-1-6-3-1"
+         d="m 55,212.36218 -5,0"
+         style="fill:none;stroke:#0000ff;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+      <path
+         sodipodi:nodetypes="cc"
+         inkscape:connector-curvature="0"
+         id="path3775-7-5-8-5-1-6-5-85-2"
+         d="m 60,207.36218 0,-5"
+         style="fill:none;stroke:#0000ff;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+    </g>
+    <g
+       transform="matrix(-1,0,0,-1,195,424.72437)"
+       id="g4482-9"
+       inkscape:export-filename="C:\Users\RB Whitaker\Documents\Visual Studio 2010\Projects\RealmFactory\Artwork\Pacman Sample\SouthEast-Single.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
+      <rect
+         transform="matrix(0,1,-1,0,0,0)"
+         y="-70"
+         x="202.36218"
+         height="20"
+         width="20"
+         id="rect2985-1-2-4-1-2-64-6"
+         style="color:#000000;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:16.5;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+      <path
+         sodipodi:open="true"
+         sodipodi:end="1.5707963"
+         sodipodi:start="0"
+         transform="matrix(0,1,1,0,-247.36218,222.36218)"
+         d="m -10,302.36218 c 0,2.76143 -2.238576,5 -5,5"
+         sodipodi:ry="5"
+         sodipodi:rx="5"
+         sodipodi:cy="302.36218"
+         sodipodi:cx="-15"
+         id="path3855-1-8-2-80-3"
+         style="color:#000000;fill:none;stroke:#0000ff;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+         sodipodi:type="arc" />
+      <path
+         sodipodi:nodetypes="cc"
+         inkscape:connector-curvature="0"
+         id="path3775-7-5-8-5-1-6-3-8"
+         d="m 55,212.36218 -5,0"
+         style="fill:none;stroke:#0000ff;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+      <path
+         sodipodi:nodetypes="cc"
+         inkscape:connector-curvature="0"
+         id="path3775-7-5-8-5-1-6-5-85-8"
+         d="m 60,207.36218 0,-5"
+         style="fill:none;stroke:#0000ff;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+    </g>
+    <g
+       id="g4578"
+       inkscape:export-filename="C:\Users\RB Whitaker\Documents\Visual Studio 2010\Projects\RealmFactory\Artwork\Pacman Sample\Vertical-Single.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
+      <rect
+         y="202.36218"
+         x="25"
+         height="20"
+         width="20"
+         id="rect2985-8"
+         style="color:#000000;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:16.5;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+      <path
+         sodipodi:nodetypes="cc"
+         inkscape:connector-curvature="0"
+         id="path3775-7-17"
+         d="m 35,202.36218 0,20"
+         style="fill:none;stroke:#0000ff;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+    </g>
+    <g
+       transform="matrix(0,-1,1,0,-202.36218,247.36218)"
+       id="g4578-3"
+       inkscape:export-filename="C:\Users\RB Whitaker\Documents\Visual Studio 2010\Projects\RealmFactory\Artwork\Pacman Sample\Horizontal-Single.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
+      <rect
+         y="202.36218"
+         x="25"
+         height="20"
+         width="20"
+         id="rect2985-8-4"
+         style="color:#000000;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:16.5;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+      <path
+         sodipodi:nodetypes="cc"
+         inkscape:connector-curvature="0"
+         id="path3775-7-17-2"
+         d="m 35,202.36218 0,20"
+         style="fill:none;stroke:#0000ff;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+    </g>
+  </g>
+</svg>
