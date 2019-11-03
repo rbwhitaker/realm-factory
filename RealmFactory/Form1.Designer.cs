@@ -48,10 +48,6 @@
             this.redoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.helpToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.checkForUpdatesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.submitToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.bugToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.feedbackToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.featureRequestToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripSeparator4 = new System.Windows.Forms.ToolStripSeparator();
             this.onlineForumToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.tutorialToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -170,8 +166,8 @@
             // 
             this.saveAsToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("saveAsToolStripMenuItem.Image")));
             this.saveAsToolStripMenuItem.Name = "saveAsToolStripMenuItem";
-            this.saveAsToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)(((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.Shift)
-                        | System.Windows.Forms.Keys.S)));
+            this.saveAsToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)(((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.Shift) 
+            | System.Windows.Forms.Keys.S)));
             this.saveAsToolStripMenuItem.Size = new System.Drawing.Size(195, 22);
             this.saveAsToolStripMenuItem.Text = "Save As...";
             this.saveAsToolStripMenuItem.ToolTipText = "Save the current project with a different file name";
@@ -265,7 +261,6 @@
             // 
             this.helpToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.checkForUpdatesToolStripMenuItem,
-            this.submitToolStripMenuItem,
             this.toolStripSeparator4,
             this.onlineForumToolStripMenuItem,
             this.tutorialToolStripMenuItem,
@@ -283,44 +278,6 @@
             this.checkForUpdatesToolStripMenuItem.Text = "Check for Updates";
             this.checkForUpdatesToolStripMenuItem.ToolTipText = "Check for updates to the application";
             this.checkForUpdatesToolStripMenuItem.Click += new System.EventHandler(this.checkForUpdatesToolStripMenuItem_Click);
-            // 
-            // submitToolStripMenuItem
-            // 
-            this.submitToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.bugToolStripMenuItem,
-            this.feedbackToolStripMenuItem,
-            this.featureRequestToolStripMenuItem});
-            this.submitToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("submitToolStripMenuItem.Image")));
-            this.submitToolStripMenuItem.Name = "submitToolStripMenuItem";
-            this.submitToolStripMenuItem.Size = new System.Drawing.Size(227, 22);
-            this.submitToolStripMenuItem.Text = "Submit...";
-            // 
-            // bugToolStripMenuItem
-            // 
-            this.bugToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("bugToolStripMenuItem.Image")));
-            this.bugToolStripMenuItem.Name = "bugToolStripMenuItem";
-            this.bugToolStripMenuItem.Size = new System.Drawing.Size(158, 22);
-            this.bugToolStripMenuItem.Text = "Bug";
-            this.bugToolStripMenuItem.ToolTipText = "Submit a bug that you have found";
-            this.bugToolStripMenuItem.Click += new System.EventHandler(this.bugToolStripMenuItem_Click);
-            // 
-            // feedbackToolStripMenuItem
-            // 
-            this.feedbackToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("feedbackToolStripMenuItem.Image")));
-            this.feedbackToolStripMenuItem.Name = "feedbackToolStripMenuItem";
-            this.feedbackToolStripMenuItem.Size = new System.Drawing.Size(158, 22);
-            this.feedbackToolStripMenuItem.Text = "Feedback";
-            this.feedbackToolStripMenuItem.ToolTipText = "Send in your feedback about the program";
-            this.feedbackToolStripMenuItem.Click += new System.EventHandler(this.feedbackToolStripMenuItem_Click);
-            // 
-            // featureRequestToolStripMenuItem
-            // 
-            this.featureRequestToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("featureRequestToolStripMenuItem.Image")));
-            this.featureRequestToolStripMenuItem.Name = "featureRequestToolStripMenuItem";
-            this.featureRequestToolStripMenuItem.Size = new System.Drawing.Size(158, 22);
-            this.featureRequestToolStripMenuItem.Text = "Feature Request";
-            this.featureRequestToolStripMenuItem.ToolTipText = "Request a feature for a future version of the program.";
-            this.featureRequestToolStripMenuItem.Click += new System.EventHandler(this.featureRequestToolStripMenuItem_Click);
             // 
             // toolStripSeparator4
             // 
@@ -590,15 +547,16 @@
             // 
             // objectPalette
             // 
-            this.objectPalette.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
-                        | System.Windows.Forms.AnchorStyles.Left)
-                        | System.Windows.Forms.AnchorStyles.Right)));
+            this.objectPalette.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.objectPalette.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(235)))), ((int)(((byte)(235)))), ((int)(((byte)(235)))));
             this.objectPalette.DisplayMode = Starbound.RealmFactory.UserInterface.DisplayMode.ImageOnly;
             this.objectPalette.GameObjects = null;
+            this.objectPalette.GridColumns = 4;
             this.objectPalette.Location = new System.Drawing.Point(9, 69);
             this.objectPalette.Name = "objectPalette";
-            this.objectPalette.SelectedIndex = 0;
+            this.objectPalette.SelectedIndex = -1;
             this.objectPalette.Size = new System.Drawing.Size(235, 112);
             this.objectPalette.TabIndex = 1;
             this.objectPalette.ItemClicked += new System.EventHandler(this.objectPalette_ItemClicked);
@@ -617,9 +575,9 @@
             // 
             // levelListBox
             // 
-            this.levelListBox.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
-                        | System.Windows.Forms.AnchorStyles.Left)
-                        | System.Windows.Forms.AnchorStyles.Right)));
+            this.levelListBox.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.levelListBox.ContextMenuStrip = this.levelsContextMenu;
             this.levelListBox.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
             this.levelListBox.Font = new System.Drawing.Font("Segoe UI", 12F);
@@ -698,14 +656,14 @@
             this.toolStripMenuItem3,
             this.toolStripMenuItem2});
             this.tilesContextMenu.Name = "levelsContextMenu";
-            this.tilesContextMenu.Size = new System.Drawing.Size(160, 70);
+            this.tilesContextMenu.Size = new System.Drawing.Size(158, 70);
             // 
             // toolStripMenuItem1
             // 
             this.toolStripMenuItem1.Image = ((System.Drawing.Image)(resources.GetObject("toolStripMenuItem1.Image")));
             this.toolStripMenuItem1.Name = "toolStripMenuItem1";
             this.toolStripMenuItem1.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.T)));
-            this.toolStripMenuItem1.Size = new System.Drawing.Size(159, 22);
+            this.toolStripMenuItem1.Size = new System.Drawing.Size(157, 22);
             this.toolStripMenuItem1.Text = "Add Tile";
             this.toolStripMenuItem1.Click += new System.EventHandler(this.toolStripMenuItem1_Click);
             // 
@@ -713,7 +671,7 @@
             // 
             this.toolStripMenuItem3.Image = ((System.Drawing.Image)(resources.GetObject("toolStripMenuItem3.Image")));
             this.toolStripMenuItem3.Name = "toolStripMenuItem3";
-            this.toolStripMenuItem3.Size = new System.Drawing.Size(159, 22);
+            this.toolStripMenuItem3.Size = new System.Drawing.Size(157, 22);
             this.toolStripMenuItem3.Text = "Properties";
             this.toolStripMenuItem3.Click += new System.EventHandler(this.typePropertiesToolStripMenuItem_Click);
             // 
@@ -722,7 +680,7 @@
             this.toolStripMenuItem2.Image = ((System.Drawing.Image)(resources.GetObject("toolStripMenuItem2.Image")));
             this.toolStripMenuItem2.Name = "toolStripMenuItem2";
             this.toolStripMenuItem2.ShortcutKeys = System.Windows.Forms.Keys.Delete;
-            this.toolStripMenuItem2.Size = new System.Drawing.Size(159, 22);
+            this.toolStripMenuItem2.Size = new System.Drawing.Size(157, 22);
             this.toolStripMenuItem2.Text = "Delete";
             this.toolStripMenuItem2.Click += new System.EventHandler(this.toolStripMenuItem2_Click);
             // 
@@ -779,10 +737,6 @@
         private System.Windows.Forms.ToolStripMenuItem redoToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem helpToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem checkForUpdatesToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem submitToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem bugToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem feedbackToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem featureRequestToolStripMenuItem;
         private System.Windows.Forms.ToolStripSeparator toolStripSeparator4;
         private System.Windows.Forms.ToolStripMenuItem onlineForumToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem tutorialToolStripMenuItem;
