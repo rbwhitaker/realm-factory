@@ -1,6 +1,8 @@
 ﻿
-Microsoft Visual Studio Solution File, Format Version 11.00
-# Visual C# Express 2010
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29324.140
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RealmFactory", "RealmFactory\RealmFactory.csproj", "{BC643B37-174F-4E07-8724-5C9E814E77BA}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LevelChecker", "LevelChecker\LevelChecker\LevelChecker.csproj", "{4DD8D074-01ED-4A19-897B-9ABDD9CC3772}"
@@ -14,8 +16,6 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Common.WinForms", "..\Common\Common.WinForms\Common.WinForms.csproj", "{660C0F7D-C13A-468B-B675-3DC6AA315850}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Common", "..\Starbound.Common\Common.csproj", "{8EAC93C9-C594-4C2B-8795-6DBCDC281E7C}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTests", "UnitTests\UnitTests.csproj", "{5651861F-53E5-4C46-8052-4156329BF807}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -95,18 +95,11 @@ Global
 		{8EAC93C9-C594-4C2B-8795-6DBCDC281E7C}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
 		{8EAC93C9-C594-4C2B-8795-6DBCDC281E7C}.Release|Mixed Platforms.Build.0 = Release|Any CPU
 		{8EAC93C9-C594-4C2B-8795-6DBCDC281E7C}.Release|x86.ActiveCfg = Release|Any CPU
-		{5651861F-53E5-4C46-8052-4156329BF807}.Debug|Any CPU.ActiveCfg = Debug|x86
-		{5651861F-53E5-4C46-8052-4156329BF807}.Debug|Mixed Platforms.ActiveCfg = Debug|x86
-		{5651861F-53E5-4C46-8052-4156329BF807}.Debug|Mixed Platforms.Build.0 = Debug|x86
-		{5651861F-53E5-4C46-8052-4156329BF807}.Debug|x86.ActiveCfg = Debug|x86
-		{5651861F-53E5-4C46-8052-4156329BF807}.Debug|x86.Build.0 = Debug|x86
-		{5651861F-53E5-4C46-8052-4156329BF807}.Release|Any CPU.ActiveCfg = Release|x86
-		{5651861F-53E5-4C46-8052-4156329BF807}.Release|Mixed Platforms.ActiveCfg = Release|x86
-		{5651861F-53E5-4C46-8052-4156329BF807}.Release|Mixed Platforms.Build.0 = Release|x86
-		{5651861F-53E5-4C46-8052-4156329BF807}.Release|x86.ActiveCfg = Release|x86
-		{5651861F-53E5-4C46-8052-4156329BF807}.Release|x86.Build.0 = Release|x86
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D5F07317-88DF-4B39-9BD6-A2C5AB4FC6CF}
 	EndGlobalSection
 EndGlobal
