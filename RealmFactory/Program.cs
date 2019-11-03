@@ -27,14 +27,6 @@ namespace RealmEngine
             Application.DoEvents();
             Thread.Sleep(3000);
 
-            try
-            {
-                WebServicesCommunicator.Initialize();
-            }
-            catch (Exception)
-            {
-            }
-
             Application.Run(new Form1());
         }
     }

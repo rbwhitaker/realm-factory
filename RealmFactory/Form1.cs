@@ -580,59 +580,59 @@ namespace RealmEngine
 
         private void bugToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            using (SubmitBugDialog submitBugDialog = new SubmitBugDialog())
-            {
-                if (submitBugDialog.ShowDialog() == System.Windows.Forms.DialogResult.OK)
-                {
-                    try
-                    {
-                        WebServicesCommunicator.SubmitBugReport(submitBugDialog.BugReport);
-                        MessageBox.Show("Your bug was submitted successfully!", "Realm Factory", MessageBoxButtons.OK, MessageBoxIcon.Information);
-                    }
-                    catch (Exception)
-                    {
-                        MessageBox.Show("An error occurred while submitting your bug.  Please try again later.", "Realm Factory", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                    }
-                }
-            }
+            //using (SubmitBugDialog submitBugDialog = new SubmitBugDialog())
+            //{
+            //    if (submitBugDialog.ShowDialog() == System.Windows.Forms.DialogResult.OK)
+            //    {
+            //        try
+            //        {
+            //            WebServicesCommunicator.SubmitBugReport(submitBugDialog.BugReport);
+            //            MessageBox.Show("Your bug was submitted successfully!", "Realm Factory", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            //        }
+            //        catch (Exception)
+            //        {
+            //            MessageBox.Show("An error occurred while submitting your bug.  Please try again later.", "Realm Factory", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            //        }
+            //    }
+            //}
         }
 
         private void featureRequestToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            using (SubmitFeatureRequestDialog submitFeatureDialog = new SubmitFeatureRequestDialog())
-            {
-                if (submitFeatureDialog.ShowDialog() == System.Windows.Forms.DialogResult.OK)
-                {
-                    try
-                    {
-                        WebServicesCommunicator.SubmitFeatureRequest(submitFeatureDialog.FeatureRequestReport);
-                        MessageBox.Show("Your feature request was submitted successfully!", "Realm Factory", MessageBoxButtons.OK, MessageBoxIcon.Information);
-                    }
-                    catch (Exception)
-                    {
-                        MessageBox.Show("An error occurred while submitting your feature request.  Please try again later.", "Realm Factory", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                    }
-                }
-            }
+            //using (SubmitFeatureRequestDialog submitFeatureDialog = new SubmitFeatureRequestDialog())
+            //{
+            //    if (submitFeatureDialog.ShowDialog() == System.Windows.Forms.DialogResult.OK)
+            //    {
+            //        try
+            //        {
+            //            WebServicesCommunicator.SubmitFeatureRequest(submitFeatureDialog.FeatureRequestReport);
+            //            MessageBox.Show("Your feature request was submitted successfully!", "Realm Factory", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            //        }
+            //        catch (Exception)
+            //        {
+            //            MessageBox.Show("An error occurred while submitting your feature request.  Please try again later.", "Realm Factory", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            //        }
+            //    }
+            //}
         }
 
         private void feedbackToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            using (SubmitFeedbackDialog feedbackDialog = new SubmitFeedbackDialog())
-            {
-                if(feedbackDialog.ShowDialog() == System.Windows.Forms.DialogResult.OK)
-                {
-                    try
-                    {
-                        WebServicesCommunicator.SubmitFeedback(feedbackDialog.FeedbackReport);
-                        MessageBox.Show("Your feedback was submitted successfully!", "Realm Factory", MessageBoxButtons.OK, MessageBoxIcon.Information);
-                    }
-                    catch (Exception)
-                    {
-                        MessageBox.Show("An error occurred while submitting your feedback.  Please try again later.", "Realm Factory", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                    }
-                }
-            }
+            //using (SubmitFeedbackDialog feedbackDialog = new SubmitFeedbackDialog())
+            //{
+            //    if(feedbackDialog.ShowDialog() == System.Windows.Forms.DialogResult.OK)
+            //    {
+            //        try
+            //        {
+            //            WebServicesCommunicator.SubmitFeedback(feedbackDialog.FeedbackReport);
+            //            MessageBox.Show("Your feedback was submitted successfully!", "Realm Factory", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            //        }
+            //        catch (Exception)
+            //        {
+            //            MessageBox.Show("An error occurred while submitting your feedback.  Please try again later.", "Realm Factory", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            //        }
+            //    }
+            //}
         }
 
         private void aboutRealmEngineToolStripMenuItem_Click(object sender, EventArgs e)
