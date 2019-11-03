@@ -10,7 +10,7 @@ using System.Runtime.InteropServices;
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("Starbound Software")]
 [assembly: AssemblyProduct("RealmFactoryContentManager")]
-[assembly: AssemblyCopyright("Copyright © RB Whitaker 2011")]
+[assembly: AssemblyCopyright("Copyright © RB Whitaker 2011-2019")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
@@ -29,5 +29,5 @@ using System.Runtime.InteropServices;
 //      Build Number
 //      Revision
 //
-[assembly: AssemblyVersion("1.0.9")]
-[assembly: AssemblyFileVersion("1.0.9")]
+[assembly: AssemblyVersion("1.0.10")]
+[assembly: AssemblyFileVersion("1.0.10")]
