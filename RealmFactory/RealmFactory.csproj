@@ -15,7 +15,7 @@
     </TargetFrameworkProfile>
     <FileAlignment>512</FileAlignment>
     <IsWebBootstrapper>true</IsWebBootstrapper>
-    <PublishUrl>C:\Users\RB Whitaker\Desktop\eclipse-php\workspace\Starbound Software Website\files\software\realm-factory\downloads\</PublishUrl>
+    <PublishUrl>C:\Users\RB\Documents\TITAN - Some of it\Clean Desktop\Documents\Starbound Software\Projects\RealmFactory\Output\</PublishUrl>
     <Install>true</Install>
     <InstallFrom>Web</InstallFrom>
     <UpdateEnabled>true</UpdateEnabled>
@@ -35,8 +35,8 @@
     <CreateWebPageOnPublish>true</CreateWebPageOnPublish>
     <WebPage>publish.htm</WebPage>
     <OpenBrowserOnPublish>false</OpenBrowserOnPublish>
-    <ApplicationRevision>61</ApplicationRevision>
-    <ApplicationVersion>1.0.9.%2a</ApplicationVersion>
+    <ApplicationRevision>62</ApplicationRevision>
+    <ApplicationVersion>1.0.10.%2a</ApplicationVersion>
     <UseApplicationTrust>false</UseApplicationTrust>
     <CreateDesktopShortcut>true</CreateDesktopShortcut>
     <PublishWizardCompleted>true</PublishWizardCompleted>
