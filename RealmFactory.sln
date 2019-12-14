@@ -13,9 +13,9 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RealmFactoryContentManager"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RealmFactoryCore", "RealmFactoryCore\RealmFactoryCore.csproj", "{C2BBE340-C225-44B5-9C2C-80C25C9FF94A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Common.WinForms", "..\Common\Common.WinForms\Common.WinForms.csproj", "{660C0F7D-C13A-468B-B675-3DC6AA315850}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Common.WinForms", "Common.WinForms\Common.WinForms.csproj", "{660C0F7D-C13A-468B-B675-3DC6AA315850}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Common", "..\Starbound.Common\Common.csproj", "{8EAC93C9-C594-4C2B-8795-6DBCDC281E7C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Common", "Starbound.Common\Common.csproj", "{8EAC93C9-C594-4C2B-8795-6DBCDC281E7C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
