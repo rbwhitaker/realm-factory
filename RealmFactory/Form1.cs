@@ -354,73 +354,104 @@ namespace RealmEngine
 
             if (ActiveTool == Tool.Pencil)
             {
-                if (activeType == null) MessageBox.Show("Select an object in the Object Palette to use this tool.", "No object selected", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                else
+                bool somethingChanged = UsePencilTool(new Point(e.X, e.Y), activeType, activeLevel);
+                if (somethingChanged)
                 {
-                    Point position = new Point(e.X, e.Y);
-                    int row = position.Y / activeLevel.Settings.CellHeight;
-                    int column = position.X / activeLevel.Settings.CellWidth;
-
-                    if (row < 0) { return; }
-                    if (row >= activeLevel.Settings.Rows) { return; }
-
-                    if (column < 0) { return; }
-                    if (column >= activeLevel.Settings.Columns) { return; }
-
-                    ImageObject2D type = (ImageObject2D)activeLevel.Get(column, row);
-                    if (type == null || type.ParentType != activeType)
-                    {
-                        if (type != null && !_project.Types.Contains(activeType)) { throw new Exception("type not in project"); }
-                        activeLevel.Put(type == null ? null : activeType.GenerateNew(), column, row);
-                        levelRenderer.Refresh();
-                        _somethingChanged = true;
-                    }
+                    levelRenderer.Refresh();
+                    _somethingChanged = true;
                 }
             }
             if (ActiveTool == Tool.Eraser)
             {
-                Point position = new Point(e.X, e.Y);
-                int row = position.Y / activeLevel.Settings.CellHeight;
-                int column = position.X / activeLevel.Settings.CellWidth;
-
-                if (row < 0) { return; }
-                if (row >= activeLevel.Settings.Rows) { return; }
-
-                if (column < 0) { return; }
-                if (column >= activeLevel.Settings.Columns) { return; }
-
-                ImageObject2D type = (ImageObject2D)activeLevel.Get(column, row);
-                if (type != null)
+                bool somethingChanged = UseEraserTool(new Point(e.X, e.Y), activeType, activeLevel);
+                if (somethingChanged)
                 {
-                    activeLevel.Erase(column, row);
                     levelRenderer.Refresh();
                     _somethingChanged = true;
                 }
             }
             if (ActiveTool == Tool.Bucket)
             {
-                if (activeType == null) MessageBox.Show("Select an object in the Object Palette to use this tool.", "No object selected", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                else
+                bool somethingChanged = UseFillTool(new Point(e.X, e.Y), activeType, activeLevel);
+                if (somethingChanged)
                 {
-                    Point position = new Point(e.X, e.Y);
-                    int row = position.Y / activeLevel.Settings.CellHeight;
-                    int column = position.X / activeLevel.Settings.CellWidth;
-
-                    if (row < 0) { return; }
-                    if (row >= activeLevel.Settings.Rows) { return; }
-
-                    if (column < 0) { return; }
-                    if (column >= activeLevel.Settings.Columns) { return; }
-
-                    if (activeLevel.Get(column, row) == null || activeLevel.Get(column, row).ParentType != activeType)
-                    {
-                        Fill(activeLevel, row, column, activeLevel.Get(column, row), activeType.GenerateNew());
-                    }
-
                     levelRenderer.Refresh();
                     _somethingChanged = true;
                 }
             }
+        }
+
+        private bool UsePencilTool(Point position, ImageObject2DType activeType, Level activeLevel)
+        {
+            if (activeType == null)
+            {
+                MessageBox.Show("Select an object in the Object Palette to use this tool.", "No object selected", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                return false;
+            }
+
+            int row = position.Y / activeLevel.Settings.CellHeight;
+            int column = position.X / activeLevel.Settings.CellWidth;
+
+            if (!IsInBounds(activeLevel, row, column)) return false;
+
+            ImageObject2D type = (ImageObject2D)activeLevel.Get(column, row);
+            if (type == null || type.ParentType != activeType)
+            {
+                if (type != null && !_project.Types.Contains(activeType)) { throw new Exception("type not in project"); }
+                activeLevel.Put(type == null ? null : activeType.GenerateNew(), column, row);
+                return true;
+            }
+
+            return false;
+        }
+
+        private bool UseEraserTool(Point position, ImageObject2DType activeType, Level activeLevel)
+        {
+            int row = position.Y / activeLevel.Settings.CellHeight;
+            int column = position.X / activeLevel.Settings.CellWidth;
+
+            if (!IsInBounds(activeLevel, row, column)) return false;
+
+            ImageObject2D type = (ImageObject2D)activeLevel.Get(column, row);
+            if (type != null)
+            {
+                activeLevel.Erase(column, row);
+                return true;
+            }
+            return false;
+        }
+
+        private bool IsInBounds(Level level, int row, int column)
+        {
+            if (row < 0) return false;
+            if (row >= level.Settings.Rows) return false;
+
+            if (column < 0) return false;
+            if (column >= level.Settings.Columns) return false;
+
+            return true;
+        }
+
+        private bool UseFillTool(Point position, ImageObject2DType activeType, Level activeLevel)
+        {
+            if (activeType == null)
+            {
+                MessageBox.Show("Select an object in the Object Palette to use this tool.", "No object selected", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                return false;
+            }
+
+            int row = position.Y / activeLevel.Settings.CellHeight;
+            int column = position.X / activeLevel.Settings.CellWidth;
+
+            if (!IsInBounds(activeLevel, row, column)) return false;
+
+            if (activeLevel.Get(column, row) == null || activeLevel.Get(column, row).ParentType != activeType)
+            {
+                Fill(activeLevel, row, column, activeLevel.Get(column, row), activeType.GenerateNew());
+                return true;
+            }
+
+            return false;
         }
 
         private void Fill(Level activeLevel, int row, int column, GameObject original, GameObject changeToType)
