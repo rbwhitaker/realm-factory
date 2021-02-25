@@ -118,12 +118,6 @@
     <Compile Include="UserInterface\AboutDialog.Designer.cs">
       <DependentUpon>AboutDialog.cs</DependentUpon>
     </Compile>
-    <Compile Include="UserInterface\EulaDialog.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="UserInterface\EulaDialog.Designer.cs">
-      <DependentUpon>EulaDialog.cs</DependentUpon>
-    </Compile>
     <Compile Include="UserInterface\LevelSettings.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -222,9 +216,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="UserInterface\AboutDialog.resx">
       <DependentUpon>AboutDialog.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="UserInterface\EulaDialog.resx">
-      <DependentUpon>EulaDialog.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="UserInterface\LevelSettings.resx">
       <DependentUpon>LevelSettings.cs</DependentUpon>
