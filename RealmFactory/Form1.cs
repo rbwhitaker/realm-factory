@@ -471,7 +471,9 @@ namespace RealmEngine
             {
                 Location location = fillQueue.Dequeue();
                 if (!IsInBounds(activeLevel, location.Row, location.Column)) continue;
-                if (activeLevel.Get(location.Column, location.Row) != original) continue;
+                GameObject currentObject = activeLevel.Get(location.Column, location.Row);
+                if ((original == null) != (currentObject == null)) continue;
+                if (currentObject != null && currentObject.ParentType != original.ParentType) continue;
 
                 activeLevel.Put(changeToType, location.Column, location.Row);
 
