@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Windows.Forms;
 using Starbound.RealmFactory.DataModel;
+using RealmFactory.Properties;
 
 namespace Starbound.RealmFactory.UserInterface
 {
@@ -19,7 +20,7 @@ namespace Starbound.RealmFactory.UserInterface
     {
         public static ObjectPaletteItem CreateNewObjectPaletteItem()
         {
-             return new ObjectPaletteItem() { ImageObject = new ImageObject2DType() { Name = "Add Object", Image = Starbound.RealmFactory.Properties.Resources.AddItemIcon }, IsUtilityItem = true };
+             return new ObjectPaletteItem() { ImageObject = new ImageObject2DType() { Name = "Add Object", Image = Resources.AddItemIcon }, IsUtilityItem = true };
         }
 
         /// <summary>

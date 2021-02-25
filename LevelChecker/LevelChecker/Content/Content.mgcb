@@ -1,0 +1,21 @@
+
+#----------------------------- Global Properties ----------------------------#
+
+/outputDir:bin/$(Platform)
+/intermediateDir:obj/$(Platform)
+/platform:DesktopGL
+/config:
+/profile:Reach
+/compress:False
+
+#-------------------------------- References --------------------------------#
+
+/reference:..\..\RealmFactoryContentManager\bin\Debug\netstandard2.0\RealmFactoryContentManager.dll
+
+#---------------------------------- Content ---------------------------------#
+
+#begin TutorialProject.realm
+/importer:RealmFactoryImporter
+/processor:RealmFactoryProcessor
+/build:TutorialProject.realm
+
