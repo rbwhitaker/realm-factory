@@ -74,7 +74,7 @@
     <GenerateManifests>true</GenerateManifests>
   </PropertyGroup>
   <PropertyGroup>
-    <SignManifests>true</SignManifests>
+    <SignManifests>false</SignManifests>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -324,11 +324,11 @@
     </BootstrapperPackage>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\Common\Common.WinForms\Common.WinForms.csproj">
-      <Project>{660C0F7D-C13A-468B-B675-3DC6AA315850}</Project>
+    <ProjectReference Include="..\Common.WinForms\Common.WinForms.csproj">
+      <Project>{660c0f7d-c13a-468b-b675-3dc6aa315850}</Project>
       <Name>Common.WinForms</Name>
     </ProjectReference>
-    <ProjectReference Include="..\..\Starbound.Common\Common.csproj">
+    <ProjectReference Include="..\Starbound.Common\Common.csproj">
       <Project>{8EAC93C9-C594-4C2B-8795-6DBCDC281E7C}</Project>
       <Name>Common</Name>
     </ProjectReference>
