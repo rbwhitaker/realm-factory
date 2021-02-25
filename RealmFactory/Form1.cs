@@ -1,10 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
 using System.Drawing;
-using System.Linq;
-using System.Text;
 using System.Windows.Forms;
 using RealmEngine.UndoRedo;
 using Starbound.RealmFactory.UserInterface;
@@ -42,13 +37,13 @@ namespace RealmEngine
         {
             InitializeComponent();
             ActiveTool = Tool.Pencil;
-            SetDoubleBuffered(this.levelRenderer);
+            SetDoubleBuffered(levelRenderer);
 
             undoRedoSystem = new UndoRedoSystem();
             undoRedoSystem.SystemChanged += UndoRedoSystemChanged;
             UndoRedoSystemChanged(null, EventArgs.Empty);
 
-            Project = new Starbound.RealmFactory.DataModel.Project();
+            Project = new Project();
 
             SetupFileReaders();
         }
@@ -78,16 +73,16 @@ namespace RealmEngine
                 saveNeeded = value;
                 if (saveNeeded)
                 {
-                    if (!this.Text.EndsWith("*"))
+                    if (!Text.EndsWith("*"))
                     {
-                        this.Text += "*";
+                        Text += "*";
                     }
                 }
                 else
                 {
-                    if (this.Text.EndsWith("*"))
+                    if (Text.EndsWith("*"))
                     {
-                        this.Text = Text.Substring(0, Text.Length - 1);
+                        Text = Text.Substring(0, Text.Length - 1);
                     }
                 }
             }
@@ -116,7 +111,7 @@ namespace RealmEngine
                 imageFileDialog.Multiselect = true;
             }
 
-            if (imageFileDialog.ShowDialog() == System.Windows.Forms.DialogResult.OK)
+            if (imageFileDialog.ShowDialog() == DialogResult.OK)
             {
                 string[] imageFiles = imageFileDialog.FileNames;
 
@@ -226,7 +221,7 @@ namespace RealmEngine
         private void AddLevel()
         {
             Project.CreateNewLevel();
-            this.BuildLevelList();
+            BuildLevelList();
             AddUndoRedoState();
         }
 
@@ -284,15 +279,15 @@ namespace RealmEngine
             }
         }
 
-        public static void SetDoubleBuffered(System.Windows.Forms.Control c)
+        public static void SetDoubleBuffered(Control c)
         {
             //Taxes: Remote Desktop Connection and painting 
             //http://blogs.msdn.com/oldnewthing/archive/2006/01/03/508694.aspx 
-            if (System.Windows.Forms.SystemInformation.TerminalServerSession)
+            if (SystemInformation.TerminalServerSession)
                 return;
 
             System.Reflection.PropertyInfo aProp =
-                  typeof(System.Windows.Forms.Control).GetProperty(
+                  typeof(Control).GetProperty(
                         "DoubleBuffered",
                         System.Reflection.BindingFlags.NonPublic |
                         System.Reflection.BindingFlags.Instance);
@@ -474,7 +469,7 @@ namespace RealmEngine
         {
             if (!mouseStartedInRenderer) { return; }
 
-            if (e.Button == System.Windows.Forms.MouseButtons.Left)
+            if (e.Button == MouseButtons.Left)
             {
                 if (levelListBox.SelectedItem == null) { return; }
 
@@ -555,7 +550,7 @@ namespace RealmEngine
             {
                 int previouslySelectedType = objectPalette.SelectedIndex;
                 ProgramState programState = undoRedoSystem.Undo();
-                this.Project = programState.Project.Copy();
+                Project = programState.Project.Copy();
                 objectPalette.GameObjects = Project.Types;
                 SelectType(previouslySelectedType);
                 Refresh();
@@ -573,7 +568,7 @@ namespace RealmEngine
             {
                 int previouslySelectedType = objectPalette.SelectedIndex;
                 ProgramState programState = undoRedoSystem.Redo();
-                this.Project = programState.Project.Copy();
+                Project = programState.Project.Copy();
                 levelListBox.SelectedIndex = programState.ActiveLevelIndex;
                 objectPalette.GameObjects = Project.Types;
                 SelectType(previouslySelectedType);
@@ -672,7 +667,7 @@ namespace RealmEngine
 
         private void SaveToPath(string path)
         {
-            fileWriterManager.Write(path, this.Project);
+            fileWriterManager.Write(path, Project);
             SaveNeeded = false;
         }
 
@@ -697,11 +692,11 @@ namespace RealmEngine
                 DialogResult result = MessageBox.Show("Do you want to save before exiting?",
                     "Realm Factory", MessageBoxButtons.YesNoCancel);
 
-                if (result == System.Windows.Forms.DialogResult.Yes)
+                if (result == DialogResult.Yes)
                 {
                     Save();
                 }
-                else if (result == System.Windows.Forms.DialogResult.Cancel)
+                else if (result == DialogResult.Cancel)
                 {
                     e.Cancel = true;
                 }
@@ -743,7 +738,7 @@ namespace RealmEngine
                 {
                     openFileDialog.Filter = fileReaderManager.BuildFilter();
 
-                    if (openFileDialog.ShowDialog() == System.Windows.Forms.DialogResult.OK)
+                    if (openFileDialog.ShowDialog() == DialogResult.OK)
                     {
                         OpenFile(openFileDialog.FileName);
                     }
@@ -753,9 +748,9 @@ namespace RealmEngine
 
         private void OpenFile(string path)
         {
-            this.Project = fileReaderManager.Read(path);
+            Project = fileReaderManager.Read(path);
             undoRedoSystem.Clear();
-            this.levelListBox.SelectedIndex = 0;
+            levelListBox.SelectedIndex = 0;
             AddUndoRedoState();
             currentProjectPath = path;
             SaveNeeded = false;
@@ -786,7 +781,7 @@ namespace RealmEngine
             using (Wizard wizard = new Wizard())
             {
                 wizard.Project = project;
-                if (wizard.ShowDialog() == System.Windows.Forms.DialogResult.OK)
+                if (wizard.ShowDialog() == DialogResult.OK)
                 {
                     project.CreateNewLevel();
                     Project = project;
@@ -798,7 +793,7 @@ namespace RealmEngine
             }
 
             undoRedoSystem.Clear();
-            this.levelListBox.SelectedIndex = 0;
+            levelListBox.SelectedIndex = 0;
             AddUndoRedoState();
             SaveNeeded = false;
 
@@ -814,11 +809,11 @@ namespace RealmEngine
             DialogResult result = MessageBox.Show("Do you want to save the current project before closing it?",
                 "Realm Factory", MessageBoxButtons.YesNoCancel);
 
-            if (result == System.Windows.Forms.DialogResult.Yes)
+            if (result == DialogResult.Yes)
             {
                 Save();
             }
-            else if (result == System.Windows.Forms.DialogResult.Cancel)
+            else if (result == DialogResult.Cancel)
             {
                 return true;
             }
@@ -830,8 +825,8 @@ namespace RealmEngine
 
         private void drawGridButton_Click(object sender, EventArgs e)
         {
-            this.drawGrid = drawGridButton.Checked;
-            this.Refresh();
+            drawGrid = drawGridButton.Checked;
+            Refresh();
         }
 
         private void addTypeToolStripMenuItem_Click(object sender, EventArgs e)
@@ -846,7 +841,7 @@ namespace RealmEngine
 
         private void ShowTypeProperties()
         {
-            GameObjectType selectedType = (GameObjectType)objectPalette.SelectedItem;
+            GameObjectType selectedType = objectPalette.SelectedItem;
 
             ShowTypeProperties(selectedType);
         }
@@ -919,7 +914,7 @@ namespace RealmEngine
 
             Project.Levels.Remove(selectedLevel);
 
-            this.BuildLevelList();
+            BuildLevelList();
             AddUndoRedoState();
         }
 
@@ -930,7 +925,7 @@ namespace RealmEngine
 
         private void DeleteType()
         {
-            GameObjectType selectedType = (GameObjectType)objectPalette.SelectedItem;
+            GameObjectType selectedType = objectPalette.SelectedItem;
 
             if (selectedType == null) { return; }
             bool inUse = false;
@@ -949,7 +944,7 @@ namespace RealmEngine
             if (inUse)
             {
                 DialogResult result = MessageBox.Show("The selected object type is in use.  Deleting it will remove it from all places it is used throughout the project.\n\nProceed anyway?", "Realm Factory", MessageBoxButtons.YesNoCancel);
-                if (result == System.Windows.Forms.DialogResult.Yes)
+                if (result == DialogResult.Yes)
                 {
                     acceptedDelete = true;
                 }
@@ -963,7 +958,7 @@ namespace RealmEngine
                 }
 
                 project.Types.Remove(selectedType);
-                this.BuildTypeList();
+                BuildTypeList();
                 AddUndoRedoState();
                 Refresh();
             }
@@ -1001,16 +996,16 @@ namespace RealmEngine
             using (NewOrOpenDialog gettingStartedDialog = new NewOrOpenDialog())
             {
                 DialogResult result = gettingStartedDialog.ShowDialog();
-                if (result == System.Windows.Forms.DialogResult.Yes)
+                if (result == DialogResult.Yes)
                 {
                     NewProject();
                 }
-                else if (result == System.Windows.Forms.DialogResult.Ignore) //arbitrary value, but that's what it is...
+                else if (result == DialogResult.Ignore) //arbitrary value, but that's what it is...
                 {
                     ShowTutorial();
                     NewProject();
                 }
-                else if (result == System.Windows.Forms.DialogResult.Retry) // another arbitrary value... for open project.
+                else if (result == DialogResult.Retry) // another arbitrary value... for open project.
                 {
                     Project = new Project();
                     PerformOpenFile(false);
@@ -1028,7 +1023,7 @@ namespace RealmEngine
             {
                 using (EulaDialog eulaDialog = new EulaDialog())
                 {
-                    if (eulaDialog.ShowDialog() == System.Windows.Forms.DialogResult.OK)
+                    if (eulaDialog.ShowDialog() == DialogResult.OK)
                     {
                         Starbound.RealmFactory.Properties.Settings.Default.AcceptedEulaVersion = Constants.VersionString;
                         Starbound.RealmFactory.Properties.Settings.Default.Save();
@@ -1081,7 +1076,7 @@ namespace RealmEngine
                 AddLevel();
             }
 
-            this.Refresh();
+            Refresh();
         }
 
         private void objectPalette_NewObjectClicked(object sender, EventArgs e)
