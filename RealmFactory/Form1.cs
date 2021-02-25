@@ -989,7 +989,6 @@ namespace RealmEngine
         private void Form1_Shown(object sender, EventArgs e)
         {
             SplashScreen.HideSplashScreen();
-            ShowEula();
             ShowGettingStartedDialog();
         }
 
@@ -1015,25 +1014,6 @@ namespace RealmEngine
                 else
                 {
                     NewProject(); // For the moment, I don't want to leave the program in a state where no project is open.  It may cause all sorts of bugs that I don't want to address right away.  But that's what this should do, ideally.
-                }
-            }
-        }
-
-        private void ShowEula()
-        {
-            if (Starbound.RealmFactory.Properties.Settings.Default.AcceptedEulaVersion == "")
-            {
-                using (EulaDialog eulaDialog = new EulaDialog())
-                {
-                    if (eulaDialog.ShowDialog() == DialogResult.OK)
-                    {
-                        Starbound.RealmFactory.Properties.Settings.Default.AcceptedEulaVersion = Constants.VersionString;
-                        Starbound.RealmFactory.Properties.Settings.Default.Save();
-                    }
-                    else
-                    {
-                        Application.Exit();
-                    }
                 }
             }
         }
