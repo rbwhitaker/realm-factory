@@ -12,22 +12,22 @@ namespace RealmEngine
 {
     public partial class Form1 : Form
     {
-        private FileReaderManager<Project> fileReaderManager;
-        private FileWriterManager<Project> fileWriterManager;
+        private FileReaderManager<Project> _fileReaderManager;
+        private FileWriterManager<Project> _fileWriterManager;
 
-        private UndoRedoSystem undoRedoSystem;
+        private UndoRedoSystem _undoRedoSystem;
 
-        private Project project;
+        private Project _project;
 
         public Project Project
         {
             get
             {
-                return project;
+                return _project;
             }
             set
             {
-                project = value;
+                _project = value;
                 BuildLevelList();
                 BuildTypeList();
             }
@@ -39,8 +39,8 @@ namespace RealmEngine
             ActiveTool = Tool.Pencil;
             SetDoubleBuffered(levelRenderer);
 
-            undoRedoSystem = new UndoRedoSystem();
-            undoRedoSystem.SystemChanged += UndoRedoSystemChanged;
+            _undoRedoSystem = new UndoRedoSystem();
+            _undoRedoSystem.SystemChanged += UndoRedoSystemChanged;
             UndoRedoSystemChanged(null, EventArgs.Empty);
 
             Project = new Project();
@@ -50,52 +50,43 @@ namespace RealmEngine
 
         private void SetupFileReaders()
         {
-            fileReaderManager = new FileReaderManager<Project>();
+            _fileReaderManager = new FileReaderManager<Project>();
             FileReader<Project> fileReader = new RealmFactoryNativeFileReader();
-            fileReaderManager.AddFileReader(fileReader);
-            fileReaderManager.SetDefaultFileReader(fileReader);
+            _fileReaderManager.AddFileReader(fileReader);
+            _fileReaderManager.SetDefaultFileReader(fileReader);
 
-            fileWriterManager = new FileWriterManager<Project>();
+            _fileWriterManager = new FileWriterManager<Project>();
             FileWriter<Project> fileWriter = new RealmFactoryNativeFileWriter();
-            fileWriterManager.AddFileWriter(fileWriter);
-            fileWriterManager.SetDefaultFileWriter(fileWriter);
+            _fileWriterManager.AddFileWriter(fileWriter);
+            _fileWriterManager.SetDefaultFileWriter(fileWriter);
         }
 
-        private bool saveNeeded = false;
+        private bool _saveNeeded = false;
         public bool SaveNeeded
         {
-            get
-            {
-                return saveNeeded;
-            }
+            get => _saveNeeded;
             set
             {
-                saveNeeded = value;
-                if (saveNeeded)
+                _saveNeeded = value;
+                if (_saveNeeded)
                 {
-                    if (!Text.EndsWith("*"))
-                    {
-                        Text += "*";
-                    }
+                    if (!Text.EndsWith("*")) Text += "*";
                 }
                 else
                 {
-                    if (Text.EndsWith("*"))
-                    {
-                        Text = Text.Substring(0, Text.Length - 1);
-                    }
+                    if (Text.EndsWith("*")) Text = Text.Substring(0, Text.Length - 1);
                 }
             }
         }
 
         public void UndoRedoSystemChanged(object sender, EventArgs e)
         {
-            undoToolStripMenuItem.Enabled = undoRedoSystem.CanUndo();
-            redoToolStripMenuItem.Enabled = undoRedoSystem.CanRedo();
+            undoToolStripMenuItem.Enabled = _undoRedoSystem.CanUndo();
+            redoToolStripMenuItem.Enabled = _undoRedoSystem.CanRedo();
             SaveNeeded = true;
         }
 
-        private OpenFileDialog imageFileDialog;
+        private OpenFileDialog _imageFileDialog;
 
         private void toolStripButton1_Click(object sender, EventArgs e)
         {
@@ -104,16 +95,16 @@ namespace RealmEngine
 
         private void AddType()
         {
-            if (imageFileDialog == null)
+            if (_imageFileDialog == null)
             {
-                imageFileDialog = new OpenFileDialog();
-                imageFileDialog.Filter = "Image Files|*.png;*.jpg;*.jpeg;*.bmp;*.tga;*.tif;*.gif|All Files|*.*";
-                imageFileDialog.Multiselect = true;
+                _imageFileDialog = new OpenFileDialog();
+                _imageFileDialog.Filter = "Image Files|*.png;*.jpg;*.jpeg;*.bmp;*.tga;*.tif;*.gif|All Files|*.*";
+                _imageFileDialog.Multiselect = true;
             }
 
-            if (imageFileDialog.ShowDialog() == DialogResult.OK)
+            if (_imageFileDialog.ShowDialog() == DialogResult.OK)
             {
-                string[] imageFiles = imageFileDialog.FileNames;
+                string[] imageFiles = _imageFileDialog.FileNames;
 
                 foreach (string imageFile in imageFiles)
                 {
@@ -169,9 +160,9 @@ namespace RealmEngine
 
                 e.Graphics.FillRectangle(new SolidBrush(Color.White), e.Bounds);
 
-                if (e.Index < project.Levels.Count)
+                if (e.Index < _project.Levels.Count)
                 {
-                    Level level = project.Levels[e.Index];
+                    Level level = _project.Levels[e.Index];
 
                     int itemHeight = levelListBox.ItemHeight;
                     SizeF size = e.Graphics.MeasureString(level.Name, levelListBox.Font);
@@ -203,16 +194,6 @@ namespace RealmEngine
             }
         }
 
-        private void typeListBox_DrawItem(object sender, DrawItemEventArgs e)
-        {
-            
-        }
-
-        private void typeListBox_SelectedIndexChanged(object sender, EventArgs e)
-        {
-
-        }
-
         private void toolStripButton5_Click(object sender, EventArgs e)
         {
             AddLevel();
@@ -224,8 +205,6 @@ namespace RealmEngine
             BuildLevelList();
             AddUndoRedoState();
         }
-
-
 
         private void levelRenderer_Paint(object sender, PaintEventArgs e)
         {
@@ -240,7 +219,7 @@ namespace RealmEngine
                 e.Graphics.FillRectangle(new SolidBrush(level.Settings.BackColor),
                     new Rectangle(0, 0, level.Settings.CellWidth * level.Settings.Columns, level.Settings.CellHeight * level.Settings.Rows));
 
-                if (this.drawGrid) { DrawGrid(e, level); }
+                if (_drawGrid) DrawGrid(e, level);
                 
                 for (int row = 0; row < level.Settings.Rows; row++)
                 {
@@ -248,9 +227,7 @@ namespace RealmEngine
                     {
                         ImageObject2D type = (ImageObject2D)level.Get(column, row);
                         if (type != null)
-                        {
                             e.Graphics.DrawImage(((ImageObject2DType)type.ParentType).Image, new Rectangle(column * cellWidth, row * cellHeight, cellWidth, cellHeight));
-                        }
                     }
                 }
             }
@@ -364,13 +341,13 @@ namespace RealmEngine
             }
         }
 
-        bool mouseStartedInRenderer = false;
+        bool _mouseStartedInRenderer = false;
 
         private void levelRenderer_MouseDown(object sender, MouseEventArgs e)
         {
             if (levelListBox.SelectedItem == null) { return; }
 
-            mouseStartedInRenderer = true;
+            _mouseStartedInRenderer = true;
 
             Level activeLevel = (Level)levelListBox.SelectedItem;
             ImageObject2DType activeType = (ImageObject2DType)objectPalette.SelectedItem;
@@ -393,10 +370,10 @@ namespace RealmEngine
                     ImageObject2D type = (ImageObject2D)activeLevel.Get(column, row);
                     if (type == null || type.ParentType != activeType)
                     {
-                        if (type != null && !project.Types.Contains(activeType)) { throw new Exception("type not in project"); }
+                        if (type != null && !_project.Types.Contains(activeType)) { throw new Exception("type not in project"); }
                         activeLevel.Put(type == null ? null : activeType.GenerateNew(), column, row);
                         levelRenderer.Refresh();
-                        somethingChanged = true;
+                        _somethingChanged = true;
                     }
                 }
             }
@@ -417,7 +394,7 @@ namespace RealmEngine
                 {
                     activeLevel.Erase(column, row);
                     levelRenderer.Refresh();
-                    somethingChanged = true;
+                    _somethingChanged = true;
                 }
             }
             if (ActiveTool == Tool.Bucket)
@@ -441,8 +418,7 @@ namespace RealmEngine
                     }
 
                     levelRenderer.Refresh();
-
-                    somethingChanged = true;
+                    _somethingChanged = true;
                 }
             }
         }
@@ -467,7 +443,7 @@ namespace RealmEngine
 
         private void levelRenderer_MouseMove(object sender, MouseEventArgs e)
         {
-            if (!mouseStartedInRenderer) { return; }
+            if (!_mouseStartedInRenderer) { return; }
 
             if (e.Button == MouseButtons.Left)
             {
@@ -494,7 +470,7 @@ namespace RealmEngine
                     {
                         activeLevel.Put(activeType == null ? null : activeType.GenerateNew(), column, row);
                         levelRenderer.Refresh();
-                        somethingChanged = true;
+                        _somethingChanged = true;
                     }
                 }
                 if (ActiveTool == Tool.Eraser)
@@ -514,7 +490,7 @@ namespace RealmEngine
                     {
                         activeLevel.Erase(column, row);
                         levelRenderer.Refresh();
-                        somethingChanged = true;
+                        _somethingChanged = true;
                     }
                 }
             }
@@ -525,31 +501,31 @@ namespace RealmEngine
             ActiveTool = Tool.Eraser;
         }
 
-        private bool somethingChanged = false;
+        private bool _somethingChanged = false;
 
         private void levelRenderer_MouseUp(object sender, MouseEventArgs e)
         {
-            mouseStartedInRenderer = false;
+            _mouseStartedInRenderer = false;
 
-            if (somethingChanged)
+            if (_somethingChanged)
             {
                 AddUndoRedoState();
             }
 
-            somethingChanged = false;
+            _somethingChanged = false;
         }
 
         private void AddUndoRedoState()
         {
-            undoRedoSystem.PushState(new ProgramState() { Project = Project.Copy(), ActiveLevelIndex = levelListBox.SelectedIndex, ActiveTypeIndex = objectPalette.SelectedIndex });
+            _undoRedoSystem.PushState(new ProgramState() { Project = Project.Copy(), ActiveLevelIndex = levelListBox.SelectedIndex, ActiveTypeIndex = objectPalette.SelectedIndex });
         }
 
         private void undoToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            if (undoRedoSystem.CanUndo())
+            if (_undoRedoSystem.CanUndo())
             {
                 int previouslySelectedType = objectPalette.SelectedIndex;
-                ProgramState programState = undoRedoSystem.Undo();
+                ProgramState programState = _undoRedoSystem.Undo();
                 Project = programState.Project.Copy();
                 objectPalette.GameObjects = Project.Types;
                 SelectType(previouslySelectedType);
@@ -564,10 +540,10 @@ namespace RealmEngine
 
         private void redoToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            if (undoRedoSystem.CanRedo())
+            if (_undoRedoSystem.CanRedo())
             {
                 int previouslySelectedType = objectPalette.SelectedIndex;
-                ProgramState programState = undoRedoSystem.Redo();
+                ProgramState programState = _undoRedoSystem.Redo();
                 Project = programState.Project.Copy();
                 levelListBox.SelectedIndex = programState.ActiveLevelIndex;
                 objectPalette.GameObjects = Project.Types;
@@ -651,23 +627,23 @@ namespace RealmEngine
             Application.Exit();
         }
 
-        private string currentProjectPath = null;
+        private string _currentProjectPath = null;
 
         private void Save()
         {
-            if (currentProjectPath == null)
+            if (_currentProjectPath == null)
             {
                 SaveAs();
             }
             else
             {
-                SaveToPath(currentProjectPath);
+                SaveToPath(_currentProjectPath);
             }
         }
 
         private void SaveToPath(string path)
         {
-            fileWriterManager.Write(path, Project);
+            _fileWriterManager.Write(path, Project);
             SaveNeeded = false;
         }
 
@@ -675,12 +651,12 @@ namespace RealmEngine
         {
             using (SaveFileDialog saveFileDialog = new SaveFileDialog())
             {
-                saveFileDialog.Filter = fileWriterManager.BuildFilter();
+                saveFileDialog.Filter = _fileWriterManager.BuildFilter();
                 if (saveFileDialog.ShowDialog() == System.Windows.Forms.DialogResult.OK)
                 {
-                    currentProjectPath = saveFileDialog.FileName;
+                    _currentProjectPath = saveFileDialog.FileName;
 
-                    SaveToPath(currentProjectPath);
+                    SaveToPath(_currentProjectPath);
                 }
             }
         }
@@ -736,7 +712,7 @@ namespace RealmEngine
             {
                 using (OpenFileDialog openFileDialog = new OpenFileDialog())
                 {
-                    openFileDialog.Filter = fileReaderManager.BuildFilter();
+                    openFileDialog.Filter = _fileReaderManager.BuildFilter();
 
                     if (openFileDialog.ShowDialog() == DialogResult.OK)
                     {
@@ -748,11 +724,11 @@ namespace RealmEngine
 
         private void OpenFile(string path)
         {
-            Project = fileReaderManager.Read(path);
-            undoRedoSystem.Clear();
+            Project = _fileReaderManager.Read(path);
+            _undoRedoSystem.Clear();
             levelListBox.SelectedIndex = 0;
             AddUndoRedoState();
-            currentProjectPath = path;
+            _currentProjectPath = path;
             SaveNeeded = false;
         }
 
@@ -792,12 +768,12 @@ namespace RealmEngine
                 }
             }
 
-            undoRedoSystem.Clear();
+            _undoRedoSystem.Clear();
             levelListBox.SelectedIndex = 0;
             AddUndoRedoState();
             SaveNeeded = false;
 
-            currentProjectPath = null;
+            _currentProjectPath = null;
         }
 
         /// <summary>
@@ -821,34 +797,27 @@ namespace RealmEngine
             return false;
         }
 
-        private bool drawGrid = true;
+        private bool _drawGrid = true;
 
         private void drawGridButton_Click(object sender, EventArgs e)
         {
-            drawGrid = drawGridButton.Checked;
+            _drawGrid = drawGridButton.Checked;
             Refresh();
         }
 
-        private void addTypeToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            AddType();
-        }
+        private void addTypeToolStripMenuItem_Click(object sender, EventArgs e) => AddType();
 
-        private void addLevelToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            AddLevel();
-        }
+        private void addLevelToolStripMenuItem_Click(object sender, EventArgs e) => AddLevel();
 
         private void ShowTypeProperties()
         {
             GameObjectType selectedType = objectPalette.SelectedItem;
-
             ShowTypeProperties(selectedType);
         }
 
         private void ShowTypeProperties(GameObjectType gameObjectType)
         {
-            if (gameObjectType == null) { return; }
+            if (gameObjectType == null) return;
 
             using (TypeSettings typeSettings = new TypeSettings())
             {
@@ -862,7 +831,7 @@ namespace RealmEngine
         {
             Level selectedLevel = (Level)levelListBox.SelectedItem;
 
-            if (selectedLevel == null) { return; }
+            if (selectedLevel == null) return;
 
             using (LevelSettings levelSettings = new LevelSettings())
             {
@@ -930,7 +899,7 @@ namespace RealmEngine
             if (selectedType == null) { return; }
             bool inUse = false;
 
-            foreach (Level level in project.Levels)
+            foreach (Level level in _project.Levels)
             {
                 if (level.UsesType(selectedType))
                 {
@@ -952,12 +921,12 @@ namespace RealmEngine
 
             if (!inUse || acceptedDelete)
             {
-                foreach (Level level in project.Levels)
+                foreach (Level level in _project.Levels)
                 {
                     level.RemoveType(selectedType);
                 }
 
-                project.Types.Remove(selectedType);
+                _project.Types.Remove(selectedType);
                 BuildTypeList();
                 AddUndoRedoState();
                 Refresh();
@@ -972,16 +941,6 @@ namespace RealmEngine
         private void typePropertiesToolStripMenuItem_Click(object sender, EventArgs e)
         {
             ShowTypeProperties();
-        }
-
-        private void typeListBox_MouseDoubleClick(object sender, MouseEventArgs e)
-        {
-            ShowTypeProperties();
-        }
-
-
-        private void typeListBox_MouseClick(object sender, MouseEventArgs e)
-        {
         }
 
         private void Form1_Shown(object sender, EventArgs e)
