@@ -382,23 +382,27 @@ namespace RealmEngine
 
             if (ActiveTool == Tool.Pencil)
             {
-                Point position = new Point(e.X, e.Y);
-                int row = position.Y / activeLevel.Settings.CellHeight;
-                int column = position.X / activeLevel.Settings.CellWidth;
-
-                if (row < 0) { return; }
-                if (row >= activeLevel.Settings.Rows) { return; }
-
-                if (column < 0) { return; }
-                if (column >= activeLevel.Settings.Columns) { return; }
-
-                ImageObject2D type = (ImageObject2D)activeLevel.Get(column, row);
-                if (type == null || type.ParentType != activeType)
+                if (activeType == null) MessageBox.Show("Select an object in the Object Palette to use this tool.", "No object selected", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                else
                 {
-                    if (type != null && !project.Types.Contains(activeType)) { throw new Exception("type not in project"); }
-                    activeLevel.Put(type == null ? null : activeType.GenerateNew(), column, row);
-                    levelRenderer.Refresh();
-                    somethingChanged = true;
+                    Point position = new Point(e.X, e.Y);
+                    int row = position.Y / activeLevel.Settings.CellHeight;
+                    int column = position.X / activeLevel.Settings.CellWidth;
+
+                    if (row < 0) { return; }
+                    if (row >= activeLevel.Settings.Rows) { return; }
+
+                    if (column < 0) { return; }
+                    if (column >= activeLevel.Settings.Columns) { return; }
+
+                    ImageObject2D type = (ImageObject2D)activeLevel.Get(column, row);
+                    if (type == null || type.ParentType != activeType)
+                    {
+                        if (type != null && !project.Types.Contains(activeType)) { throw new Exception("type not in project"); }
+                        activeLevel.Put(type == null ? null : activeType.GenerateNew(), column, row);
+                        levelRenderer.Refresh();
+                        somethingChanged = true;
+                    }
                 }
             }
             if (ActiveTool == Tool.Eraser)
@@ -423,24 +427,28 @@ namespace RealmEngine
             }
             if (ActiveTool == Tool.Bucket)
             {
-                Point position = new Point(e.X, e.Y);
-                int row = position.Y / activeLevel.Settings.CellHeight;
-                int column = position.X / activeLevel.Settings.CellWidth;
-
-                if (row < 0) { return; }
-                if (row >= activeLevel.Settings.Rows) { return; }
-
-                if (column < 0) { return; }
-                if (column >= activeLevel.Settings.Columns) { return; }
-
-                if (activeLevel.Get(column, row) == null || activeLevel.Get(column, row).ParentType != activeType)
+                if (activeType == null) MessageBox.Show("Select an object in the Object Palette to use this tool.", "No object selected", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                else
                 {
-                    Fill(activeLevel, row, column, activeLevel.Get(column, row), activeType.GenerateNew());
+                    Point position = new Point(e.X, e.Y);
+                    int row = position.Y / activeLevel.Settings.CellHeight;
+                    int column = position.X / activeLevel.Settings.CellWidth;
+
+                    if (row < 0) { return; }
+                    if (row >= activeLevel.Settings.Rows) { return; }
+
+                    if (column < 0) { return; }
+                    if (column >= activeLevel.Settings.Columns) { return; }
+
+                    if (activeLevel.Get(column, row) == null || activeLevel.Get(column, row).ParentType != activeType)
+                    {
+                        Fill(activeLevel, row, column, activeLevel.Get(column, row), activeType.GenerateNew());
+                    }
+
+                    levelRenderer.Refresh();
+
+                    somethingChanged = true;
                 }
-
-                levelRenderer.Refresh();
-
-                somethingChanged = true;
             }
         }
 

@@ -294,7 +294,7 @@
       <Project>{c5685ea2-afe7-4b22-8f8d-71286a085edf}</Project>
       <Name>Common.WinForms</Name>
     </ProjectReference>
-    <ProjectReference Include="..\Common\Common.csproj">
+    <ProjectReference Include="..\Starbound.Common\Common.csproj">
       <Project>{c0662549-905a-4058-92ce-55eee17baff5}</Project>
       <Name>Common</Name>
     </ProjectReference>
