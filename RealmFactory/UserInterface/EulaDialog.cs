@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Windows.Forms;
 using System.IO;
+using RealmFactory.Properties;
 
 namespace Starbound.RealmFactory.UserInterface
 {
@@ -16,10 +17,11 @@ namespace Starbound.RealmFactory.UserInterface
         {
             InitializeComponent();
 
-            string eulaText = Properties.Resources.EULA_1_0;
+            string eulaText = "REPLACE THIS"; // Resources.EULA_1_0;
             byte[] byteArray = Encoding.ASCII.GetBytes(eulaText);
             MemoryStream stream = new MemoryStream(byteArray);
-            richTextBox1.LoadFile(stream, RichTextBoxStreamType.RichText);
+            //richTextBox1.LoadFile(stream, RichTextBoxStreamType.RichText);
+            richTextBox1.LoadFile(stream, RichTextBoxStreamType.PlainText);
         }
     }
 }

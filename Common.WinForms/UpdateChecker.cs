@@ -2,7 +2,6 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-using System.Deployment.Application;
 using System.Windows.Forms;
 
 namespace Starbound.Common.WinForms
@@ -11,7 +10,7 @@ namespace Starbound.Common.WinForms
     {
         public static void CheckForUpdates()
         {           
-            UpdateCheckInfo info = null;
+            /*UpdateCheckInfo info = null;
 
             if (ApplicationDeployment.IsNetworkDeployed)
             {
@@ -83,7 +82,7 @@ namespace Starbound.Common.WinForms
             else
             {
                 MessageBox.Show("This application was not installed over the network.  Cannot check for updates.");
-            }
+            }*/
         }
     }
 }
