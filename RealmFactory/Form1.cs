@@ -1,10 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
 using System.Drawing;
-using System.Linq;
-using System.Text;
 using System.Windows.Forms;
 using RealmEngine.UndoRedo;
 using Starbound.RealmFactory.UserInterface;
@@ -12,27 +7,28 @@ using Starbound.Common.IO;
 using Starbound.RealmFactory.IO;
 using Starbound.RealmFactory;
 using Starbound.RealmFactory.DataModel;
+using System.Collections.Generic;
 
 namespace RealmEngine
 {
     public partial class Form1 : Form
     {
-        private FileReaderManager<Project> fileReaderManager;
-        private FileWriterManager<Project> fileWriterManager;
+        private FileReaderManager<Project> _fileReaderManager;
+        private FileWriterManager<Project> _fileWriterManager;
 
-        private UndoRedoSystem undoRedoSystem;
+        private UndoRedoSystem _undoRedoSystem;
 
-        private Project project;
+        private Project _project;
 
         public Project Project
         {
             get
             {
-                return project;
+                return _project;
             }
             set
             {
-                project = value;
+                _project = value;
                 BuildLevelList();
                 BuildTypeList();
             }
@@ -42,65 +38,56 @@ namespace RealmEngine
         {
             InitializeComponent();
             ActiveTool = Tool.Pencil;
-            SetDoubleBuffered(this.levelRenderer);
+            SetDoubleBuffered(levelRenderer);
 
-            undoRedoSystem = new UndoRedoSystem();
-            undoRedoSystem.SystemChanged += UndoRedoSystemChanged;
+            _undoRedoSystem = new UndoRedoSystem();
+            _undoRedoSystem.SystemChanged += UndoRedoSystemChanged;
             UndoRedoSystemChanged(null, EventArgs.Empty);
 
-            Project = new Starbound.RealmFactory.DataModel.Project();
+            Project = new Project();
 
             SetupFileReaders();
         }
 
         private void SetupFileReaders()
         {
-            fileReaderManager = new FileReaderManager<Project>();
+            _fileReaderManager = new FileReaderManager<Project>();
             FileReader<Project> fileReader = new RealmFactoryNativeFileReader();
-            fileReaderManager.AddFileReader(fileReader);
-            fileReaderManager.SetDefaultFileReader(fileReader);
+            _fileReaderManager.AddFileReader(fileReader);
+            _fileReaderManager.SetDefaultFileReader(fileReader);
 
-            fileWriterManager = new FileWriterManager<Project>();
+            _fileWriterManager = new FileWriterManager<Project>();
             FileWriter<Project> fileWriter = new RealmFactoryNativeFileWriter();
-            fileWriterManager.AddFileWriter(fileWriter);
-            fileWriterManager.SetDefaultFileWriter(fileWriter);
+            _fileWriterManager.AddFileWriter(fileWriter);
+            _fileWriterManager.SetDefaultFileWriter(fileWriter);
         }
 
-        private bool saveNeeded = false;
+        private bool _saveNeeded = false;
         public bool SaveNeeded
         {
-            get
-            {
-                return saveNeeded;
-            }
+            get => _saveNeeded;
             set
             {
-                saveNeeded = value;
-                if (saveNeeded)
+                _saveNeeded = value;
+                if (_saveNeeded)
                 {
-                    if (!this.Text.EndsWith("*"))
-                    {
-                        this.Text += "*";
-                    }
+                    if (!Text.EndsWith("*")) Text += "*";
                 }
                 else
                 {
-                    if (this.Text.EndsWith("*"))
-                    {
-                        this.Text = Text.Substring(0, Text.Length - 1);
-                    }
+                    if (Text.EndsWith("*")) Text = Text.Substring(0, Text.Length - 1);
                 }
             }
         }
 
         public void UndoRedoSystemChanged(object sender, EventArgs e)
         {
-            undoToolStripMenuItem.Enabled = undoRedoSystem.CanUndo();
-            redoToolStripMenuItem.Enabled = undoRedoSystem.CanRedo();
+            undoToolStripMenuItem.Enabled = _undoRedoSystem.CanUndo();
+            redoToolStripMenuItem.Enabled = _undoRedoSystem.CanRedo();
             SaveNeeded = true;
         }
 
-        private OpenFileDialog imageFileDialog;
+        private OpenFileDialog _imageFileDialog;
 
         private void toolStripButton1_Click(object sender, EventArgs e)
         {
@@ -109,16 +96,16 @@ namespace RealmEngine
 
         private void AddType()
         {
-            if (imageFileDialog == null)
+            if (_imageFileDialog == null)
             {
-                imageFileDialog = new OpenFileDialog();
-                imageFileDialog.Filter = "Image Files|*.png;*.jpg;*.jpeg;*.bmp;*.tga;*.tif;*.gif|All Files|*.*";
-                imageFileDialog.Multiselect = true;
+                _imageFileDialog = new OpenFileDialog();
+                _imageFileDialog.Filter = "Image Files|*.png;*.jpg;*.jpeg;*.bmp;*.tga;*.tif;*.gif|All Files|*.*";
+                _imageFileDialog.Multiselect = true;
             }
 
-            if (imageFileDialog.ShowDialog() == System.Windows.Forms.DialogResult.OK)
+            if (_imageFileDialog.ShowDialog() == DialogResult.OK)
             {
-                string[] imageFiles = imageFileDialog.FileNames;
+                string[] imageFiles = _imageFileDialog.FileNames;
 
                 foreach (string imageFile in imageFiles)
                 {
@@ -174,9 +161,9 @@ namespace RealmEngine
 
                 e.Graphics.FillRectangle(new SolidBrush(Color.White), e.Bounds);
 
-                if (e.Index < project.Levels.Count)
+                if (e.Index < _project.Levels.Count)
                 {
-                    Level level = project.Levels[e.Index];
+                    Level level = _project.Levels[e.Index];
 
                     int itemHeight = levelListBox.ItemHeight;
                     SizeF size = e.Graphics.MeasureString(level.Name, levelListBox.Font);
@@ -208,16 +195,6 @@ namespace RealmEngine
             }
         }
 
-        private void typeListBox_DrawItem(object sender, DrawItemEventArgs e)
-        {
-            
-        }
-
-        private void typeListBox_SelectedIndexChanged(object sender, EventArgs e)
-        {
-
-        }
-
         private void toolStripButton5_Click(object sender, EventArgs e)
         {
             AddLevel();
@@ -226,11 +203,9 @@ namespace RealmEngine
         private void AddLevel()
         {
             Project.CreateNewLevel();
-            this.BuildLevelList();
+            BuildLevelList();
             AddUndoRedoState();
         }
-
-
 
         private void levelRenderer_Paint(object sender, PaintEventArgs e)
         {
@@ -245,7 +220,7 @@ namespace RealmEngine
                 e.Graphics.FillRectangle(new SolidBrush(level.Settings.BackColor),
                     new Rectangle(0, 0, level.Settings.CellWidth * level.Settings.Columns, level.Settings.CellHeight * level.Settings.Rows));
 
-                if (this.drawGrid) { DrawGrid(e, level); }
+                if (_drawGrid) DrawGrid(e, level);
                 
                 for (int row = 0; row < level.Settings.Rows; row++)
                 {
@@ -253,9 +228,7 @@ namespace RealmEngine
                     {
                         ImageObject2D type = (ImageObject2D)level.Get(column, row);
                         if (type != null)
-                        {
                             e.Graphics.DrawImage(((ImageObject2DType)type.ParentType).Image, new Rectangle(column * cellWidth, row * cellHeight, cellWidth, cellHeight));
-                        }
                     }
                 }
             }
@@ -284,15 +257,15 @@ namespace RealmEngine
             }
         }
 
-        public static void SetDoubleBuffered(System.Windows.Forms.Control c)
+        public static void SetDoubleBuffered(Control c)
         {
             //Taxes: Remote Desktop Connection and painting 
             //http://blogs.msdn.com/oldnewthing/archive/2006/01/03/508694.aspx 
-            if (System.Windows.Forms.SystemInformation.TerminalServerSession)
+            if (SystemInformation.TerminalServerSession)
                 return;
 
             System.Reflection.PropertyInfo aProp =
-                  typeof(System.Windows.Forms.Control).GetProperty(
+                  typeof(Control).GetProperty(
                         "DoubleBuffered",
                         System.Reflection.BindingFlags.NonPublic |
                         System.Reflection.BindingFlags.Instance);
@@ -369,112 +342,153 @@ namespace RealmEngine
             }
         }
 
-        bool mouseStartedInRenderer = false;
+        bool _mouseStartedInRenderer = false;
 
         private void levelRenderer_MouseDown(object sender, MouseEventArgs e)
         {
             if (levelListBox.SelectedItem == null) { return; }
 
-            mouseStartedInRenderer = true;
+            _mouseStartedInRenderer = true;
 
             Level activeLevel = (Level)levelListBox.SelectedItem;
             ImageObject2DType activeType = (ImageObject2DType)objectPalette.SelectedItem;
 
             if (ActiveTool == Tool.Pencil)
             {
-                if (activeType == null) MessageBox.Show("Select an object in the Object Palette to use this tool.", "No object selected", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                else
+                bool somethingChanged = UsePencilTool(new Point(e.X, e.Y), activeType, activeLevel);
+                if (somethingChanged)
                 {
-                    Point position = new Point(e.X, e.Y);
-                    int row = position.Y / activeLevel.Settings.CellHeight;
-                    int column = position.X / activeLevel.Settings.CellWidth;
-
-                    if (row < 0) { return; }
-                    if (row >= activeLevel.Settings.Rows) { return; }
-
-                    if (column < 0) { return; }
-                    if (column >= activeLevel.Settings.Columns) { return; }
-
-                    ImageObject2D type = (ImageObject2D)activeLevel.Get(column, row);
-                    if (type == null || type.ParentType != activeType)
-                    {
-                        if (type != null && !project.Types.Contains(activeType)) { throw new Exception("type not in project"); }
-                        activeLevel.Put(type == null ? null : activeType.GenerateNew(), column, row);
-                        levelRenderer.Refresh();
-                        somethingChanged = true;
-                    }
+                    levelRenderer.Refresh();
+                    _somethingChanged = true;
                 }
             }
             if (ActiveTool == Tool.Eraser)
             {
-                Point position = new Point(e.X, e.Y);
-                int row = position.Y / activeLevel.Settings.CellHeight;
-                int column = position.X / activeLevel.Settings.CellWidth;
-
-                if (row < 0) { return; }
-                if (row >= activeLevel.Settings.Rows) { return; }
-
-                if (column < 0) { return; }
-                if (column >= activeLevel.Settings.Columns) { return; }
-
-                ImageObject2D type = (ImageObject2D)activeLevel.Get(column, row);
-                if (type != null)
+                bool somethingChanged = UseEraserTool(new Point(e.X, e.Y), activeType, activeLevel);
+                if (somethingChanged)
                 {
-                    activeLevel.Erase(column, row);
                     levelRenderer.Refresh();
-                    somethingChanged = true;
+                    _somethingChanged = true;
                 }
             }
             if (ActiveTool == Tool.Bucket)
             {
-                if (activeType == null) MessageBox.Show("Select an object in the Object Palette to use this tool.", "No object selected", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                else
+                bool somethingChanged = UseFillTool(new Point(e.X, e.Y), activeType, activeLevel);
+                if (somethingChanged)
                 {
-                    Point position = new Point(e.X, e.Y);
-                    int row = position.Y / activeLevel.Settings.CellHeight;
-                    int column = position.X / activeLevel.Settings.CellWidth;
-
-                    if (row < 0) { return; }
-                    if (row >= activeLevel.Settings.Rows) { return; }
-
-                    if (column < 0) { return; }
-                    if (column >= activeLevel.Settings.Columns) { return; }
-
-                    if (activeLevel.Get(column, row) == null || activeLevel.Get(column, row).ParentType != activeType)
-                    {
-                        Fill(activeLevel, row, column, activeLevel.Get(column, row), activeType.GenerateNew());
-                    }
-
                     levelRenderer.Refresh();
-
-                    somethingChanged = true;
+                    _somethingChanged = true;
                 }
             }
         }
 
+        private bool UsePencilTool(Point position, ImageObject2DType activeType, Level activeLevel)
+        {
+            if (activeType == null)
+            {
+                MessageBox.Show("Select an object in the Object Palette to use this tool.", "No object selected", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                return false;
+            }
+
+            int row = position.Y / activeLevel.Settings.CellHeight;
+            int column = position.X / activeLevel.Settings.CellWidth;
+
+            if (!IsInBounds(activeLevel, row, column)) return false;
+
+            ImageObject2D type = (ImageObject2D)activeLevel.Get(column, row);
+            if (type == null || type.ParentType != activeType)
+            {
+                if (type != null && !_project.Types.Contains(activeType)) { throw new Exception("type not in project"); }
+                activeLevel.Put(type == null ? null : activeType.GenerateNew(), column, row);
+                return true;
+            }
+
+            return false;
+        }
+
+        private bool UseEraserTool(Point position, ImageObject2DType activeType, Level activeLevel)
+        {
+            int row = position.Y / activeLevel.Settings.CellHeight;
+            int column = position.X / activeLevel.Settings.CellWidth;
+
+            if (!IsInBounds(activeLevel, row, column)) return false;
+
+            ImageObject2D type = (ImageObject2D)activeLevel.Get(column, row);
+            if (type != null)
+            {
+                activeLevel.Erase(column, row);
+                return true;
+            }
+            return false;
+        }
+
+        private bool IsInBounds(Level level, int row, int column)
+        {
+            if (row < 0) return false;
+            if (row >= level.Settings.Rows) return false;
+
+            if (column < 0) return false;
+            if (column >= level.Settings.Columns) return false;
+
+            return true;
+        }
+
+        private bool UseFillTool(Point position, ImageObject2DType activeType, Level activeLevel)
+        {
+            if (activeType == null)
+            {
+                MessageBox.Show("Select an object in the Object Palette to use this tool.", "No object selected", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                return false;
+            }
+
+            int row = position.Y / activeLevel.Settings.CellHeight;
+            int column = position.X / activeLevel.Settings.CellWidth;
+
+            if (!IsInBounds(activeLevel, row, column)) return false;
+
+            if (activeLevel.Get(column, row) == null || activeLevel.Get(column, row).ParentType != activeType)
+            {
+                Fill(activeLevel, row, column, activeLevel.Get(column, row), activeType.GenerateNew());
+                return true;
+            }
+
+            return false;
+        }
+
+        private class Location
+        {
+            public int Row { get; }
+            public int Column { get; }
+            public Location(int row, int column) { Row = row; Column = column; }
+        }
+
         private void Fill(Level activeLevel, int row, int column, GameObject original, GameObject changeToType)
         {
-            if (row < 0) { return; }
-            if (row >= activeLevel.Settings.Rows) { return; }
+            Queue<Location> fillQueue = new Queue<Location>();
+            fillQueue.Enqueue(new Location(row, column));
 
-            if (column < 0) { return; }
-            if (column >= activeLevel.Settings.Columns) { return; }
+            while(fillQueue.Count > 0)
+            {
+                Location location = fillQueue.Dequeue();
+                if (!IsInBounds(activeLevel, location.Row, location.Column)) continue;
+                GameObject currentObject = activeLevel.Get(location.Column, location.Row);
+                if ((original == null) != (currentObject == null)) continue;
+                if (currentObject != null && currentObject.ParentType != original.ParentType) continue;
 
-            if (activeLevel.Get(column, row) != original) { return; }
+                activeLevel.Put(changeToType, location.Column, location.Row);
 
-            activeLevel.Put(changeToType, column, row);
-
-            Fill(activeLevel, row - 1, column, original, changeToType);
-            Fill(activeLevel, row + 1, column, original, changeToType);
-            Fill(activeLevel, row, column - 1, original, changeToType);
-            Fill(activeLevel, row, column + 1, original, changeToType);
+                fillQueue.Enqueue(new Location(location.Row - 1, location.Column));
+                fillQueue.Enqueue(new Location(location.Row + 1, location.Column));
+                fillQueue.Enqueue(new Location(location.Row, location.Column - 1));
+                fillQueue.Enqueue(new Location(location.Row, location.Column + 1));
+            }
         }
 
         private void levelRenderer_MouseMove(object sender, MouseEventArgs e)
         {
-            if (!mouseStartedInRenderer) { return; }
+            if (!_mouseStartedInRenderer) { return; }
 
-            if (e.Button == System.Windows.Forms.MouseButtons.Left)
+            if (e.Button == MouseButtons.Left)
             {
                 if (levelListBox.SelectedItem == null) { return; }
 
@@ -499,7 +513,7 @@ namespace RealmEngine
                     {
                         activeLevel.Put(activeType == null ? null : activeType.GenerateNew(), column, row);
                         levelRenderer.Refresh();
-                        somethingChanged = true;
+                        _somethingChanged = true;
                     }
                 }
                 if (ActiveTool == Tool.Eraser)
@@ -519,7 +533,7 @@ namespace RealmEngine
                     {
                         activeLevel.Erase(column, row);
                         levelRenderer.Refresh();
-                        somethingChanged = true;
+                        _somethingChanged = true;
                     }
                 }
             }
@@ -530,32 +544,32 @@ namespace RealmEngine
             ActiveTool = Tool.Eraser;
         }
 
-        private bool somethingChanged = false;
+        private bool _somethingChanged = false;
 
         private void levelRenderer_MouseUp(object sender, MouseEventArgs e)
         {
-            mouseStartedInRenderer = false;
+            _mouseStartedInRenderer = false;
 
-            if (somethingChanged)
+            if (_somethingChanged)
             {
                 AddUndoRedoState();
             }
 
-            somethingChanged = false;
+            _somethingChanged = false;
         }
 
         private void AddUndoRedoState()
         {
-            undoRedoSystem.PushState(new ProgramState() { Project = Project.Copy(), ActiveLevelIndex = levelListBox.SelectedIndex, ActiveTypeIndex = objectPalette.SelectedIndex });
+            _undoRedoSystem.PushState(new ProgramState() { Project = Project.Copy(), ActiveLevelIndex = levelListBox.SelectedIndex, ActiveTypeIndex = objectPalette.SelectedIndex });
         }
 
         private void undoToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            if (undoRedoSystem.CanUndo())
+            if (_undoRedoSystem.CanUndo())
             {
                 int previouslySelectedType = objectPalette.SelectedIndex;
-                ProgramState programState = undoRedoSystem.Undo();
-                this.Project = programState.Project.Copy();
+                ProgramState programState = _undoRedoSystem.Undo();
+                Project = programState.Project.Copy();
                 objectPalette.GameObjects = Project.Types;
                 SelectType(previouslySelectedType);
                 Refresh();
@@ -569,11 +583,11 @@ namespace RealmEngine
 
         private void redoToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            if (undoRedoSystem.CanRedo())
+            if (_undoRedoSystem.CanRedo())
             {
                 int previouslySelectedType = objectPalette.SelectedIndex;
-                ProgramState programState = undoRedoSystem.Redo();
-                this.Project = programState.Project.Copy();
+                ProgramState programState = _undoRedoSystem.Redo();
+                Project = programState.Project.Copy();
                 levelListBox.SelectedIndex = programState.ActiveLevelIndex;
                 objectPalette.GameObjects = Project.Types;
                 SelectType(previouslySelectedType);
@@ -656,23 +670,23 @@ namespace RealmEngine
             Application.Exit();
         }
 
-        private string currentProjectPath = null;
+        private string _currentProjectPath = null;
 
         private void Save()
         {
-            if (currentProjectPath == null)
+            if (_currentProjectPath == null)
             {
                 SaveAs();
             }
             else
             {
-                SaveToPath(currentProjectPath);
+                SaveToPath(_currentProjectPath);
             }
         }
 
         private void SaveToPath(string path)
         {
-            fileWriterManager.Write(path, this.Project);
+            _fileWriterManager.Write(path, Project);
             SaveNeeded = false;
         }
 
@@ -680,12 +694,12 @@ namespace RealmEngine
         {
             using (SaveFileDialog saveFileDialog = new SaveFileDialog())
             {
-                saveFileDialog.Filter = fileWriterManager.BuildFilter();
+                saveFileDialog.Filter = _fileWriterManager.BuildFilter();
                 if (saveFileDialog.ShowDialog() == System.Windows.Forms.DialogResult.OK)
                 {
-                    currentProjectPath = saveFileDialog.FileName;
+                    _currentProjectPath = saveFileDialog.FileName;
 
-                    SaveToPath(currentProjectPath);
+                    SaveToPath(_currentProjectPath);
                 }
             }
         }
@@ -697,11 +711,11 @@ namespace RealmEngine
                 DialogResult result = MessageBox.Show("Do you want to save before exiting?",
                     "Realm Factory", MessageBoxButtons.YesNoCancel);
 
-                if (result == System.Windows.Forms.DialogResult.Yes)
+                if (result == DialogResult.Yes)
                 {
                     Save();
                 }
-                else if (result == System.Windows.Forms.DialogResult.Cancel)
+                else if (result == DialogResult.Cancel)
                 {
                     e.Cancel = true;
                 }
@@ -741,9 +755,9 @@ namespace RealmEngine
             {
                 using (OpenFileDialog openFileDialog = new OpenFileDialog())
                 {
-                    openFileDialog.Filter = fileReaderManager.BuildFilter();
+                    openFileDialog.Filter = _fileReaderManager.BuildFilter();
 
-                    if (openFileDialog.ShowDialog() == System.Windows.Forms.DialogResult.OK)
+                    if (openFileDialog.ShowDialog() == DialogResult.OK)
                     {
                         OpenFile(openFileDialog.FileName);
                     }
@@ -753,11 +767,11 @@ namespace RealmEngine
 
         private void OpenFile(string path)
         {
-            this.Project = fileReaderManager.Read(path);
-            undoRedoSystem.Clear();
-            this.levelListBox.SelectedIndex = 0;
+            Project = _fileReaderManager.Read(path);
+            _undoRedoSystem.Clear();
+            levelListBox.SelectedIndex = 0;
             AddUndoRedoState();
-            currentProjectPath = path;
+            _currentProjectPath = path;
             SaveNeeded = false;
         }
 
@@ -786,7 +800,7 @@ namespace RealmEngine
             using (Wizard wizard = new Wizard())
             {
                 wizard.Project = project;
-                if (wizard.ShowDialog() == System.Windows.Forms.DialogResult.OK)
+                if (wizard.ShowDialog() == DialogResult.OK)
                 {
                     project.CreateNewLevel();
                     Project = project;
@@ -797,12 +811,12 @@ namespace RealmEngine
                 }
             }
 
-            undoRedoSystem.Clear();
-            this.levelListBox.SelectedIndex = 0;
+            _undoRedoSystem.Clear();
+            levelListBox.SelectedIndex = 0;
             AddUndoRedoState();
             SaveNeeded = false;
 
-            currentProjectPath = null;
+            _currentProjectPath = null;
         }
 
         /// <summary>
@@ -814,11 +828,11 @@ namespace RealmEngine
             DialogResult result = MessageBox.Show("Do you want to save the current project before closing it?",
                 "Realm Factory", MessageBoxButtons.YesNoCancel);
 
-            if (result == System.Windows.Forms.DialogResult.Yes)
+            if (result == DialogResult.Yes)
             {
                 Save();
             }
-            else if (result == System.Windows.Forms.DialogResult.Cancel)
+            else if (result == DialogResult.Cancel)
             {
                 return true;
             }
@@ -826,34 +840,27 @@ namespace RealmEngine
             return false;
         }
 
-        private bool drawGrid = true;
+        private bool _drawGrid = true;
 
         private void drawGridButton_Click(object sender, EventArgs e)
         {
-            this.drawGrid = drawGridButton.Checked;
-            this.Refresh();
+            _drawGrid = drawGridButton.Checked;
+            Refresh();
         }
 
-        private void addTypeToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            AddType();
-        }
+        private void addTypeToolStripMenuItem_Click(object sender, EventArgs e) => AddType();
 
-        private void addLevelToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            AddLevel();
-        }
+        private void addLevelToolStripMenuItem_Click(object sender, EventArgs e) => AddLevel();
 
         private void ShowTypeProperties()
         {
-            GameObjectType selectedType = (GameObjectType)objectPalette.SelectedItem;
-
+            GameObjectType selectedType = objectPalette.SelectedItem;
             ShowTypeProperties(selectedType);
         }
 
         private void ShowTypeProperties(GameObjectType gameObjectType)
         {
-            if (gameObjectType == null) { return; }
+            if (gameObjectType == null) return;
 
             using (TypeSettings typeSettings = new TypeSettings())
             {
@@ -867,7 +874,7 @@ namespace RealmEngine
         {
             Level selectedLevel = (Level)levelListBox.SelectedItem;
 
-            if (selectedLevel == null) { return; }
+            if (selectedLevel == null) return;
 
             using (LevelSettings levelSettings = new LevelSettings())
             {
@@ -919,7 +926,7 @@ namespace RealmEngine
 
             Project.Levels.Remove(selectedLevel);
 
-            this.BuildLevelList();
+            BuildLevelList();
             AddUndoRedoState();
         }
 
@@ -930,12 +937,12 @@ namespace RealmEngine
 
         private void DeleteType()
         {
-            GameObjectType selectedType = (GameObjectType)objectPalette.SelectedItem;
+            GameObjectType selectedType = objectPalette.SelectedItem;
 
             if (selectedType == null) { return; }
             bool inUse = false;
 
-            foreach (Level level in project.Levels)
+            foreach (Level level in _project.Levels)
             {
                 if (level.UsesType(selectedType))
                 {
@@ -949,7 +956,7 @@ namespace RealmEngine
             if (inUse)
             {
                 DialogResult result = MessageBox.Show("The selected object type is in use.  Deleting it will remove it from all places it is used throughout the project.\n\nProceed anyway?", "Realm Factory", MessageBoxButtons.YesNoCancel);
-                if (result == System.Windows.Forms.DialogResult.Yes)
+                if (result == DialogResult.Yes)
                 {
                     acceptedDelete = true;
                 }
@@ -957,13 +964,13 @@ namespace RealmEngine
 
             if (!inUse || acceptedDelete)
             {
-                foreach (Level level in project.Levels)
+                foreach (Level level in _project.Levels)
                 {
                     level.RemoveType(selectedType);
                 }
 
-                project.Types.Remove(selectedType);
-                this.BuildTypeList();
+                _project.Types.Remove(selectedType);
+                BuildTypeList();
                 AddUndoRedoState();
                 Refresh();
             }
@@ -979,16 +986,6 @@ namespace RealmEngine
             ShowTypeProperties();
         }
 
-        private void typeListBox_MouseDoubleClick(object sender, MouseEventArgs e)
-        {
-            ShowTypeProperties();
-        }
-
-
-        private void typeListBox_MouseClick(object sender, MouseEventArgs e)
-        {
-        }
-
         private void Form1_Shown(object sender, EventArgs e)
         {
             SplashScreen.HideSplashScreen();
@@ -1001,16 +998,16 @@ namespace RealmEngine
             using (NewOrOpenDialog gettingStartedDialog = new NewOrOpenDialog())
             {
                 DialogResult result = gettingStartedDialog.ShowDialog();
-                if (result == System.Windows.Forms.DialogResult.Yes)
+                if (result == DialogResult.Yes)
                 {
                     NewProject();
                 }
-                else if (result == System.Windows.Forms.DialogResult.Ignore) //arbitrary value, but that's what it is...
+                else if (result == DialogResult.Ignore) //arbitrary value, but that's what it is...
                 {
                     ShowTutorial();
                     NewProject();
                 }
-                else if (result == System.Windows.Forms.DialogResult.Retry) // another arbitrary value... for open project.
+                else if (result == DialogResult.Retry) // another arbitrary value... for open project.
                 {
                     Project = new Project();
                     PerformOpenFile(false);
@@ -1028,7 +1025,7 @@ namespace RealmEngine
             {
                 using (EulaDialog eulaDialog = new EulaDialog())
                 {
-                    if (eulaDialog.ShowDialog() == System.Windows.Forms.DialogResult.OK)
+                    if (eulaDialog.ShowDialog() == DialogResult.OK)
                     {
                         Starbound.RealmFactory.Properties.Settings.Default.AcceptedEulaVersion = Constants.VersionString;
                         Starbound.RealmFactory.Properties.Settings.Default.Save();
@@ -1081,7 +1078,7 @@ namespace RealmEngine
                 AddLevel();
             }
 
-            this.Refresh();
+            Refresh();
         }
 
         private void objectPalette_NewObjectClicked(object sender, EventArgs e)
