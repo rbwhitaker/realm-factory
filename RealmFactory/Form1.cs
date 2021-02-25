@@ -7,6 +7,7 @@ using Starbound.Common.IO;
 using Starbound.RealmFactory.IO;
 using Starbound.RealmFactory;
 using Starbound.RealmFactory.DataModel;
+using System.Collections.Generic;
 
 namespace RealmEngine
 {
@@ -454,22 +455,31 @@ namespace RealmEngine
             return false;
         }
 
+        private class Location
+        {
+            public int Row { get; }
+            public int Column { get; }
+            public Location(int row, int column) { Row = row; Column = column; }
+        }
+
         private void Fill(Level activeLevel, int row, int column, GameObject original, GameObject changeToType)
         {
-            if (row < 0) { return; }
-            if (row >= activeLevel.Settings.Rows) { return; }
+            Queue<Location> fillQueue = new Queue<Location>();
+            fillQueue.Enqueue(new Location(row, column));
 
-            if (column < 0) { return; }
-            if (column >= activeLevel.Settings.Columns) { return; }
+            while(fillQueue.Count > 0)
+            {
+                Location location = fillQueue.Dequeue();
+                if (!IsInBounds(activeLevel, location.Row, location.Column)) continue;
+                if (activeLevel.Get(location.Column, location.Row) != original) continue;
 
-            if (activeLevel.Get(column, row) != original) { return; }
+                activeLevel.Put(changeToType, location.Column, location.Row);
 
-            activeLevel.Put(changeToType, column, row);
-
-            Fill(activeLevel, row - 1, column, original, changeToType);
-            Fill(activeLevel, row + 1, column, original, changeToType);
-            Fill(activeLevel, row, column - 1, original, changeToType);
-            Fill(activeLevel, row, column + 1, original, changeToType);
+                fillQueue.Enqueue(new Location(location.Row - 1, location.Column));
+                fillQueue.Enqueue(new Location(location.Row + 1, location.Column));
+                fillQueue.Enqueue(new Location(location.Row, location.Column - 1));
+                fillQueue.Enqueue(new Location(location.Row, location.Column + 1));
+            }
         }
 
         private void levelRenderer_MouseMove(object sender, MouseEventArgs e)
