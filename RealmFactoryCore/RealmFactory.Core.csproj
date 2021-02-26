@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>netstandard2.0</TargetFramework>
+		<PackageId>RealmFactory.Core</PackageId>
+		<Version>2.0.0-pre.1</Version>
+		<Authors>RB Whitaker</Authors>
+		<Company>Starbound Software</Company>
+		<Description>
+			This library allows a MonoGame project to reference Realm Factory level data for use in a game.
+			See also the RealmFactory.ContentPipeline package which should be added to your content pipeline
+			to load .realm files through the content pipeline.
+		</Description>
+		<RootNamespace>RealmFactory.Core</RootNamespace>
+		<AssemblyName>RealmFactory.Core</AssemblyName>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="MonoGame.Framework.DesktopGL" Version="3.8.0.1641" />
+	</ItemGroup>
+
+</Project>

@@ -1,15 +1,13 @@
 using System;
 using System.Collections.Generic;
-using System.Linq;
 using Microsoft.Xna.Framework;
-using Microsoft.Xna.Framework.Graphics;
 using Microsoft.Xna.Framework.Content.Pipeline;
 using Microsoft.Xna.Framework.Content.Pipeline.Graphics;
-using Starbound.RealmFactoryCore;
+using RealmFactory.Core;
 using System.Xml;
 
-using TImport = Starbound.RealmFactoryCore.LevelSet;
-using Microsoft.Xna.Framework.Graphics.PackedVector;
+using TImport = RealmFactory.Core.LevelSet;
+using RealmFactory.ContentPipeline;
 
 namespace Starbound.RealmFactoryContentManager
 {
