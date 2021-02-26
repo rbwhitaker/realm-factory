@@ -43,6 +43,7 @@
             this.versionLabel.TabIndex = 1;
             this.versionLabel.Text = "Version [M.m.b.r] - Beta";
             this.versionLabel.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.versionLabel.Visible = false;
             // 
             // SplashScreen
             // 

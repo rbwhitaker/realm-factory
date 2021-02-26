@@ -69,6 +69,7 @@
             this.versionLabel.TabIndex = 0;
             this.versionLabel.Text = "Version [M.m.b.r] - Beta";
             this.versionLabel.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.versionLabel.Visible = false;
             // 
             // aboutDescription
             // 
