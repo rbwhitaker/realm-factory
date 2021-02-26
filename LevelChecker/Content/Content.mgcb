@@ -10,7 +10,7 @@
 
 #-------------------------------- References --------------------------------#
 
-/reference:..\..\RealmFactoryContentManager\bin\Debug\netstandard2.0\RealmFactoryContentManager.dll
+/reference:..\..\RealmFactoryContentManager\bin\Release\netstandard2.0\RealmFactory.ContentPipeline.dll
 
 #---------------------------------- Content ---------------------------------#
 

@@ -9,7 +9,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\RealmFactoryCore\RealmFactoryCore.csproj" />
+    <ProjectReference Include="..\RealmFactoryCore\RealmFactory.Core.csproj" />
   </ItemGroup>
 
 </Project>

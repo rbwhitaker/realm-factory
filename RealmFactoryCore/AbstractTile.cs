@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-
-namespace Starbound.RealmFactoryCore
+﻿namespace RealmFactory.Core
 {
     /// <summary>
     /// Represents a tile in a grid-based game.  A tile fills a single cell.

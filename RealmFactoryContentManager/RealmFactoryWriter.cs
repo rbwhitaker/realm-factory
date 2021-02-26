@@ -1,15 +1,10 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using Microsoft.Xna.Framework;
-using Microsoft.Xna.Framework.Graphics;
 using Microsoft.Xna.Framework.Content.Pipeline;
 using Microsoft.Xna.Framework.Content.Pipeline.Graphics;
-using Microsoft.Xna.Framework.Content.Pipeline.Processors;
 using Microsoft.Xna.Framework.Content.Pipeline.Serialization.Compiler;
-using Starbound.RealmFactoryCore;
+using RealmFactory.ContentPipeline;
+using RealmFactory.Core;
 
-using TWrite = Starbound.RealmFactoryCore.LevelSet;
+using TWrite = RealmFactory.Core.LevelSet;
 
 namespace Starbound.RealmFactoryContentManager
 {
@@ -63,7 +58,7 @@ namespace Starbound.RealmFactoryContentManager
 
         public override string GetRuntimeReader(TargetPlatform targetPlatform)
         {
-            return "Starbound.RealmFactoryCore.RealmFactoryReader, RealmFactoryCore";
+            return "RealmFactory.Core.RealmFactoryReader, RealmFactory.Core";
         }
     }
 }

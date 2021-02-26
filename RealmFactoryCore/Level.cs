@@ -1,10 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using Microsoft.Xna.Framework;
+﻿using Microsoft.Xna.Framework;
 
-namespace Starbound.RealmFactoryCore
+namespace RealmFactory.Core
 {
     /// <summary>
     /// Represents an instance of a simple, single layered, grid-based 2D level.
