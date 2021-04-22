@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+	<metadata>
+		<id>RealmFactory.ContentPipeline</id>
+		<version>2.0.0-pre.1</version>
+		<authors>RB Whitaker</authors>
+		<owners>Starbound Software</owners>
+		<description>
+			This package contains the content pipeline extension to allow .realm files to be imported through
+			MonoGame's content pipeline. See also the RealmFactory.Core package, which should be added to your
+			main game project as well.
+		</description>
+	</metadata>
+	<files>
+		<file src="bin\Release\netstandard2.0\RealmFactory.ContentPipeline.dll" target="content"/>
+	</files>
+</package>

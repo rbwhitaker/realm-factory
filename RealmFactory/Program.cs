@@ -17,11 +17,11 @@ namespace RealmEngine
         [STAThread]
         static void Main()
         {
+            Application.EnableVisualStyles();
+
             StarboundDefaultTheme theme = (StarboundDefaultTheme)ThemeManager.Theme;
             theme.ThemeColor = Color.Green;
 
-            Application.EnableVisualStyles();
-            Application.SetCompatibleTextRenderingDefault(false);
 
             SplashScreen.ShowSplashScreen();
             Application.DoEvents();

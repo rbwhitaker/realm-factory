@@ -5,6 +5,7 @@ using System.Text;
 using System.Runtime.InteropServices;
 using System.Windows.Forms;
 using System.Drawing;
+using RealmFactory.Properties;
 
 namespace Starbound.RealmFactory.UserInterface
 {
@@ -38,17 +39,17 @@ namespace Starbound.RealmFactory.UserInterface
 
         public static Cursor CreatePencilCursor()
         {
-            return CreateCursor(Properties.Resources.Pencil, 0, 16);
+            return CreateCursor(Resources.Pencil, 0, 16);
         }
 
         public static Cursor CreatePaintCanCursor()
         {
-            return CreateCursor(Properties.Resources.PaintCan, 13, 14);
+            return CreateCursor(Resources.PaintCan, 13, 14);
         }
 
         public static Cursor CreateEraserCursor()
         {
-            return CreateCursor(Properties.Resources.Eraser, 3, 13);
+            return CreateCursor(Resources.Eraser, 3, 13);
         }
     }
 }

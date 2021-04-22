@@ -1,10 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using Microsoft.Xna.Framework;
+﻿using Microsoft.Xna.Framework;
 
-namespace Starbound.RealmFactoryCore
+namespace RealmFactory.Core
 {
     /// <summary>
     /// Represents a definition for asimple, single layered, grid-based 2D level.
@@ -116,7 +112,7 @@ namespace Starbound.RealmFactoryCore
             {
                 for (int column = 0; column < Columns; column++)
                 {
-                    level.Put(this.grid[row, column], row, column);
+                    level.Put(grid[row, column], row, column);
                 }
             }
 
